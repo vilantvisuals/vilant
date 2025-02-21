@@ -1,0 +1,600 @@
+local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local LocalPlayer = Players.LocalPlayer
+local Camera = game.Workspace.CurrentCamera
+local ESP = {}
+
+local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+
+local Window = Library:CreateWindow({
+    -- Set Center to true if you want the menu to appear in the center
+    -- Set AutoShow to true if you want the menu to appear when it is created
+    -- Position and Size are also valid options here
+    -- but you do not need to define them unless you are changing them :)
+
+    Title = 'Vilant | by @fazefr0',
+    Center = true,
+    AutoShow = true,
+    TabPadding = 8,
+    MenuFadeTime = 0.7
+})
+
+local Tabs = {
+    -- Creates a new tab titled Main
+    Aiming = Window:AddTab('Aiming'),
+    ['Misc'] = Window:AddTab('Misc'),
+}
+
+LeftGroupBox = Tabs.Aiming:AddLeftGroupbox('Silent Aim')
+
+getgenv().TracerEnabled = true
+getgenv().AutoShootEnabled = true
+getgenv().shootCooldown = 0.1
+getgenv().ScriptEnabled = false
+getgenv().LockKey = Enum.KeyCode.T
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Camera = game.Workspace.CurrentCamera
+local LocalPlayer = Players.LocalPlayer
+
+local MainEvent = ReplicatedStorage:FindFirstChild("MainEvent")
+local selectedPlayer = nil
+local lockedPlayer = nil
+
+local tracer = Drawing.new("Line")
+tracer.Thickness = 2
+tracer.Visible = false
+tracer.Color = Color3.fromRGB(128, 0, 128)
+
+if not MainEvent then
+    return
+end
+
+local function isKnocked(player)
+    if player and player.Character then
+        local KO = player.Character:FindFirstChild("BodyEffects") and player.Character.BodyEffects:FindFirstChild("K.O")
+        return KO and KO.Value == true
+    end
+    return false
+end
+
+local function getClosestPlayerToMouse()
+    local closestPlayer = nil
+    local shortestDistance = math.huge
+    local mousePos = UserInputService:GetMouseLocation()
+
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("Head") and not isKnocked(player) then
+            local head = player.Character.Head
+            local headScreenPos, onScreen = Camera:WorldToViewportPoint(head.Position)
+
+            if onScreen then
+                local distance = (Vector2.new(headScreenPos.X, headScreenPos.Y) - mousePos).Magnitude
+                if distance < shortestDistance then
+                    closestPlayer = player
+                    shortestDistance = distance
+                end
+            end
+        end
+    end
+
+    return closestPlayer
+end
+
+local function updateTracer()
+    if getgenv().TracerEnabled and getgenv().ScriptEnabled then
+        local targetPlayer = lockedPlayer or getClosestPlayerToMouse()
+
+        if targetPlayer then
+            local head = targetPlayer.Character and targetPlayer.Character:FindFirstChild("Head")
+            if head then
+                local headScreenPos, onScreen = Camera:WorldToViewportPoint(head.Position)
+
+                if onScreen then
+                    selectedPlayer = targetPlayer
+                    tracer.Visible = true
+                    tracer.To = Vector2.new(headScreenPos.X, headScreenPos.Y)
+                    tracer.From = UserInputService:GetMouseLocation()
+                end
+            end
+        else
+            tracer.Visible = false
+        end
+    end
+end
+
+local function shoot()
+    if lockedPlayer and lockedPlayer.Character and not isKnocked(lockedPlayer) and getgenv().ScriptEnabled then
+        local targetHead = lockedPlayer.Character:FindFirstChild("Head")
+        local Tool = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Tool")
+
+        if Tool and Tool:FindFirstChild("Handle") and targetHead then
+            MainEvent:FireServer(
+                "ShootGun",
+                Tool.Handle,
+                Tool.Handle.Position,
+                targetHead.Position,
+                targetHead,
+                Vector3.new(0, 0, 0)
+            )
+        end
+    end
+end
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    if input.KeyCode == getgenv().LockKey and not gameProcessed then
+        if getgenv().ScriptEnabled then
+            if lockedPlayer then
+                lockedPlayer = nil
+            else
+                lockedPlayer = getClosestPlayerToMouse()
+            end
+        end
+    end
+end)
+
+RunService.RenderStepped:Connect(function()
+    if getgenv().ScriptEnabled then
+        updateTracer()
+
+        if lockedPlayer then
+            shoot()
+        end
+    else
+        tracer.Visible = false
+    end
+end)
+
+LeftGroupBox:AddToggle('ScriptToggle', {
+    Text = 'Toggle Silent Aim',
+    Default = false,
+
+    Callback = function(Value)
+        if Value then
+            getgenv().ScriptEnabled = true
+        else
+            getgenv().ScriptEnabled = false
+            tracer.Visible = false
+        end
+    end
+})
+
+LeftGroupBox:AddLabel('Keybind'):AddKeyPicker('KeyPicker', {
+    Default = 'T',
+    SyncToggleState = false,
+    Mode = 'Toggle',
+    Text = 'Silent Aim Keybind',
+    NoUI = false,
+
+    Callback = function(Value)
+    end,
+
+    ChangedCallback = function(New)
+        getgenv().LockKey = New
+    end
+})
+
+LeftGroupBox = Tabs.Aiming:AddLeftGroupbox('Kill Aura')
+
+LeftGroupBox:AddToggle('MyToggle', {
+    Text = 'Toggle KillAura',
+    Default = false,
+    Tooltip = 'Enables The KillAura Feature',
+    Callback = function(Value)
+        if Value then
+        player = game:GetService("Players").LocalPlayer
+        runService = game:GetService("RunService")
+        workspace = game:GetService("Workspace")
+
+        range = 100
+        killAuraEnabled = true
+
+        local lastDamagedPlayer = nil
+
+        function isGunEquipped()
+            local character = player.Character
+            if character then
+                local tool = character:FindFirstChildWhichIsA("Tool")
+                return tool and tool:FindFirstChild("Handle") ~= nil
+            end
+            return false
+        end
+
+        function isTargetValid(targetCharacter)
+            if targetCharacter then
+                local bodyEffects = targetCharacter:FindFirstChild("BodyEffects")
+                local KOd = bodyEffects and bodyEffects:FindFirstChild("K.O") and bodyEffects["K.O"].Value
+                local Grabbed = targetCharacter:FindFirstChild("GRABBING_CONSTRAINT") ~= nil
+                return not KOd and not Grabbed
+            end
+            return false
+        end
+
+        function getNearestPlayer()
+            local character = player.Character
+            local rootPart = character and character:FindFirstChild("HumanoidRootPart")
+            local nearestPlayer = nil
+            local shortestDistance = range
+
+            if rootPart then
+                for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+                    if plr ~= player and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") and isTargetValid(plr.Character) then
+                        local targetRootPart = plr.Character:FindFirstChild("HumanoidRootPart")
+                        local distance = (targetRootPart.Position - rootPart.Position).Magnitude
+
+                        if distance <= shortestDistance then
+                            nearestPlayer = plr
+                            shortestDistance = distance
+                        end
+                    end
+                end
+            end
+            return nearestPlayer
+        end
+
+        function shootNearestPlayer()
+            if not killAuraEnabled or not isGunEquipped() then
+                return
+            end
+
+            local character = player.Character
+            local rootPart = character and character:FindFirstChild("HumanoidRootPart")
+            local tool = character and character:FindFirstChildWhichIsA("Tool") or player.Backpack:FindFirstChildWhichIsA("Tool")
+            local targetPlayer = getNearestPlayer()
+
+            if tool and tool:FindFirstChild("Handle") and rootPart and targetPlayer and targetPlayer.Character then
+                local targetHead = targetPlayer.Character:FindFirstChild("Head")
+                if targetHead then
+                    local direction = (targetHead.Position - rootPart.Position).unit
+                    game:GetService("ReplicatedStorage"):WaitForChild("MainEvent"):FireServer("ShootGun", tool.Handle, rootPart.Position, targetHead.Position, targetHead, direction)
+                end
+            end
+        end
+
+        runService.Heartbeat:Connect(function()
+            if killAuraEnabled then
+                shootNearestPlayer()
+            end
+        end)  
+        else
+            killAuraEnabled = false
+        end
+    end
+})
+
+local Options = Tabs.Aiming:AddLeftGroupbox("ESP Settings")
+
+ESP.Enabled = false
+ESP.Boxes = false
+ESP.Names = false
+ESP.Weapons = false
+ESP.Health = false
+
+-- Default keybind is 'Q'
+ESP.Keybind = Enum.KeyCode.Q
+
+Options:AddToggle("ESPEnabled", {Text = "Enable ESP", Default = false}):OnChanged(function(val)
+    ESP.Enabled = val
+end)
+
+Options:AddToggle("ESPBoxes", {Text = "Show Boxes", Default = false}):OnChanged(function(val)
+    ESP.Boxes = val
+end)
+
+Options:AddToggle("ESPNicknames", {Text = "Show Names", Default = false}):OnChanged(function(val)
+    ESP.Names = val
+end)
+
+Options:AddToggle("ESPWeapons", {Text = "Show Weapons", Default = false}):OnChanged(function(val)
+    ESP.Weapons = val
+end)
+
+Options:AddToggle("ESPHealth", {Text = "Show Health", Default = false}):OnChanged(function(val)
+    ESP.Health = val
+end)
+
+-- Keybind Change Section
+local keybindLabel = Options:AddLabel("Keybind: " .. ESP.Keybind.Name)
+
+Options:AddButton("Change Keybind", function()
+    keybindLabel:SetText("Press any key to set as the new keybind.")
+    
+    -- Temporarily disable all other input detection until a key is pressed
+    local keyPressConnection
+
+    keyPressConnection = UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+        if gameProcessedEvent then return end
+        if input.UserInputType == Enum.UserInputType.Keyboard then
+            ESP.Keybind = input.KeyCode
+            keybindLabel:SetText("Keybind: " .. ESP.Keybind.Name)
+
+            -- Stop listening for key presses after setting the keybind
+            keyPressConnection:Disconnect()
+        end
+    end)
+end)
+
+-- Function to create ESP
+function CreateESP(player)
+    if player == LocalPlayer then return end
+    
+    local Box = Drawing.new("Square")
+    Box.Thickness = 1.5
+    Box.Color = Color3.new(1, 1, 1)
+    Box.Filled = false
+    Box.Visible = false
+    
+    local Text = Drawing.new("Text")
+    Text.Size = 10 -- Reduced size
+    Text.Color = Color3.new(1, 1, 1)
+    Text.Outline = true
+    Text.Visible = false
+    
+    local HealthBar = Drawing.new("Line")
+    HealthBar.Thickness = 3
+    HealthBar.Color = Color3.new(0, 1, 0)
+    HealthBar.Visible = false
+    
+    ESP[player] = {Box = Box, Text = Text, HealthBar = HealthBar}
+end
+
+-- Function to clean up ESP when a player leaves
+function RemoveESP(player)
+    if ESP[player] then
+        ESP[player].Box:Remove()
+        ESP[player].Text:Remove()
+        ESP[player].HealthBar:Remove()
+        ESP[player] = nil
+    end
+end
+
+-- Function to update ESP every frame
+function UpdateESP()
+    for _, player in ipairs(Players:GetPlayers()) do
+        -- If the player does not exist or is no longer valid, skip to next
+        local espData = ESP[player]
+        if not espData then
+            CreateESP(player)
+            espData = ESP[player]
+        end
+
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+            local RootPart = player.Character:FindFirstChild("HumanoidRootPart")
+            local Head = player.Character:FindFirstChild("Head")
+            local Humanoid = player.Character:FindFirstChild("Humanoid")
+
+            if RootPart and Head and Humanoid then
+                local RootPos, onScreen = Camera:WorldToViewportPoint(RootPart.Position)
+                local HeadPos = Camera:WorldToViewportPoint(Head.Position + Vector3.new(0, 0.5, 0))
+                local LegPos = Camera:WorldToViewportPoint(RootPart.Position - Vector3.new(0, 6, 0))
+                
+                -- Reset visibility every frame to avoid "freezing"
+                espData.Box.Visible = false
+                espData.Text.Visible = false
+                espData.HealthBar.Visible = false
+
+                if onScreen and ESP.Enabled then
+                    local Height = math.abs(HeadPos.Y - LegPos.Y) -- Optimized calculation
+                    local Width = Height / 2
+                    
+                    espData.Box.Size = Vector2.new(Width, Height)
+                    espData.Box.Position = Vector2.new(RootPos.X - Width / 2, RootPos.Y - Height / 2)
+                    espData.Box.Visible = ESP.Boxes
+                    
+                    espData.Text.Text = (ESP.Names and player.Name or "") .. ((ESP.Weapons and player.Character:FindFirstChildOfClass("Tool")) and "\n" .. player.Character:FindFirstChildOfClass("Tool").Name or "")
+                    espData.Text.Position = Vector2.new(RootPos.X, RootPos.Y - Height / 2 - 10) -- Adjusted for smaller text
+                    espData.Text.Visible = ESP.Names or ESP.Weapons
+                    
+                    if ESP.Health then
+                        local healthPercent = Humanoid.Health / Humanoid.MaxHealth
+                        local barHeight = Height * healthPercent
+                        espData.HealthBar.From = Vector2.new(RootPos.X - Width / 2 - 5, RootPos.Y - Height / 2)
+                        espData.HealthBar.To = Vector2.new(RootPos.X - Width / 2 - 5, RootPos.Y - Height / 2 + barHeight)
+                        espData.HealthBar.Visible = true
+                    end
+                end
+            end
+        end
+    end
+end
+
+-- Listen for key press to toggle ESP
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if gameProcessedEvent then return end
+    if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == ESP.Keybind then
+        ESP.Enabled = not ESP.Enabled
+    end
+end)
+
+-- Event listeners
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function()
+        CreateESP(player)
+    end)
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+    RemoveESP(player)
+end)
+
+RunService.RenderStepped:Connect(UpdateESP)
+
+Library:Notify("Vilant Script Succsesfully Loaded!", 3)
+
+Library:Notify("Make sure to #vouch us!", 4.5)
+
+local LeftGroupBox = Tabs.Misc:AddLeftGroupbox('Potato mode')
+
+local MyButton = LeftGroupBox:AddButton({
+    Text = 'FPS Booster',
+    Func = function()
+         _G.Settings = {
+    Players = {
+        ["Ignore Me"] = true, -- Ignore your Character
+        ["Ignore Others"] = true-- Ignore other Characters
+    },
+    Meshes = {
+        Destroy = false, -- Destroy Meshes
+        LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+    },
+    Images = {
+        Invisible = true, -- Invisible Images
+        LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+        Destroy = false, -- Destroy Images
+    },
+    ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+    ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+    ["No Explosions"] = true, -- Makes Explosion's invisible
+    ["No Clothes"] = true, -- Removes Clothing from the game
+    ["Low Water Graphics"] = true, -- Removes Water Quality
+    ["No Shadows"] = true, -- Remove Shadows
+    ["Low Rendering"] = true, -- Lower Rendering
+    ["Low Quality Parts"] = true -- Lower quality parts
+}
+loadstring(game:HttpGet("https://pastebin.com/raw/xNUE8rki"))()
+    end,
+    DoubleClick = false,
+    Tooltip = 'By clicking this u will have an FPS boost and less Delay'
+})
+
+local MainGroup = Tabs.Aiming:AddLeftGroupbox("Aimbot")
+
+local player = game.Players.LocalPlayer
+local camera = game.Workspace.CurrentCamera
+local runService = game:GetService("RunService")
+local userInputService = game:GetService("UserInputService")
+
+local AimAssist = {
+    Enabled = false,
+    AimKey = Enum.KeyCode.Q, -- Default key
+    FOV = 110,
+    PredictionFactor = 1.3,
+    Locked = false
+}
+
+-- UI Elements
+MainGroup:AddToggle("AimAssistToggle", {
+    Text = "Toggle Aimbot",
+    Default = false,
+    Callback = function(value)
+        AimAssist.Enabled = value
+    end
+})
+
+MainGroup:AddDropdown("AimKeyBind", {
+    Values = {"Q", "E", "R", "T", "Y", "U", "I", "O", "P", "Z", "C"},
+    Default = "Q",
+    Multi = false,
+    Text = "Keybind",
+    Callback = function(value)
+        AimAssist.AimKey = Enum.KeyCode[value]
+    end
+})
+
+MainGroup:AddSlider("FOV", {
+    Text = "Aim Distance FOV",
+    Min = 50,
+    Max = 250,
+    Default = 110,
+    Rounding = 0,
+    Callback = function(value)
+        AimAssist.FOV = value
+    end
+})
+
+MainGroup:AddLabel("leave to 110 for best aimbot")
+
+MainGroup:AddSlider("PredictionFactor", {
+    Text = "Prediction Factor",
+    Min = 0.5,
+    Max = 2.0,
+    Default = 1.3,
+    Rounding = 2,
+    Callback = function(value)
+        AimAssist.PredictionFactor = value
+    end
+})
+
+MainGroup:AddLabel("1.3 for best aimbot")
+
+-- Predict Movement & Aim for Head
+local function predictTargetPosition(target, deltaTime)
+    local head = target:FindFirstChild("Head")
+    if not head then return nil end
+    
+    local targetPosition = head.Position
+    local targetVelocity = target:FindFirstChild("HumanoidRootPart") and target.HumanoidRootPart.Velocity or Vector3.new()
+
+    return targetPosition + targetVelocity * AimAssist.PredictionFactor * deltaTime
+end
+
+-- Aim at Target Instantly
+local function aimAtTarget()
+    if AimAssist.Enabled and AimAssist.Locked and currentTarget and currentTarget.Parent then
+        local predictedPosition = predictTargetPosition(currentTarget, runService.RenderStepped:Wait())
+        if predictedPosition then
+            camera.CFrame = CFrame.new(camera.CFrame.Position, predictedPosition)
+        end
+    else
+        currentTarget = nil
+    end
+end
+
+-- Find Closest Player in FOV
+local function findClosestPlayerToMouse()
+    local mousePos = userInputService:GetMouseLocation()
+    local closestPlayer = nil
+    local shortestDistance = AimAssist.FOV
+
+    for _, object in pairs(game.Players:GetPlayers()) do
+        if object ~= player and object.Character and object.Character:FindFirstChild("Humanoid") and object.Character:FindFirstChild("Head") then
+            local targetScreenPos, onScreen = camera:WorldToScreenPoint(object.Character.Head.Position)
+
+            if onScreen then
+                local distance = (Vector2.new(targetScreenPos.X, targetScreenPos.Y) - mousePos).Magnitude
+
+                if distance < shortestDistance then
+                    closestPlayer = object.Character
+                    shortestDistance = distance
+                end
+            end
+        end
+    end
+
+    return closestPlayer
+end
+
+-- Toggle Aim Assist with Keybind
+userInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if not gameProcessedEvent and input.KeyCode == AimAssist.AimKey then
+        AimAssist.Locked = not AimAssist.Locked
+        if AimAssist.Locked then
+            currentTarget = findClosestPlayerToMouse()
+        else
+            currentTarget = nil
+        end
+    end
+end)
+
+-- Stop Tracking If Target Dies
+player.CharacterAdded:Connect(function(character)
+    character:WaitForChild("Humanoid").Died:Connect(function()
+        if currentTarget == character then
+            currentTarget = nil
+        end
+    end)
+end)
+
+-- Run the Aim Assist Every Frame
+runService.RenderStepped:Connect(function(deltaTime)
+    if AimAssist.Enabled then
+        aimAtTarget()
+    end
+end)
