@@ -1,1 +1,3263 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _QLTsTrQFsxxf = a; end)); return(function(f,...)local o;local t;local h;local l;local s;local k;local e=24915;local n=0;local d={};while n<703 do n=n+1;while n<0x1bf and e%0x4e0a<0x2705 do n=n+1 e=(e+696)%14436 local _=n+e if(e%0x1670)<=0xb38 then e=(e*0x2a0)%0x55c5 while n<0xad and e%0x217a<0x10bd do n=n+1 e=(e+976)%29908 local _=n+e if(e%0x31e8)>=0x18f4 then e=(e-0x312)%0x9c2e local e=72351 if not d[e]then d[e]=0x1 o=tonumber;end elseif e%2~=0 then e=(e+0x39a)%0x232c local e=62911 if not d[e]then d[e]=0x1 t=function(t)local e=0x01 local function d(n)e=e+n return t:sub(e-n,e-0x01)end while true do local n=d(0x01)if(n=="\5")then break end local e=k.byte(d(0x01))local e=d(e)if n=="\2"then e=h.mhsCZKkk(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then l[e]=function(e,n)return f(8,nil,f,n,e)end elseif n=="\4"then e=l[e]elseif n=="\0"then e=l[e][d(k.byte(d(0x01)))];end local n=d(0x08)h[n]=e end end end else e=(e*0x174)%0xa7f8 n=n+1 local e=2540 if not d[e]then d[e]=0x1 s="\4\8\116\111\110\117\109\98\101\114\109\104\115\67\90\75\107\107\0\6\115\116\114\105\110\103\4\99\104\97\114\82\86\76\97\109\71\82\112\0\6\115\116\114\105\110\103\3\115\117\98\82\72\121\80\76\122\70\81\0\6\115\116\114\105\110\103\4\98\121\116\101\68\100\65\114\70\108\111\65\0\5\116\97\98\108\101\6\99\111\110\99\97\116\76\112\109\85\86\79\71\69\0\5\116\97\98\108\101\6\105\110\115\101\114\116\121\90\108\77\114\74\73\82\5";end end end elseif e%2~=0 then e=(e-0x1ed)%0xb746 while n<0x2b0 and e%0x97c<0x4be do n=n+1 e=(e+728)%8372 local l=n+e if(e%0xe54)<=0x72a then e=(e-0x38d)%0x9b0 local e=86098 if not d[e]then d[e]=0x1 k=string;end elseif e%2~=0 then e=(e*0x126)%0x194e local e=45767 if not d[e]then d[e]=0x1 end else e=(e+0x74)%0x94de n=n+1 local e=20564 if not d[e]then d[e]=0x1 h={};end end end else e=(e*0x2a8)%0x635a n=n+1 while n<0x133 and e%0x19fe<0xcff do n=n+1 e=(e*152)%6670 local t=n+e if(e%0x30d8)<0x186c then e=(e-0x28)%0x78c4 local e=18230 if not d[e]then d[e]=0x1 l=getfenv and getfenv();end elseif e%2~=0 then e=(e-0x346)%0xe44 local e=98943 if not d[e]then d[e]=0x1 end else e=(e-0x362)%0x7b06 n=n+1 local e=25289 if not d[e]then d[e]=0x1 l=(not l)and _ENV or l;end end end end end e=(e+731)%49137 end t(s);local e={};for n=0x0,0xff do local d=h.RVLamGRp(n);e[n]=d;e[d]=n;end local function _(n)return e[n];end local k=(function(s,t)local f,d=0x01,0x10 local n={{},{},{}}local l=-0x01 local e=0x01 local k=s while true do n[0x03][h.RHyPLzFQ(t,e,(function()e=f+e return e-0x01 end)())]=(function()l=l+0x01 return l end)()if l==(0x0f)then l=""d=0x000 break end end local l=#t while e<l+0x01 do n[0x02][d]=h.RHyPLzFQ(t,e,(function()e=f+e return e-0x01 end)())d=d+0x01 if d%0x02==0x00 then d=0x00 h.yZlMrJIR(n[0x01],(_((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+k)%0x100)));k=s+k;end end return h.LpmUVOGE(n[0x01])end);t(k(9,"HW?0l}mYT2_K4qh((4"));t(k(118,"d7v Fc%jV+El/?TsVE7E77+/vFEc Flj?T/V% TcjvsTjhTvj 7 l%v?EcT(%l%;??%csEVFTFE7v+ljF_++FT?%s V7j%gvV 7vEvvll% VE}FV?  Es DV+VVs7EEvv lv cc?Fs/?%ET jv?jVlT+V+v#l% vl/TFjv%cT V;sTvc7%+Vv /NFvEvc%?sFw??c4T7%clrFv  EsFV/lF?T%c?sEj7s/+r7 l7vjlM7+//vsT*%qV/7+svVl7 ET  /mUlEsF?lsc7?7VVTv+%l%F; ?l7F ?VchlTFF?cjU_l+T<?Fy/+Vlccllcc?TcT?l%Vs7 elTlF +/jcv?EclTE%?&j+FgcVjs/llF /cTz%s%V?s%EsTV7E/EcvVlFvsllF?T cjsEcFsc%+7%Ev/wF/Fc/VcF/sclT?V Bl+vscj+ %+  c%>TlT5%/T?j/=/%V1iVVvjl+v E7cvjV6FsEjsS?+VvBE7 0l 7VE?v?/c%jsl% s#v/lcEE %ljF%?%cKTc%Tscj+7jjF)7Fi///  s?Bc ?lj%TT%lT7jT7 Vvv;+/?/%Ec??ljVs%7?2V+VvcEs /E?7sE/ccT/%VsTVlE+"));YIIMJJULTcLEhCt=function(e)e((-25438+(function()local d,n=0,1;(function(e)e(e(e))end)(function(e)if d>201 then return e end d=d+1 n=(n-1008)%27514 if(n%1198)<=599 then return e else return e(e(e))end return e(e(e))end)return n;end)()))end;tChELcTLUJJMIIY={h.wzaYDywo,h.FTRgoOCj};local e=(-157+(function()local l,e=0,1;(function(n,e)e(e(e,n and e),n(n and n,n and e))end)(function(n,d)if l>131 then return n end l=l+1 e=(e+282)%24176 if(e%1970)>985 then return n(d(n,d)and n(n and d,d),n(n,d))else return d end return d end,function(n,d)if l>374 then return n end l=l+1 e=(e+16)%30882 if(e%644)>=322 then e=(e*637)%18203 return d(d(n,n),d(n,d))else return d end return n end)return e;end)())local te=(getfenv)or(function()return _ENV end);local r=h.wurKExKc or h.wazJaKnp;local l=2;local m=1;local s=4;local t=3;local function le(c,...)local a=k(e,"&._)QsJ;E1/Uk2#SUskQ_JEE#UsQ/#.V;_2_QSk?_W1)Sqss;;#sQ#/E*/Jkkk)JkQ_sE;#aQTU)2SQs/_!QJJkJQ_1)./E=U)_.;J2E)/1/TQ1_S;ss/#.2sS2o)s1kZ/J/1;YSs/Uk.#;#SU;?2s_k1U})..1UcksUk_SUEE!Q;/E).E/uSksSU_.kQ#Q//UF2JS2.))2212k._sEQ#JQE.2E.2g2.)k1QSJsEUE_)U)9QJkk#_/E2S1sQESSks_UQ.J;J#1J#kQ_Q1.2;ss/k_J;Q#)..;22Q)J1ESE;)#JsUU1#/;E2;)k/.kQ)./QSQsJUE.EEk.:;E2E_kJU<ZJ.k)_:E./J.//swQJ>k/SSJsk__QEJsk/UY#;/2s2))11JSEs/U/QE/Q._Jk/J6EJ/kk_#1,S_sQSJ.1;S2k)#/^z!;U##J)k.#2ssUV._;Q)k/;BkJ.US_)E/Es#kQE//fkJk21J;UE_JE6UU_s;##%Q_/_.11/:GsEks.kEQ#s.J;E2/)k1#xzJ_##JJE1S/Qk/#.q;B#;JsUk_pEQ#1s_U.AUJ#22_.1QR1J;1)SksJUE./;/SsJE22)UJUS/JsE2SUshU_.Q;QS_s#kE)sJ1SQs1Ek.);J2U)s;.2U)Q1JSEsES)sMUJ.1;12_)11Qk2))1OS_sQUQ_#/J.1JJ/.GJJQkJ_E#2sQ/S__.);;2J)E1/S/#Q./_)18#JQE//W/;_,.sEUS_EE2k2Q#//..;1/sY2JEk/_kEkSJEQ#)QE/22B)k1#%!J_kQ_JQEskEk/S./;_2Q)J1JeME;#JQJUbk;sQ2 QJJ22E)B1_SQsQk#Q}U.XJJE2)=#1#SQ_U1_##s-U_._E#2SJJkkS)J.2)_QEJ#EQEU.)_1J!5s#kU_/1_#2QsEJ.Q;)2E)2JKk2)k1dS_sQUQ)/E##Uss2J.1112/).k,_;E121.)E#2J)E1/S/J#S_sQUsSk;o23_#EQ>;J;kN_;E_S(_;//u;J1kk);Jkb.J)k)Sg#kQ2/S..;)2sJ;)SJ)kk_JEE#/Q/2;Qs/QDQQU/_SSs2k1_FE_#QQQUS)_/;NsQJUE.EEs#YQ.;2#QQa/_VQJQSUsSUE.SE;U).E;J2E)/S#;;2Q_;_s1s#EQ//kJ;U1.UE.#*Q_/S+E;_#)_#E1u#QU2#kk_#1 S_sQUJ.Es/.U)#)/1US2sSk._)/sE2U..S;Q2J)E1ERQESS;Q/U1k1sJ2_QEsSk._)1QSJsEU/.k;#kjU.#QX;;.k/_kE###J12ks./SSuJE2U_EJ_s#US_.E)#sQ;S1U.2s)/1ES/sk)_11S_Q1QJy#;x2_)Q1JSEk/1sUEQ2/S..;)2s);_1D;_U1s##siU_._E_51;x2)__1.#EQkE;SkQ//k?#J#2/Jsk2_XES1S_k/E.#_;U2)/Q22psQUJ./E/#k.E;/2k)#/tu__Q_EJEEUSsQ#UD._;_##QQ/(_#1)S.Q/U1#;sS//mkJ#k#);UE.kEJ#Qs.U3.E;)kU.212##s2kQ_);J#1)#/1M-;E1#GzJ_kQ_JEE#/1%J#.q2E)/1kS#J!k_/QsSE_#QQJ/Eo/Jkk#)u1_Sss#UE./;k2ks)2._E/_SOsSk_#Ss:U_.Q;J2E)/1kS#J:k__Q;J_;QUU;6#;K2_)_/2_51sS)_)UE.1;U2E)1J/kk_#18S_sQUJs.U/22QE/6j_JQkQ)SU__;EsUS)J11S#J;1/1JS;s1UU.2;S_.#14kJ#2%)_1QSJsEk#sk;S#/Q_/QPJJJ22sUU__k;/#1_8UFrJ)2/s4IJ_kQ_Q1U<#E.2JQ./12sQJ1ES/skUks;EEzSQ#U;)LE)22QE1Sg.JJkQ_J1E2#QC/_=QJJkE_/U#_#s.U1.Q;J2E)E/n_Q1;##s2/##1Q#/k^#;n29JsU#)_sU#Q.#E=#_Q_U2))1J{_..U1.#E)2#SUUQ(7;QE))s11SEsSU_._Es2E)1s;.cJQ2._;Q.2wsQUJ.;s#2_)_s.#1_E1;S;sEU/.k;##nQ_/Q_//Ek/_kE#SZs_UQ.J/J./)k1#6vJ_kQ_JEEJ)Ek/S_V;_2Q)J1JSSE#S)Q;//.1sk2QQ;1Q#.skk2.kEsU1__;k2#Q9/u7#E#SSe21/.JEkU_.Q;J2E)/1kS#1#z__sEk#EQ//kE.#QQQ12+QsSs/Uk.#EF#_QQ/JQk//kkkE_1EU#2QSU._).UUs/.W_JQ2EJ2E/#kQ#21._;Q2J)#1#Sks#kZs.EQ#;QE//pk;_)2)_1QSJE;U/.2;##ms)/QfJJEk/_kE#Shs_Uk.J;12/)k1#rvJ_kQ)UEE#/Qk/#.Z;)2QsJ2kS/skU#_*E__.QJU/)2JkkS)(kkSQsJUE_k1;2#Q_/__2JJkE_/1_)#s9Us.Q;E2E)U1kSSJOk_)kEJ#EQ//2l#;w2_)Qk#SEskUk_>Ei#)QQUE_eJ/k#_#kbS_sQUJ_/E,2kQ./bs)JQkJ_E//SsQ#U)._;;2J)S1/v#;QkD_JEQS_QE//<kE#2_)_1ESJskU/_k;#S_s./Q8UJE.U_kE#SG;_SE.J;22/Q.1#.1J_2Js)EES^QkSS.(;_2QsJ/US/J_U#_JE_rkQJ/E_)Jk2s)R1_SQsJUE_kEJ2#QE/_)#JJkE_/1#rEsdUU.Q/)2E)/1k.5;_k__#EJ_sQ//k^#;Q22)Q1#SE;/Uk.SEf#_;?/J.QJ/2._#1(S_sQ#..EE;2kQ1/vK_JQkJ)OE/SEQ#U_._;J2J)E12SkJsk}_2EQS_QE//.:J#2;)_/mSJJ)U/_O21#%Q//Q_,JEkU_kE#_Qs_Uk.JE-2/)k1#mJU_kQ_#EE#2Qk/S.,;E2Q)JUlS/skU#__E_#QQJ/E__Jkk#)=1JSQsJUE./1Q2#Q0/_>kJJkE_/Ek=JsyU_.Q;12E)/1kS#;Ek__QEJ#SQ//k5#;3#/)Q1JSEsUUk.#Eg#_US/J..J/2Q_#1aS_sQUS.EEQ2k)#/VT_JQkJ_SE/SsQ#U_._;J2J)EUsSks#kf_UEQ#JQE//.sJ#2p)_1JSJsEU/.kE2#yQ_/QBJJEk/_k1_T2s_UQ.J##2U)21#._EEkQ_JEE_SQk/#.61_Q2)J1ES/skU#s2E_SJQE/EB/Jk#s)>1_SQJEkz./;k2#Es/_7QJJ#E))Ek##s+U_.QEQ2EQkU;S#JPk_QUEJ#EQ//k.S;-2_)Q1;SEs/Uk)511#_QQ/J_UJ/kk_#/_.EsQUJ.E1k2k)#/m_EUskJ_EE/_;Q#U.._U22J)k<;Sks#k8s2EQ#;QE//__J#2q)_1sSJsEU/_#/Q#wQ_/Q)1JEk/_k/#Q;s_UQ.J;E2/EQ1#._;UkQ_;EEB1Qk/#.a;_2J)J1ES/s#U#__E_SJsJ/E-UJk2U)}1_SQ;J2Q./;22#Q./_)SJJ#E_kEk#SsFU).Q;S2Es//JS#J.k__sEJS#Q/U#)s;r2s)Q21SEs/Uk.#12#_Qs/JvUJ/k#_#/yHEsQUJ.EU#2k)S/l.Q;JkJ_1E/.SQ#UN._1Q#Q)E1USksSkOJ/EQSEs)//5#J##.)_1QSJsEk1.k;S#=QQ/Q5EJE2k_#E#S_s_2Q.J;E2/sk#_LBJQkQ_EEE)_QkklJS;_2;)J2_S/skU#)_1k#QQ//Es;Jkk#)+/QS;sJU2./UJ2#Qf/_.JJkkE)*EkwUsIU_.Q;JSs)/1#S#JJk__JEJSEs./kHS;t#/)Q1ESEJkkE.#E_#_JQ/J4EJ/#k;_1nSQsQUE.Ek_2ks5SS^_J;kJs_E/#kQ#k__S;Q2/)E2QSks#kN)Q1##JQ2//)JJ#29)_/JSSsEk{.kUE#tQ_/QiJJSk/_#E#SJs_UJ.JEE22)k1S:w;QkQ_EEESkJm/#._;_2s)J1ES/;kd__LEQ#QQE/Es_Jk#PE/1_S;sJ#_./;k2#s_/E8QJ/kEsQEk##s=U__w;J2/)//AS#J_k_)QEE#EQU/k_1;F2Q)Q/E.ss/U#.#1k#_QQ/J_E;.kk)O1MSQsQ2U.EEk2#)#/)X_U%kJ_EE/S#;sUR.J;Q__)E1/Sk;B_.__E1#J1Q//XkJ#2jQU1QSEsEUS.kE^#os_UQKJJ1k/Q2E#S_s_#Q.k;E2U)k#k%l1kkQsJ1##/Q2/#s;;_.#)JkESUskUS_BE/#Q1K/E./;kk#).1_)EsJUE./E#SsQB/QzQ11kE_/Ekx#JJU_.J;J2/)/#QS#;_2)_QE1#EE=/kr#;+2_Qk1JS/s/U#.#E_#_sJUQzEJ2kk).1%S_sQ2J.k;/2S)#/)*_/kkJ)/1Q#ks_U{Qk;Q2J)E/k_)s#ks__kS#JQE//9kUx2C)s1QSUsEUk.kE#Q;Q_/JlJJkk/_SE#i4sQUQ.E;E.#)k1S0=;Qk2_JEU#/;S/#.:;_SQQ/1ES2skk._Dk/#QsE/#l/;Nk#J#1_SQsJUE_s;k#.Qi/QfQJEkE)k1.##sQU_)Q;J2E)/UkQ_J0kJ_QE/#E1_/k_bkS2_)11J)_s/Uk.#1_S1QQ/kDEUkkk_#1x:Qs2UJ.S;/.J)#/xg_;J#t_E1_#k/HU:._;Q2JQQ1/%Bs#kE__EJ#JsEUUWk;.2lQ/1QS/sEkk);;##QQ_kQTJJEk/Qk2_S^sJUQ./;E__)kUrssJ_k1_Jks#/Qk/#__E_2Q)k1E)_skU#_>1QS_QJ/S^//Jk#){1_zJsUUE__;k.EQd/_:QJJ2J_/10##sEU_.J;J#EQ11kL.Ju2Q_QE/#E;//2K#;)2_JU1J)ss/#kJUE,#sQQUshEEQkks#SsS_s;UJ)#;/_J)#U_.2JQk/_E/J#kQ#U8)_E_2J)k1/g:s##s__1Jw)QE/S6k/)2()_1QNEJkU/__;#.sQ_/QtJ;/2S_k1sS E;UQ.J;E2/s_1#(QJ_kU_JE/#/sk/S.T;s2QQH1ES#skk#/.E_#;QJ#k{/J2k#s!1sSQs/UE.2;k#1QVk_.2JJkk_/1b##s_U_./kJ2EQR1kP)JBk)_QE;#EQ/kQa#;r2_)Q1JSEs/Uk/)EW#JQQ/kfEJUkkQ>/JS_sEUJQU;/2k)#kg.;JQk/_EE##k1JU,_QE12J)21/)ks#kA__EQnFQE/#^k;?2^)Q1QdEJ2U/_.;#*YQ_/QAJEE#Q_k1)S=s;UQs#;E#k1U1#KJJ_v._JEE#/s#Ub.M;12Q;F1ES/sk2t_)E_#kQJ#_8/Jkk#Q_/1SQsSUEJ/;k2#Qg/_.QJJk2_/1s##s_U__QE/2E)#1k.JJgk;_Q1EnPQ/U.l#1K2_)Q1J.E1#Uk_)E7#;QQ##DE;k_._#1JS_E#UJ.E;/##Q./(G1JQwG_EE/#kJ:UJ._;k2JEU1/Sks#2__;EQ#SQE#Q5kJ#2%)_1kSJs2U/_s;##_Q_UQ._JEk#_k/9Sts;UQQJE_2/Qh1#OSJ_k1_JUEQSQkU_.t/62Q;k1ECkJpU#_sE_4lQJ/E5/Ek#U)L1;SQsUUE)S;kS}Q_/_e/JJSs_/Ek##J_kQ.Q;22EJ;1kS#Jg2Q_#EJSKQ/21O#;h2_)Q1;SEsSUk_JEo#QQQUJF1J/2 _#1/S_s1UJQEk;2kQ_/Y)1JQ9)_E1/#2Q#UQ._UE2J)11/t#;sk4_;EQ.1QE//VkE##_)_11SJs2U/JQ;#S_s;/QwkJE</_kE#SBs_k2.J;22/)#1#N_J_2JQ.EES*Qkk#.X;_2QsJ1#S/J_U#_JE__kQJU/+SJk2s)NkSSQsJUE_k#s2#QE/_)#JJkE_/1#h;soUU.QUW2E)/1k.7J.k__#EJ)EQ//k #;4#s)Q1kSEJQUk_GE5S_s;/Jv2J/#Q_#1JS_JJkS.EEj2ks#/u3_JQ#J_UE/S_Q#UJ._Uk2JQ/#SSkJsktskEQ#JQEUk__J#2E)_k#SJsEU/_#Ek#TQU/Q_/JEk/_k/O3Qs_U#.JU_2/)k1#KfJskQ_kEESQQkUN.vE_2k)J12S/J#U#_JE_.QJ(/EHSJk22)7kJSQEJ.2./E.2#J#/_.;JJ2/)UEkSQsqk#.Q;J2Es//US#JJk__/EJT2Q/U#WS;>21)QkUSEs/Uk)N1;#_Qk/J)2J/kk_#/_I2sQUS.E/S2k)#/jx_E.kJ_#E/SsQ#U_._EQ2;)E1SSkJEkz_EEQ.J1s//..J#M;)_2.SJJEUU.kE)#eEJ/Q(;JE2kQ)E#SJs_#;.J;E2/skU_7qJEkQ_kEE)_QkkW.);_2U)J/2S/skU#_h1)#QQk/EykJk23)>/Q9EsJUS./1k2#Q+/__Q;)kE).EkSss:S/.QEE21)//QS#ESk__QEJS/U)/k.;;3Ik)Q1JSEJkkQ.#E/#_JE/JFEJ/2#Q;1vS2sQSC.E;/2k)#//r_JUkJ))E/##Q#kL__;Q2k)EU_SkJsk>)QE1#JQS//_kJ#2c)_UQ}CsEk..kEs#eE//Q.Ek;k/)QE#.Us_UQ.JE/#/)k/;dL1kkQ_JEESksU/#./;_.s)J1ES/J#k/_IE2#QE9/E=/Jkk#)/1_SUsJk)./;#2#sIU#qQJkkE)kEkSss}kQ./;J2S)/UES#J%k_QQUS#Es./k.s;pS;)Q/E4_s/kQ.#US#_QQ/J./EJkk);1A).sQUJ.EEk#J)#//m_/)kJ_EE/#ksUU*.1;Q#q)E1kSkJ#23__E/#JJ1//.)J#PcQk1QSksEk#.k//#{;_S.RJJ#k/)UE#_ks_#Q;U;E#p)kkkeR/EkQ)E12#/s)/#_k;_2Q)JUES2skks_>E1#QJU/E.kE1k#)E1__.sJUE./E##sQh/UfQ1)kE_/Ek+qskU_.#;J+s)/1kS#Jn2S_QE2#EsQ/k.a;p#_1U1JS#s/kJ.#E;#_sQUQwE;{kk;_1!S)sQkE)s;/#))#2)*_JQkJQE1.#kssU?.1;Q.#)E/k.ss#kE__U/#JQE//8kEQ2e)11QSEsEUk.k1c#QQ_/k JJUk/_kE#.{1JUQ.#;E#_)k#JwM;QT#_J1.#/EJ/#.:;_#J)/1E<Qsk^4_OE_#QQJ/2x/;Qk#)/1_SJsJkE)J;k#sQ0/J:QJ#kE)//E##s;U_sE;J2#)//#.;Jik/_QU1#EQ//k_#Ek2_)k1J}ys/8Q.#1_K1QQ/S^E/Ekk_#1OS_s/UJ_C;/2#)#/_ _;J#k_E1)#kJ#U8._;QSJ;k1/xss#k1__kk#Js/}1!k;E2YJ)1QSJsEkk.S;##UQ_2#OJJEk/)#/)S9s#UQQE;E2/)kUi.EJ_2._Jk_#/Qk/#.pE;2Q)S1EW;skko_Y1_##QJUTd/EQk#)11_0JJ)UE_);kS#QV/_nQEJgk_/1s##s1U_sk;J#/111kzEJ3#2_QEJ#Eskk_8#;U2_J#1JSEs/k#__El##QQ2S6EJ/kkQa1sS_J.UJs_;/2k)#/l._JQkS_E1;#ks{U0__E#2JQK1/^#s#k1__1JS1QEU)ykE/2j)_1Q.J1.U/_s;##1Q_k1GJ;/#)_k1ESC1.UQ.J;E#kQ 1#+UJ_N)_JEE#/s#U_.=;#2Q;s1ES/skU#_sE_#2QJUQC/J#k#Qm/)SQs#UE)U;k#;Qv2_.JJJ2X_/1U##1SU_QQ2U2EQ_1k_kJ^hE_Q1ES.Q/Us{#Ek2_)Q1J.EJUUk_;EM#UQQkUWE;k22_#1/S_E1UJ.E;/##s;/VP2JQSU_EE/#kJyU/._Ex2JJ21/Sks#kw)_EQ#SQEUJRk;r2XQ_SUSJJ}U/_J;##1Q_UQ_)JE2__k2_S+s)UQ_EEQ2/Qs1#))J_kQ_J/ESkQkU;.f;U2Q;#1EOkJ2U#_/E_./QJ/EY/Jk#;)H1USQsEUE.k;kSIQ_/_I#JJkU_/Ek##;bSJ.QE52EQQ1kQJJt2QJ#EJS)Q/#JG#;^2_QJ1#SEJJUkJTEY#_QQ/J..J/2J_#1kS_sJUJ_E1s2kQ;/p(JJQ2B_E1/(1Q#U1._UE2JQ,1/f#JJkj_kEQ.1QE//:kE#2.)_1#SJJ_U/JQ;#S_J1/Q..JEeE_kE#SKs_U/.JE_2/)#1#!_J_2JQkEESsQkk#.y;_2QsJ2kS/J;U#_UE__kQJU/J1Jk2/)mk)SQsJUE_k1Q2#Q2/_)#JJkE_/1#x_sbk6.Q/E2E)/1k.!;kk_))EJ__Q//km#;32s)Q/.SEJ1Uk_8E S_Jb/J._J/#Q_#1US_JJU;.EEs2ks#/ft_JQ#JJkE/S;Q#UU._Uk2JQ/S1SkJ/k=_EEQ#JQEUk-2J#22)_k#SJsEU/_#1J#rsx/Q)SJEk/_k/oSks_k).JU_2/)k1#BeJ/kQ).EES1QkUA.uE_#4)J/_S/J#U#_UE_SJs2/E.sJk#/)<1_SQ;JS../E;2#QU/__1JJ2/_#EkS/sIS..Q;J2EQkU1S#J2k_J)EJ#EQ/U#./;c#F)Q2sSEs/Uk.#1;#_QS/J.JJ/k#_#/yS1sQka.E1U2kQ1/F)_;/kJ)_E/SUQ#k#._/Q)U)E/QSkEkk(JEEQSEsE//.;J##k)_1QSJ;Ekk.kE1#rQ2/Q_UJE2kQ.E#Sks_#1.J;E2/Q#U;,BJSkQsUEE#/Qkkc_Q;_#_)Jk2S/skU#_712#Qs./E.EJk2w) /_sUsJk_./EJ2#QU/_.QJ2kE)QEk)_s U).QEE22)//;S#1)k__QEJcEJQ/k.1;r22)Q2#SEJkkk.#Ek#_;//J!EJ/kk)J1vS2sQUE.E;k2ksIU;+_;IkJ_UE/#kQ#2PJJ;Q#_)E/JSk/Jk )Q12#Jss//QJJ#28)_/JeSsEkE.kk*#NQ_/QbJ;#k/)EE#S#s_UJ.JEE#Q)k/1nqJJkQ)_EES/k2/#.U;_.E)J/_S/;k2._ E##QQ#/E.sJk##)#1_vnsJkQ./;#2#Q_*AeQ;QkE_UEk##slU_)Q;J#Q)///S#J.k__J#Q#EsJ/kA#;W2_)QUJe_s/k1.#E/#_QS/J_E;)kk)U1pSSsQUE.EEa_k)#/Sm_JEkJ_1E/#SQ#UW_/;Q2J)E/^Sks#k3__1k#JQE//.EJ#2x)_1Qo#sEU/.k;##dQ_/Q J/sk/)1E#SSs_Us.J;E#-)k1#^YJ_kQ_JEE#/J_/#.q;_2s)J1ES/J_U#_ E_#sQJ/E(/J2#_)D1_SQsQ/#_)E;#s)9U#_yEBUk./11SJQs/28QE2#NQE/1YsJHk__Q/k#EQ//kv#;)2_)s1JS1s/kZEUEC#_QQ/19EJUkk)_S2S_sQUJ.k;/22)#/foUJQk;_EE/#kQ#U*._U;2J)11/S2s#kq__EQ.;QE/U<k;z2P)_1QSJJ#U/.k;##.Q_/QrJJEk/_kE#S.sQUQ.J;E2Us/1#8IJ_k_s.US_.;S#Qh2JQkJs2kQ)wE_STss/12s;T2_SkEsS;J7/2_;;U#__m;E#JQ./SpQJJkE_Ek_.JE;2EQ)/_tUsSk#__1s#1_EEJ#EQ/U#)Q;*2_)Q1ESEs/Uk)g/;#_Qs/J*1J/kk_#1+Q#sQUJ.E;k2k)S/Yr_;/kJ_EE/#2Q#Um._;Q2J)E1/Sks#kB__EQ#EQE//5kJ#Y;)_1QSJsEU/.k;##%sE/Q=JJEkU_kE#S5s_UQ.J;E2UQ)1#qfJ_ks_JEE#/Qk/S.s;_2Q)JjksUU#_/EsE)#/QJ/E{/2SQ_/_SUJ_U2U1.U;k2#Q8/8NQJJkE_/Ek##s(__sQ;J2E)/1kS#Jwk__QkJ#EQ//kL#;%2_)QEJ);E2Uk.#EN#_E2/Jq1J/kk_#1^S_sQ#_.E;k2k)#/6i_JQkJ_#E/#2Q#U_._;J2Js#1/SksSkH_#EQ#;QE/kAk;_)2)_1QSJJQU/.2;##6EU/Qa;JEkU_kE#Sis_#?.J;/2/)k1#xuJ_k/;JEE#2Qk/#.T;)2Q)E1ES/;QU#_BE_#QQJ/EB/JkS.)Z1_SQsEUE./;k2#Ju/_gsJJkU_/E2##sQ.S.Q;J2EJU1kSSJ5k_J2EJ#1Q//kf#;o2_)Qk_SEskUk.#EW#_QQ/Jr#J/k2_#1_S_sJUJ)#;/2k)S/+))JQk;_EE2#ks_.2._;Q2JJ11/S2s#ki)UEQ#;QE//KkJ#2 Qa1JSJsSU/Q2;##.Q_/sTJJk);_kE#SfE)UQ.;;E2/Es1#N.J_k;_JEE#/QkkS.N;Q2Q)J1ES/sk26)2E_#;QJ/S6/Jkk#Q_1kSQs/UE_.;k2#Qx/_a/JJk1_/1c##s_U_)/;E2E)U1k./JTk)_QE/#EQ#.1m#;(2_sM1JS1s/kTEUE+#_QQ2;aEJUkkQ>U;S_ssUJ.1;/2k)#U__1JQkE_E17#kQ#Uv._E22J)U1/Sks#kz__1Ja2QE/#7k;s2D)_1QS/k;U/.#;#.%Q_/sYJJESJ_k1QSTs)UQ.J;E2/Q#1#Y;J_kE_JEE#/Qkk;.D;/2Q)/1ES/skU#_1E_#2QJ/UD/Jkk#)p/kSQJ0UE./;k2#Q3/_ZEJJ2)_/1.##sVU_.QEk2EQJ1k=)J*k__QEJSEQ/Us3#;k2_)J1JSEkJUk_JED#/QQ/SwEJ/2/_#11S_s1UJ.E;/2ksJ/nd/JQk#_E1)#kJ#UJ._;k2JQx1/j.s#kC)#EQ#2QEU.=k;J2y)_1;SJs1U/__;##;Q_/EJ.JEkk_k/SSLs)UQ.J/12/)21#B_J_kQ_JEE.UQk/#.D;Q2Q)J1ES/;_U#_^E_#sQJ/E-/J2k#)w1_SQsJUE./E_2#Qr/_GQ#skE_kEk##s U_.Q;J21)/1SS#J.k__QEJ#EsE/k._;b2))Q1JSEs/2).#E)#_QJ/JX/J/kkQ;1{SQsQUJ.E;22k)#Uki_JQkJ_1E/#kQ#UL._;Q2J)/1UO1s#kN__EsSJQE//VkJk#)J.UE.kEw#sQ#/2T;J/21.21nrsJ)ESSEs_UQ.J;J#s;)2s))Jk#ks2E1SQQk/#.5;DSEJ1kU_SE#S;QE/12sQ;k>d/Jkk#_#1#_sES2kQ1/Ehs_)2<_k/_U1:2/)_)Ek1s)E/4SkJJk2#SJ:k__QEJ#EQ//kS#/S2))S1JSEs/U/Q2U_^JJU2k)S1SSEsSU/S)skUJ.E;/2/QskE)E1USUs/kJ#2sUU<._;Q2QQ,kU))EJSsfs1_{#EQ1US2sS2.);1QSJsEUEQJ/_.!J//s JJEk/_kESSss_UQ.J;J.QJ(k/);J)./_JEE#/Q/21Q;/1z;Jk1s#kQ#S)QQUk2s;-2QQ.1;(Jssk/_/;##2Q6/#VS;;k/)s12U1sbU#.#Q_#UQu/sSkJU2));EkSEsk//.;E81#Q;1kv.sEk;_SQU#_QQ;P.s;1k#)Esk*.sJU1_EQJ#.QK1#Z);Q1_)_EES_s1;k__;Q#s)#/;w2)11SSks#ku_b1U3#E)#.).J#2Y)_1QJEsEU/.k;##7Q_/Q_JJ1k/_kE#SVs_k..J;E#2)k1SmKJ)kQ_JEE#/s./#._;_2Q)J1ES/sk2;_yE)#QQE/EtkJk2QQ)1_SssJ2../;22#QK/_3E2)kE_/EkG;sNU).Q;J_.)/12S#J,k__QEJ.E;)/k}S;A2))Q11SEs/kM.#E.#_QQ/JNEJ/Sk)J1=S)sQk).EEQ2ks?/_F_JskJ))E/#kQ#k___;Q2E)E1SSks#kK__19#JQ1//d#J#2.)_1QSksEUU.kEu#BQ_/Q_J;;k/_2E#S.s_UU.J;EQU)k1Sp*JQkQ_;EESksS/#..;_2/)J1ES/J#k;_cEQ#QQS/E8/Jk##QE1_SJsJU/./;#2#s_UsnQJ/kE)JEk##sgU__E;J2/)//ZS#JBk__QE1#EQU/kO#;h2Q)Q1J))s/U2.#E.#_Qs/Jvk2;kk_#1C.JsQU;.E;/_s)#/.l_JQkJ_EE/.k;;Ux.);Q2;)E1#Sks#k/__Es#JQE//?kJ#ZAQ21QS;sEk;.kEE#RsQU.CJJ1k/);E#S+s_kJ_;;E2k)k/)mqJ_kQ_J1U#/Q2/#._;_2s)J1ET/skUS_}E_#QQJ/E)/U1k#).1_SssJkq./;k_;Q%/)^QJJkE_/Ek.#12U_.s;J#s)//JS#Ja2E_QEJ#EQU/kK#;%2_)Q1JSEs/U2.#E{#_Qs/#tEJ/kk_k1;./E/#2Q2/k.EQ_/- _JQkJ;.E/#kQ#Uu._;Q2JsE/1Sks#kC__EQ#;QE//JEJ#2^)_1JSJs1U/.k1Q#8Q_/Qw;JEk/_kE#SCs_UQ.J;E");local n=0;h.BuswvEpn(function()h.bFBIZktY()n=n+1 end)local function e(d,e)if e then return n end;n=d+n;end local d,n,_=f(0,f,e,a,h.DdArFloA);local function k()local d,n=h.DdArFloA(a,e(1,3),e(5,6)+2);e(2);return(n*256)+d;end;local u=true;local u=0 local function p()local e=n();local n=n();local t=1;local l=(d(n,1,20)*(2^32))+e;local e=d(n,21,31);local n=((-1)^d(n,32));if(e==0)then if(l==u)then return n*0;else e=1;t=0;end;elseif(e==2047)then return(l==0)and(n*(1/0))or(n*(0/0));end;return h.FpoFYBIC(n,e-1023)*(t+(l/(2^52)));end;local b=n;local function j(n)local d;if(not n)then n=b();if(n==0)then return'';end;end;d=h.RHyPLzFQ(a,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+u),#d do e=e..h.RHyPLzFQ(d,n,n)end return e;end;local b=#h.wzaYDywo(o('\49.\48'))~=1 local e=n;local function le(...)return{...},h.bUAT_DXJ('#',...)end local function de()local o={};local e={};local u={};local a={u,o,nil,e};local e=n()local f={}for l=1,e do local d=_();local n;if(d==3)then n=(_()~=#{});elseif(d==0)then local e=p();if b and h.CmAWdpbb(h.wzaYDywo(e),'.(\48+)$')then e=h.YADcpbnq(e);end n=e;elseif(d==1)then n=j();end;f[l]=n;end;for h=1,n()do local e=_();if(d(e,1,1)==0)then local _=d(e,2,3);local r=d(e,4,6);local e={k(),k(),nil,nil};if(_==0)then e[t]=k();e[s]=k();elseif(_==#{1})then e[t]=n();elseif(_==c[2])then e[t]=n()-(2^16)elseif(_==c[3])then e[t]=n()-(2^16)e[s]=k();end;if(d(r,1,1)==1)then e[l]=f[e[l]]end if(d(r,2,2)==1)then e[t]=f[e[t]]end if(d(r,3,3)==1)then e[s]=f[e[s]]end u[h]=e;end end;for e=1,n()do o[e-(#{1})]=de();end;a[3]=_();return a;end;local function ne(d,n,e)local l=n;local l=e;return o(h.CmAWdpbb(h.CmAWdpbb(({h.BuswvEpn(d)})[2],n),e))end local function u(g,c,_)local function de(...)local k,p,z,ne,j,n,o,b,y,ee,a,d;local e=0;while-1<e do if e>2 then if e<=4 then if e>=-1 then for n=26,70 do if e~=3 then ee=h.bUAT_DXJ('#',...)-1;a={};break;end;b={};y={...};break;end;else b={};y={...};end else if 5==e then d=f(7);else e=-2;end end else if 0>=e then k=f(6,60,1,74,g);p=f(6,44,2,37,g);else if e==1 then z=f(6,92,3,82,g);j=le ne=0;else n=-41;o=-1;end end end e=e+1;end;for e=0,ee do if(e>=z)then b[e-z]=y[e+1];else d[e]=y[e+1];end;end;local y=ee-z+1 local e;local f;local function z(...)while true do end end while true do if n<-40 then n=n+42 end e=k[n];f=e[m];if f>=70 then if f>=105 then if f<=121 then if f>112 then if 117<=f then if 119>f then if 114<f then for k=21,83 do if f<118 then local l=e[l];local n=d[e[t]];d[l+1]=n;d[l]=n[e[s]];break;end;if(d[e[l]]~=e[s])then n=n+1;else n=e[t];end;break;end;else local l=e[l];local n=d[e[t]];d[l+1]=n;d[l]=n[e[s]];end else if f<=119 then local f;for h=0,6 do if h<3 then if h<1 then f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];else if h>0 then for f=49,68 do if 1<h then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end else if h>4 then if h>3 then repeat if h~=5 then d[e[l]][e[t]]=d[e[s]];break;end;f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];until true;else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end else if-1<=h then for s=45,80 do if h~=3 then d(e[l],e[t]);n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];break;end;else d(e[l],e[t]);n=n+1;e=k[n];end end end end else if 116<=f then repeat if 121~=f then local n=e[l]local l,e=j(d[n](r(d,n+1,e[t])))o=e+n-1 local e=0;for n=n,o do e=e+1;d[n]=l[e];end;break;end;for f=0,6 do if 2>=f then if 0>=f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else if-3<=f then for s=38,69 do if f~=2 then _[e[t]]=d[e[l]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else _[e[t]]=d[e[l]];n=n+1;e=k[n];end end else if 4<f then if 3<f then repeat if f<6 then d[e[l]]=(e[t]~=0);n=n+1;e=k[n];break;end;_[e[t]]=d[e[l]];until true;else _[e[t]]=d[e[l]];end else if 1~=f then repeat if f<4 then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;_[e[t]]=d[e[l]];n=n+1;e=k[n];until true;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end end end until true;else for f=0,6 do if 2>=f then if 0>=f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else if-3<=f then for s=38,69 do if f~=2 then _[e[t]]=d[e[l]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else _[e[t]]=d[e[l]];n=n+1;e=k[n];end end else if 4<f then if 3<f then repeat if f<6 then d[e[l]]=(e[t]~=0);n=n+1;e=k[n];break;end;_[e[t]]=d[e[l]];until true;else _[e[t]]=d[e[l]];end else if 1~=f then repeat if f<4 then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;_[e[t]]=d[e[l]];n=n+1;e=k[n];until true;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end end end end end end else if f>=115 then if 112~=f then repeat if 116>f then local h;for f=0,6 do if 3<=f then if 4>=f then if f~=-1 then repeat if f<4 then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];until true;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if f>=1 then repeat if 6>f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;d(e[l],e[t]);until true;else d(e[l],e[t]);end end else if f>=1 then if f~=0 then for s=40,69 do if f<2 then d(e[l],e[t]);n=n+1;e=k[n];break;end;h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];break;end;else h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];end else d(e[l],e[t]);n=n+1;e=k[n];end end end break;end;d[e[l]][e[t]]=e[s];until true;else d[e[l]][e[t]]=e[s];end else if f~=112 then for h=36,53 do if 114~=f then local f,b,u,c,h;for a=0,6 do if 3>a then if 1<=a then if a>=-2 then for s=48,85 do if 1~=a then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else f=e[l]d[f](d[f+1])n=n+1;e=k[n];end else if a<5 then if 3<a then d(e[l],e[t]);n=n+1;e=k[n];else f=e[l];b=d[e[t]];d[f+1]=b;d[f]=b[e[s]];n=n+1;e=k[n];end else if a>=2 then for s=34,54 do if a~=5 then f=e[l]d[f]=d[f](r(d,f+1,o))break;end;f=e[l]u,c=j(d[f](r(d,f+1,e[t])))o=c+f-1 h=0;for e=f,o do h=h+1;d[e]=u[h];end;n=n+1;e=k[n];break;end;else f=e[l]u,c=j(d[f](r(d,f+1,e[t])))o=c+f-1 h=0;for e=f,o do h=h+1;d[e]=u[h];end;n=n+1;e=k[n];end end end end break;end;local _;for f=0,5 do if 2<f then if 4>f then d[e[l]]=d[e[t]];n=n+1;e=k[n];else if 2<f then for s=30,77 do if f~=4 then if d[e[l]]then n=n+1;else n=e[t];end;break;end;_=e[l]d[_]=d[_](d[_+1])n=n+1;e=k[n];break;end;else if d[e[l]]then n=n+1;else n=e[t];end;end end else if f>0 then if 0<=f then for _=47,71 do if f>1 then d[e[l]]=c[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end else d[e[l]]=c[e[t]];n=n+1;e=k[n];end end end break;end;else local f,b,c,u,a;for h=0,6 do if 3>h then if 1<=h then if h>=-2 then for s=48,85 do if 1~=h then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else f=e[l]d[f](d[f+1])n=n+1;e=k[n];end else if h<5 then if 3<h then d(e[l],e[t]);n=n+1;e=k[n];else f=e[l];b=d[e[t]];d[f+1]=b;d[f]=b[e[s]];n=n+1;e=k[n];end else if h>=2 then for s=34,54 do if h~=5 then f=e[l]d[f]=d[f](r(d,f+1,o))break;end;f=e[l]c,u=j(d[f](r(d,f+1,e[t])))o=u+f-1 a=0;for e=f,o do a=a+1;d[e]=c[a];end;n=n+1;e=k[n];break;end;else f=e[l]c,u=j(d[f](r(d,f+1,e[t])))o=u+f-1 a=0;for e=f,o do a=a+1;d[e]=c[a];end;n=n+1;e=k[n];end end end end end end end else if 109>f then if f<=106 then if f<106 then local h;for f=0,6 do if 2>=f then if f>=1 then if 0<f then repeat if 2~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];until true;else d(e[l],e[t]);n=n+1;e=k[n];end else d(e[l],e[t]);n=n+1;e=k[n];end else if f>=5 then if f~=1 then for r=31,67 do if f~=5 then d[e[l]]=d[e[t]][e[s]];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else d[e[l]]=d[e[t]][e[s]];end else if f>=-1 then for _=43,93 do if 3<f then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];break;end;else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end end end end else local e=e[l]d[e](d[e+1])end else if f~=108 then local a,o,b,c,u,f,h;for f=0,6 do if 3<=f then if f>4 then if f<6 then d[e[l]][e[t]]=e[s];n=n+1;e=k[n];else d[e[l]]=_[e[t]];end else if f~=3 then d[e[l]][e[t]]=e[s];n=n+1;e=k[n];else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end end else if f<1 then f=0;while f>-1 do if 2>=f then if f>0 then if-2<=f then for e=48,73 do if 1~=f then b=t;break;end;o=l;break;end;else o=l;end else a=e;end else if 4>=f then if f~=4 then c=a[b];else u=a[o];end else if 6~=f then d(u,c);else f=-2;end end end f=f+1 end n=n+1;e=k[n];else if f~=-3 then repeat if 2~=f then f=0;while f>-1 do if 2>=f then if 0<f then if f>=-1 then for e=14,64 do if f>1 then b=t;break;end;o=l;break;end;else o=l;end else a=e;end else if f>=5 then if f>1 then repeat if 6>f then d(u,c);break;end;f=-2;until true;else d(u,c);end else if 4==f then u=a[o];else c=a[b];end end end f=f+1 end n=n+1;e=k[n];break;end;h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];until true;else h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];end end end end else d[e[l]]=d[e[t]][d[e[s]]];end end else if f<111 then if 107<f then repeat if f<110 then n=e[t];break;end;local _,f;for r=0,1 do if-3<=r then repeat if r<1 then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;_=e[l];f=d[e[t]];d[_+1]=f;d[_]=f[e[s]];until true;else _=e[l];f=d[e[t]];d[_+1]=f;d[_]=f[e[s]];end end until true;else local f,_;for r=0,1 do if-3<=r then repeat if r<1 then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;f=e[l];_=d[e[t]];d[f+1]=_;d[f]=_[e[s]];until true;else f=e[l];_=d[e[t]];d[f+1]=_;d[f]=_[e[s]];end end end else if 108~=f then for h=39,88 do if 111~=f then local h;for f=0,6 do if 2>=f then if f<=0 then d(e[l],e[t]);n=n+1;e=k[n];else if 1~=f then h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];else d(e[l],e[t]);n=n+1;e=k[n];end end else if 4<f then if 1<=f then repeat if f~=5 then d[e[l]]=d[e[t]][e[s]];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];until true;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if 4~=f then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end end end end break;end;local l=e[l];local k=d[l]local s=d[l+2];if(s>0)then if(k>d[l+1])then n=e[t];else d[l+3]=k;end elseif(k<d[l+1])then n=e[t];else d[l+3]=k;end break;end;else local l=e[l];local k=d[l]local s=d[l+2];if(s>0)then if(k>d[l+1])then n=e[t];else d[l+3]=k;end elseif(k<d[l+1])then n=e[t];else d[l+3]=k;end end end end end else if f<131 then if f<=125 then if f<=123 then if 120~=f then repeat if 122<f then local f,u,_,o,h,c,s,r,m,y,p,j,b;s=0;while s>-1 do if s>=4 then if 6>s then if 2<s then for e=33,88 do if s~=4 then c=f[u];break;end;h=o[f[_]];break;end;else c=f[u];end else if s>5 then repeat if 7>s then d[c]=h;break;end;s=-2;until true;else s=-2;end end else if s>=2 then if 0<=s then for e=16,76 do if 2<s then o=d;break;end;_=t;break;end;else _=t;end else if s>-3 then for n=26,78 do if 1~=s then f=e;break;end;u=l;break;end;else f=e;end end end s=s+1 end n=n+1;e=k[n];s=0;while s>-1 do if 4>s then if s<=1 then if s>-1 then for n=48,82 do if 1~=s then f=e;break;end;u=l;break;end;else f=e;end else if s>2 then o=d;else _=t;end end else if 6>s then if s>=1 then for e=21,92 do if 5~=s then h=o[f[_]];break;end;c=f[u];break;end;else h=o[f[_]];end else if s>=2 then for e=40,96 do if 6<s then s=-2;break;end;d[c]=h;break;end;else s=-2;end end end s=s+1 end n=n+1;e=k[n];r=e[l]d[r]=d[r](d[r+1])n=n+1;e=k[n];d[e[l]]=d[e[t]];n=n+1;e=k[n];do return d[e[l]]end n=n+1;e=k[n];r=e[l];m={};for e=1,#a do y=a[e];for e=0,#y do p=y[e];j=p[1];b=p[2];if j==d and b>=r then m[b]=j[b];p[1]=m;end;end;end;n=n+1;e=k[n];n=e[t];break;end;n=e[t];until true;else local f,h,r,u,o,c,s,_,y,j,p,m,b;s=0;while s>-1 do if s>=4 then if 6>s then if 2<s then for e=33,88 do if s~=4 then c=f[h];break;end;o=u[f[r]];break;end;else c=f[h];end else if s>5 then repeat if 7>s then d[c]=o;break;end;s=-2;until true;else s=-2;end end else if s>=2 then if 0<=s then for e=16,76 do if 2<s then u=d;break;end;r=t;break;end;else r=t;end else if s>-3 then for n=26,78 do if 1~=s then f=e;break;end;h=l;break;end;else f=e;end end end s=s+1 end n=n+1;e=k[n];s=0;while s>-1 do if 4>s then if s<=1 then if s>-1 then for n=48,82 do if 1~=s then f=e;break;end;h=l;break;end;else f=e;end else if s>2 then u=d;else r=t;end end else if 6>s then if s>=1 then for e=21,92 do if 5~=s then o=u[f[r]];break;end;c=f[h];break;end;else o=u[f[r]];end else if s>=2 then for e=40,96 do if 6<s then s=-2;break;end;d[c]=o;break;end;else s=-2;end end end s=s+1 end n=n+1;e=k[n];_=e[l]d[_]=d[_](d[_+1])n=n+1;e=k[n];d[e[l]]=d[e[t]];n=n+1;e=k[n];do return d[e[l]]end n=n+1;e=k[n];_=e[l];y={};for e=1,#a do j=a[e];for e=0,#j do p=j[e];m=p[1];b=p[2];if m==d and b>=_ then y[b]=m[b];p[1]=y;end;end;end;n=n+1;e=k[n];n=e[t];end else if 123~=f then repeat if 124<f then local e=e[l];o=e+y-1;for n=e,o do local e=b[n-e];d[n]=e;end;break;end;do return end;until true;else local e=e[l];o=e+y-1;for n=e,o do local e=b[n-e];d[n]=e;end;end end else if f>=128 then if 128>=f then local f;d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];else if f>126 then repeat if 130~=f then local _,f;for r=0,2 do if 0<r then if 2~=r then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else _=e[l];f=d[e[t]];d[_+1]=f;d[_]=f[e[s]];end else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end end break;end;d[e[l]]=d[e[t]]+d[e[s]];until true;else local f,_;for r=0,2 do if 0<r then if 2~=r then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else f=e[l];_=d[e[t]];d[f+1]=_;d[f]=_[e[s]];end else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end end end end else if f>126 then local f;d[e[l]]=c[e[t]];n=n+1;e=k[n];d[e[l]]=c[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]];n=n+1;e=k[n];f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];d[e[l]][d[e[t]]]=d[e[s]];n=n+1;e=k[n];do return end;else local t=e[t];local n=d[t]for e=t+1,e[s]do n=n..d[e];end;d[e[l]]=n;end end end else if 134>=f then if f>132 then if f~=131 then for h=14,96 do if 133~=f then d[e[l]]=#d[e[t]];break;end;local h;for f=0,6 do if f<3 then if f<1 then h=e[l]d[h](r(d,h+1,e[t]))n=n+1;e=k[n];else if f~=-3 then for r=39,74 do if f<2 then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end end else if 4<f then if f>4 then for r=15,59 do if f~=6 then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]][e[s]];break;end;else d[e[l]]=d[e[t]][e[s]];end else if 2~=f then repeat if f>3 then h=e[l]d[h]=d[h](d[h+1])n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];until true;else d(e[l],e[t]);n=n+1;e=k[n];end end end end break;end;else d[e[l]]=#d[e[t]];end else if f>127 then repeat if f~=131 then local f;for h=0,6 do if h<=2 then if 0>=h then d(e[l],e[t]);n=n+1;e=k[n];else if-2<h then repeat if 1<h then f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];until true;else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end end else if h<5 then if h~=3 then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end else if 5<h then d[e[l]]=d[e[t]][e[s]];else d[e[l]]=_[e[t]];n=n+1;e=k[n];end end end end break;end;local t=e[t];local n=d[t]for e=t+1,e[s]do n=n..d[e];end;d[e[l]]=n;until true;else local f;for h=0,6 do if h<=2 then if 0>=h then d(e[l],e[t]);n=n+1;e=k[n];else if-2<h then repeat if 1<h then f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];until true;else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end end else if h<5 then if h~=3 then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end else if 5<h then d[e[l]]=d[e[t]][e[s]];else d[e[l]]=_[e[t]];n=n+1;e=k[n];end end end end end end else if f>=137 then if 138>f then d[e[l]][e[t]]=d[e[s]];else if f>135 then repeat if 139~=f then local h,a,u,b,c,f,o;for f=0,6 do if 2>=f then if f<1 then f=0;while f>-1 do if 2>=f then if 1>f then h=e;else if 0~=f then for e=37,64 do if 1~=f then u=t;break;end;a=l;break;end;else a=l;end end else if 5>f then if 2~=f then repeat if 3~=f then c=h[a];break;end;b=h[u];until true;else c=h[a];end else if 3~=f then repeat if f~=5 then f=-2;break;end;d(c,b);until true;else d(c,b);end end end f=f+1 end n=n+1;e=k[n];else if f~=0 then for s=21,82 do if f~=1 then o=e[l]d[o]=d[o](r(d,o+1,e[t]))n=n+1;e=k[n];break;end;f=0;while f>-1 do if f>=3 then if f<5 then if-1<f then for e=38,53 do if 4~=f then b=h[u];break;end;c=h[a];break;end;else c=h[a];end else if 4<f then repeat if f>5 then f=-2;break;end;d(c,b);until true;else f=-2;end end else if 1<=f then if-1<f then for e=12,88 do if 1~=f then u=t;break;end;a=l;break;end;else u=t;end else h=e;end end f=f+1 end n=n+1;e=k[n];break;end;else o=e[l]d[o]=d[o](r(d,o+1,e[t]))n=n+1;e=k[n];end end else if f<=4 then if-1<=f then for r=27,91 do if f~=3 then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if 6==f then d(e[l],e[t]);else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end end end break;end;local n=e[l]d[n]=d[n](r(d,n+1,e[t]))until true;else local o,c,u,b,a,f,h;for f=0,6 do if 2>=f then if f<1 then f=0;while f>-1 do if 2>=f then if 1>f then o=e;else if 0~=f then for e=37,64 do if 1~=f then u=t;break;end;c=l;break;end;else c=l;end end else if 5>f then if 2~=f then repeat if 3~=f then a=o[c];break;end;b=o[u];until true;else a=o[c];end else if 3~=f then repeat if f~=5 then f=-2;break;end;d(a,b);until true;else d(a,b);end end end f=f+1 end n=n+1;e=k[n];else if f~=0 then for s=21,82 do if f~=1 then h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];break;end;f=0;while f>-1 do if f>=3 then if f<5 then if-1<f then for e=38,53 do if 4~=f then b=o[u];break;end;a=o[c];break;end;else a=o[c];end else if 4<f then repeat if f>5 then f=-2;break;end;d(a,b);until true;else f=-2;end end else if 1<=f then if-1<f then for e=12,88 do if 1~=f then u=t;break;end;c=l;break;end;else u=t;end else o=e;end end f=f+1 end n=n+1;e=k[n];break;end;else h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];end end else if f<=4 then if-1<=f then for r=27,91 do if f~=3 then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if 6==f then d(e[l],e[t]);else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end end end end end else if f>132 then repeat if f>135 then local f;d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);break;end;local n=e[l]local l,e=j(d[n](r(d,n+1,e[t])))o=e+n-1 local e=0;for n=n,o do e=e+1;d[n]=l[e];end;until true;else local f;d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);end end end end end else if 86<f then if f<=95 then if 90>=f then if f>88 then if 89<f then local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);else local e=e[l]d[e]=d[e](r(d,e+1,o))end else if 87~=f then if(e[l]<d[e[s]])then n=n+1;else n=e[t];end;else local c,u,h,o,a,f,r,b;for f=0,6 do if 3>f then if f>=1 then if-2<f then repeat if 2>f then f=0;while f>-1 do if 3<=f then if f<5 then if f==3 then o=c[h];else a=c[u];end else if f>4 then repeat if f~=5 then f=-2;break;end;d(a,o);until true;else d(a,o);end end else if f<=0 then c=e;else if f~=0 then for e=20,52 do if 2~=f then u=l;break;end;h=t;break;end;else h=t;end end end f=f+1 end n=n+1;e=k[n];break;end;r=e[l]d[r]=d[r](d[r+1])n=n+1;e=k[n];until true;else f=0;while f>-1 do if 3<=f then if f<5 then if f==3 then o=c[h];else a=c[u];end else if f>4 then repeat if f~=5 then f=-2;break;end;d(a,o);until true;else d(a,o);end end else if f<=0 then c=e;else if f~=0 then for e=20,52 do if 2~=f then u=l;break;end;h=t;break;end;else h=t;end end end f=f+1 end n=n+1;e=k[n];end else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end else if f>4 then if f>=4 then for _=24,59 do if f<6 then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;r=e[l];b=d[e[t]];d[r+1]=b;d[r]=b[e[s]];break;end;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end else if f~=-1 then repeat if 3<f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];until true;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end end end end end else if f>92 then if 93>=f then d[e[l]]=d[e[t]]%e[s];else if f>90 then repeat if f~=95 then d[e[l]]=u(p[e[t]],nil,_);break;end;local o,u,a,c,b,f,h;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=0;while f>-1 do if f<=2 then if 1<=f then if f~=-3 then for e=44,81 do if f<2 then u=l;break;end;a=t;break;end;else a=t;end else o=e;end else if 4>=f then if f~=0 then repeat if 3~=f then b=o[u];break;end;c=o[a];until true;else c=o[a];end else if 3~=f then for e=17,70 do if f>5 then f=-2;break;end;d(b,c);break;end;else f=-2;end end end f=f+1 end n=n+1;e=k[n];h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];until true;else local a,u,o,c,b,f,h;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=0;while f>-1 do if f<=2 then if 1<=f then if f~=-3 then for e=44,81 do if f<2 then u=l;break;end;o=t;break;end;else o=t;end else a=e;end else if 4>=f then if f~=0 then repeat if 3~=f then b=a[u];break;end;c=a[o];until true;else c=a[o];end else if 3~=f then for e=17,70 do if f>5 then f=-2;break;end;d(b,c);break;end;else f=-2;end end end f=f+1 end n=n+1;e=k[n];h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];end end else if 87<f then repeat if f~=92 then local l=e[l];local s=d[l+2];local k=d[l]+s;d[l]=k;if(s>0)then if(k<=d[l+1])then n=e[t];d[l+3]=k;end elseif(k>=d[l+1])then n=e[t];d[l+3]=k;end break;end;local e=e[l]d[e](d[e+1])until true;else local l=e[l];local s=d[l+2];local k=d[l]+s;d[l]=k;if(s>0)then if(k<=d[l+1])then n=e[t];d[l+3]=k;end elseif(k>=d[l+1])then n=e[t];d[l+3]=k;end end end end else if 100>f then if f<98 then if 94<=f then repeat if 96<f then local f;d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];break;end;local a,o,b,u,c,f,h;for f=0,6 do if 3>f then if 0>=f then f=0;while f>-1 do if 3<=f then if f>=5 then if 2<f then for e=40,67 do if 6>f then d(c,u);break;end;f=-2;break;end;else f=-2;end else if f~=4 then u=a[b];else c=a[o];end end else if f<1 then a=e;else if f>=-2 then repeat if 2>f then o=l;break;end;b=t;until true;else o=l;end end end f=f+1 end n=n+1;e=k[n];else if f>=-1 then for _=42,67 do if f<2 then h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];end end else if 5>f then if f==3 then d[e[l]][e[t]]=e[s];n=n+1;e=k[n];else d[e[l]][e[t]]=e[s];n=n+1;e=k[n];end else if f==6 then d[e[l]]=d[e[t]][e[s]];else d[e[l]]=_[e[t]];n=n+1;e=k[n];end end end end until true;else local f;d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];end else if f>=94 then repeat if 98<f then local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);break;end;local k=e[l];local l={};for e=1,#a do local e=a[e];for n=0,#e do local e=e[n];local t=e[1];local n=e[2];if t==d and n>=k then l[n]=t[n];e[1]=l;end;end;end;until true;else local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);end end else if f>=102 then if f>102 then if 102<=f then repeat if 103<f then local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];break;end;local f;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];until true;else local f;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];end else local r,o,a,u,c,f,h;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];f=0;while f>-1 do if 2<f then if f>4 then if f~=3 then for e=27,73 do if f~=6 then d(c,u);break;end;f=-2;break;end;else f=-2;end else if 2~=f then repeat if 3<f then c=r[o];break;end;u=r[a];until true;else c=r[o];end end else if 0<f then if f>-3 then repeat if 2~=f then o=l;break;end;a=t;until true;else a=t;end else r=e;end end f=f+1 end n=n+1;e=k[n];h=e[l]d[h]=d[h](d[h+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);end else if 97<f then repeat if 101>f then local e=e[l]d[e]=d[e](d[e+1])break;end;local h;for f=0,6 do if f>=3 then if f<=4 then if 1<=f then for s=12,53 do if 4~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];break;end;else d(e[l],e[t]);n=n+1;e=k[n];end else if 2<=f then for s=14,83 do if 6>f then d(e[l],e[t]);n=n+1;e=k[n];break;end;h=e[l]d[h]=d[h](r(d,h+1,e[t]))break;end;else d(e[l],e[t]);n=n+1;e=k[n];end end else if 0<f then if-2<=f then repeat if 2>f then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];until true;else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end else d[e[l]][e[t]]=e[s];n=n+1;e=k[n];end end end until true;else local e=e[l]d[e]=d[e](d[e+1])end end end end else if f>77 then if f<=81 then if 80<=f then if f~=79 then repeat if f~=81 then local o=p[e[t]];local r;local f={};r=h.yedClElb({},{__index=function(n,e)local e=f[e];return e[1][e[2]];end,__newindex=function(d,e,n)local e=f[e]e[1][e[2]]=n;end;});for l=1,e[s]do n=n+1;local e=k[n];if e[m]==24 then f[l-1]={d,e[t]};else f[l-1]={c,e[t]};end;a[#a+1]=f;end;d[e[l]]=u(o,r,_);break;end;if(d[e[l]]~=e[s])then n=n+1;else n=e[t];end;until true;else local o=p[e[t]];local r;local f={};r=h.yedClElb({},{__index=function(n,e)local e=f[e];return e[1][e[2]];end,__newindex=function(d,e,n)local e=f[e]e[1][e[2]]=n;end;});for l=1,e[s]do n=n+1;local e=k[n];if e[m]==24 then f[l-1]={d,e[t]};else f[l-1]={c,e[t]};end;a[#a+1]=f;end;d[e[l]]=u(o,r,_);end else if 75~=f then for k=32,77 do if f~=79 then if d[e[l]]then n=n+1;else n=e[t];end;break;end;d[e[l]][d[e[t]]]=d[e[s]];break;end;else d[e[l]][d[e[t]]]=d[e[s]];end end else if 83>=f then if f>81 then repeat if f<83 then local n=e[l]d[n](r(d,n+1,e[t]))break;end;local e=e[l]d[e]=d[e](r(d,e+1,o))until true;else local e=e[l]d[e]=d[e](r(d,e+1,o))end else if 84<f then if 84~=f then for h=31,80 do if f>85 then local r;for f=0,6 do if f<3 then if f>=1 then if 2>f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else d(e[l],e[t]);n=n+1;e=k[n];end else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if 4<f then if f>4 then for _=41,58 do if f>5 then d(e[l],e[t]);break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;else d(e[l],e[t]);end else if 1<f then repeat if 3~=f then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;r=e[l]d[r]=d[r](d[r+1])n=n+1;e=k[n];until true;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end end end end break;end;local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];break;end;else local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];end else local f;for _=0,4 do if 1>=_ then if _>-1 then repeat if _>0 then d(e[l],e[t]);n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];until true;else d(e[l],e[t]);n=n+1;e=k[n];end else if _<3 then d(e[l],e[t]);n=n+1;e=k[n];else if 1~=_ then repeat if 3<_ then d[e[l]][e[t]]=d[e[s]];break;end;f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];until true;else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end end end end end end end else if f>=74 then if f<76 then if 74<f then d[e[l]]=(e[t]~=0);n=n+1;else local h;for f=0,6 do if f<3 then if 1<=f then if f~=2 then d(e[l],e[t]);n=n+1;e=k[n];else h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];end else d(e[l],e[t]);n=n+1;e=k[n];end else if f>=5 then if f>2 then repeat if f>5 then d[e[l]]=d[e[t]][e[s]];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];until true;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if 4>f then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end end end end end else if f>=75 then repeat if 76<f then d[e[l]][e[t]]=e[s];break;end;d(e[l],e[t]);until true;else d(e[l],e[t]);end end else if 71>=f then if 71~=f then d[e[l]][d[e[t]]]=d[e[s]];else local f;d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);end else if f>=71 then repeat if 73>f then _[e[t]]=d[e[l]];break;end;d[e[l]]=c[e[t]];until true;else _[e[t]]=d[e[l]];end end end end end end else if f>34 then if f<52 then if f>42 then if 46>=f then if f<45 then if 42~=f then repeat if f<44 then local f;for _=0,3 do if _<=1 then if _>=-4 then for s=49,55 do if 0<_ then f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]];n=n+1;e=k[n];break;end;else f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];end else if-2<=_ then repeat if _~=2 then d[e[l]][d[e[t]]]=d[e[s]];break;end;d[e[l]][d[e[t]]]=d[e[s]];n=n+1;e=k[n];until true;else d[e[l]][d[e[t]]]=d[e[s]];end end end break;end;d[e[l]]=d[e[t]];until true;else d[e[l]]=d[e[t]];end else if f>45 then d[e[l]]=u(p[e[t]],nil,_);else local f,r,h;d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d[e[l]]={};n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l];r=d[f]h=d[f+2];if(h>0)then if(r>d[f+1])then n=e[t];else d[f+3]=r;end elseif(r<d[f+1])then n=e[t];else d[f+3]=r;end end end else if f<=48 then if 44~=f then repeat if f~=47 then local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);break;end;if(d[e[l]]==e[s])then n=n+1;else n=e[t];end;until true;else if(d[e[l]]==e[s])then n=n+1;else n=e[t];end;end else if f>49 then if 47<f then for s=30,63 do if 51~=f then local l=e[l];local k=d[l]local s=d[l+2];if(s>0)then if(k>d[l+1])then n=e[t];else d[l+3]=k;end elseif(k<d[l+1])then n=e[t];else d[l+3]=k;end break;end;for s=0,1 do if-2~=s then repeat if s<1 then d(e[l],e[t]);n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];until true;else d(e[l],e[t]);n=n+1;e=k[n];end end break;end;else for s=0,1 do if-2~=s then repeat if s<1 then d(e[l],e[t]);n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];until true;else d(e[l],e[t]);n=n+1;e=k[n];end end end else do return d[e[l]]end end end end else if f<=38 then if f<=36 then if f~=36 then d[e[l]]=c[e[t]];else c[e[t]]=d[e[l]];end else if f>=36 then repeat if f~=37 then d[e[l]]=_[e[t]];break;end;local o=p[e[t]];local r;local f={};r=h.yedClElb({},{__index=function(n,e)local e=f[e];return e[1][e[2]];end,__newindex=function(d,e,n)local e=f[e]e[1][e[2]]=n;end;});for l=1,e[s]do n=n+1;local e=k[n];if e[m]==24 then f[l-1]={d,e[t]};else f[l-1]={c,e[t]};end;a[#a+1]=f;end;d[e[l]]=u(o,r,_);until true;else local o=p[e[t]];local r;local f={};r=h.yedClElb({},{__index=function(n,e)local e=f[e];return e[1][e[2]];end,__newindex=function(d,e,n)local e=f[e]e[1][e[2]]=n;end;});for l=1,e[s]do n=n+1;local e=k[n];if e[m]==24 then f[l-1]={d,e[t]};else f[l-1]={c,e[t]};end;a[#a+1]=f;end;d[e[l]]=u(o,r,_);end end else if f<=40 then if 39==f then d(e[l],e[t]);else d[e[l]]=d[e[t]]%e[s];end else if f<42 then local r;for f=0,6 do if f>2 then if 5<=f then if 6==f then d[e[l]]=c[e[t]];else r=e[l]d[r](d[r+1])n=n+1;e=k[n];end else if f>0 then for s=29,80 do if 3~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end end else if 1>f then d[e[l]][e[t]]=e[s];n=n+1;e=k[n];else if 2~=f then d[e[l]]=c[e[t]];n=n+1;e=k[n];else d[e[l]][e[t]]=e[s];n=n+1;e=k[n];end end end end else local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];end end end end else if f>=61 then if 64<f then if 66<f then if f>=68 then if 67<f then for r=47,87 do if 68<f then for s=0,1 do if-2~=s then repeat if 0~=s then if d[e[l]]then n=n+1;else n=e[t];end;break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];until true;else if d[e[l]]then n=n+1;else n=e[t];end;end end break;end;d[e[l]]=d[e[t]][e[s]];break;end;else for s=0,1 do if-2~=s then repeat if 0~=s then if d[e[l]]then n=n+1;else n=e[t];end;break;end;d[e[l]]=_[e[t]];n=n+1;e=k[n];until true;else if d[e[l]]then n=n+1;else n=e[t];end;end end end else d[e[l]]=(e[t]~=0);end else if 62<=f then repeat if f~=66 then local b,h,c,a,o,u,f;d(e[l],e[t]);n=n+1;e=k[n];b=e[l]d[b]=d[b](r(d,b+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];f=0;while f>-1 do if 3<=f then if f<=4 then if f>=0 then repeat if 4~=f then o=h[a];break;end;u=h[c];until true;else o=h[a];end else if f>=3 then repeat if 5~=f then f=-2;break;end;d(u,o);until true;else f=-2;end end else if f>0 then if 2~=f then c=l;else a=t;end else h=e;end end f=f+1 end n=n+1;e=k[n];f=0;while f>-1 do if f<3 then if 1>f then h=e;else if-1<f then repeat if 2~=f then c=l;break;end;a=t;until true;else c=l;end end else if 5>f then if f<4 then o=h[a];else u=h[c];end else if f~=2 then for e=39,60 do if 6~=f then d(u,o);break;end;f=-2;break;end;else d(u,o);end end end f=f+1 end break;end;local n=e[l]d[n]=d[n](r(d,n+1,e[t]))until true;else local b,h,u,c,o,a,f;d(e[l],e[t]);n=n+1;e=k[n];b=e[l]d[b]=d[b](r(d,b+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];f=0;while f>-1 do if 3<=f then if f<=4 then if f>=0 then repeat if 4~=f then o=h[c];break;end;a=h[u];until true;else o=h[c];end else if f>=3 then repeat if 5~=f then f=-2;break;end;d(a,o);until true;else f=-2;end end else if f>0 then if 2~=f then u=l;else c=t;end else h=e;end end f=f+1 end n=n+1;e=k[n];f=0;while f>-1 do if f<3 then if 1>f then h=e;else if-1<f then repeat if 2~=f then u=l;break;end;c=t;until true;else u=l;end end else if 5>f then if f<4 then o=h[c];else a=h[u];end else if f~=2 then for e=39,60 do if 6~=f then d(a,o);break;end;f=-2;break;end;else d(a,o);end end end f=f+1 end end end else if 63>f then if 60<f then for _=26,81 do if 62>f then local s,c,o,f,h,_;for u=0,1 do if u==0 then s=e[l]d[s](r(d,s+1,e[t]))n=n+1;e=k[n];else s=e[l];c={};for e=1,#a do o=a[e];for e=0,#o do f=o[e];h=f[1];_=f[2];if h==d and _>=s then c[_]=h[_];f[1]=c;end;end;end;end end break;end;local _;for f=0,6 do if 2>=f then if 0>=f then d(e[l],e[t]);n=n+1;e=k[n];else if 0<f then repeat if f<2 then d(e[l],e[t]);n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];until true;else d(e[l],e[t]);n=n+1;e=k[n];end end else if f<=4 then if 2~=f then for h=23,76 do if f>3 then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;_=e[l]d[_]=d[_](r(d,_+1,e[t]))n=n+1;e=k[n];break;end;else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end else if f>1 then for _=10,97 do if f~=6 then d[e[l]][e[t]]=e[s];n=n+1;e=k[n];break;end;d[e[l]][e[t]]=d[e[s]];break;end;else d[e[l]][e[t]]=d[e[s]];end end end end break;end;else local s,o,c,f,h,_;for u=0,1 do if u==0 then s=e[l]d[s](r(d,s+1,e[t]))n=n+1;e=k[n];else s=e[l];o={};for e=1,#a do c=a[e];for e=0,#c do f=c[e];h=f[1];_=f[2];if h==d and _>=s then o[_]=h[_];f[1]=o;end;end;end;end end end else if 60<f then for h=35,72 do if 64~=f then for e=e[l],e[t]do d[e]=nil;end;break;end;local f;f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];break;end;else for e=e[l],e[t]do d[e]=nil;end;end end end else if 56>f then if 54<=f then if 54==f then do return d[e[l]]end else c[e[t]]=d[e[l]];end else if f>=50 then repeat if 52~=f then _[e[t]]=d[e[l]];break;end;for e=e[l],e[t]do d[e]=nil;end;until true;else _[e[t]]=d[e[l]];end end else if f<58 then if f~=52 then repeat if 56~=f then local _;for f=0,6 do if f>2 then if f<5 then if f>2 then for s=35,75 do if 4~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;_=e[l]d[_]=d[_](r(d,_+1,e[t]))n=n+1;e=k[n];break;end;else _=e[l]d[_]=d[_](r(d,_+1,e[t]))n=n+1;e=k[n];end else if 2<f then for _=19,98 do if 5~=f then d[e[l]][e[t]]=e[s];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else d[e[l]][e[t]]=e[s];end end else if 1>f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else if-3~=f then for s=43,75 do if 2~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];break;end;else d(e[l],e[t]);n=n+1;e=k[n];end end end end break;end;local f;f=e[l]d[f](d[f+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];until true;else local _;for f=0,6 do if f>2 then if f<5 then if f>2 then for s=35,75 do if 4~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;_=e[l]d[_]=d[_](r(d,_+1,e[t]))n=n+1;e=k[n];break;end;else _=e[l]d[_]=d[_](r(d,_+1,e[t]))n=n+1;e=k[n];end else if 2<f then for _=19,98 do if 5~=f then d[e[l]][e[t]]=e[s];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else d[e[l]][e[t]]=e[s];end end else if 1>f then d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];else if-3~=f then for s=43,75 do if 2~=f then d(e[l],e[t]);n=n+1;e=k[n];break;end;d(e[l],e[t]);n=n+1;e=k[n];break;end;else d(e[l],e[t]);n=n+1;e=k[n];end end end end end else if 58>=f then local f;d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);else if f~=56 then repeat if 59<f then local _;for f=0,6 do if 2>=f then if f<1 then d(e[l],e[t]);n=n+1;e=k[n];else if f==2 then d(e[l],e[t]);n=n+1;e=k[n];else d(e[l],e[t]);n=n+1;e=k[n];end end else if 4<f then if 6~=f then d[e[l]][e[t]]=e[s];n=n+1;e=k[n];else d[e[l]][e[t]]=e[s];end else if 3~=f then d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];else _=e[l]d[_]=d[_](r(d,_+1,e[t]))n=n+1;e=k[n];end end end end break;end;d[e[l]]();until true;else d[e[l]]();end end end end end end else if f>16 then if f>25 then if 30>f then if 27<f then if f>27 then repeat if f>28 then local f;for h=0,6 do if 2>=h then if 1<=h then if h>-1 then for f=10,94 do if h~=1 then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end else if 5>h then if 4==h then d(e[l],e[t]);n=n+1;e=k[n];else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end else if 2<h then repeat if 5~=h then d[e[l]]=_[e[t]];break;end;f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];until true;else f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];end end end end break;end;local f;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];d(e[l],e[t]);n=n+1;e=k[n];d(e[l],e[t]);until true;else local f;for h=0,6 do if 2>=h then if 1<=h then if h>-1 then for f=10,94 do if h~=1 then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];break;end;else d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];end else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end else if 5>h then if 4==h then d(e[l],e[t]);n=n+1;e=k[n];else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end else if 2<h then repeat if 5~=h then d[e[l]]=_[e[t]];break;end;f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];until true;else f=e[l]d[f]=d[f](d[f+1])n=n+1;e=k[n];end end end end end else if f>=23 then for n=48,63 do if 26~=f then local e=e[l];local n=d[e];for e=e+1,o do h.yZlMrJIR(n,d[e])end;break;end;local e=e[l];o=e+y-1;for n=e,o do local e=b[n-e];d[n]=e;end;break;end;else local e=e[l];local n=d[e];for e=e+1,o do h.yZlMrJIR(n,d[e])end;end end else if 32>f then if 30==f then d[e[l]]=_[e[t]];else local e=e[l];local n=d[e];for e=e+1,o do h.yZlMrJIR(n,d[e])end;end else if f>=33 then if f>=32 then for _=10,84 do if f<34 then local f;for _=0,4 do if _>=2 then if _<3 then d(e[l],e[t]);n=n+1;e=k[n];else if _>1 then for h=34,90 do if 4~=_ then f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];break;end;if(d[e[l]]~=e[s])then n=n+1;else n=e[t];end;break;end;else f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];end end else if 0~=_ then d(e[l],e[t]);n=n+1;e=k[n];else d[e[l]]=d[e[t]];n=n+1;e=k[n];end end end break;end;d[e[l]]={};break;end;else d[e[l]]={};end else local n=e[l]d[n](r(d,n+1,e[t]))end end end else if f<21 then if 18<f then if 20>f then local f;f=e[l]d[f]=d[f](r(d,f+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];else if d[e[l]]then n=n+1;else n=e[t];end;end else if f~=14 then repeat if f~=17 then local s;for f=0,6 do if 2>=f then if 1<=f then if f>=-1 then repeat if 1<f then d[e[l]]=c[e[t]];n=n+1;e=k[n];break;end;d[e[l]]=c[e[t]];n=n+1;e=k[n];until true;else d[e[l]]=c[e[t]];n=n+1;e=k[n];end else d[e[l]]=c[e[t]];n=n+1;e=k[n];end else if f<5 then if 3==f then d[e[l]]=d[e[t]];n=n+1;e=k[n];else d[e[l]]=d[e[t]];n=n+1;e=k[n];end else if f>=3 then for _=10,59 do if f~=6 then d[e[l]]=d[e[t]];n=n+1;e=k[n];break;end;s=e[l]d[s]=d[s](r(d,s+1,e[t]))break;end;else s=e[l]d[s]=d[s](r(d,s+1,e[t]))end end end end break;end;d[e[l]]={};until true;else d[e[l]]={};end end else if 22>=f then if f>17 then for n=20,81 do if 21<f then do return end;break;end;d[e[l]]=d[e[t]][e[s]];break;end;else do return end;end else if f>=24 then if f~=22 then for n=30,74 do if 25~=f then local k,h,r,s,_,f;local n=0;while n>-1 do if 3>=n then if 2<=n then if-2<n then repeat if 2~=n then s=d;break;end;r=t;until true;else s=d;end else if-4<n then repeat if 0~=n then h=l;break;end;k=e;until true;else k=e;end end else if n<=5 then if 5~=n then _=s[k[r]];else f=k[h];end else if n~=7 then d[f]=_;else n=-2;end end end n=n+1 end break;end;d[e[l]]=#d[e[t]];break;end;else local k,f,h,s,r,_;local n=0;while n>-1 do if 3>=n then if 2<=n then if-2<n then repeat if 2~=n then s=d;break;end;h=t;until true;else s=d;end else if-4<n then repeat if 0~=n then f=l;break;end;k=e;until true;else k=e;end end else if n<=5 then if 5~=n then r=s[k[h]];else _=k[f];end else if n~=7 then d[_]=r;else n=-2;end end end n=n+1 end end else local r;for f=0,6 do if 3>f then if 1>f then d[e[l]]=_[e[t]];n=n+1;e=k[n];else if-1<=f then repeat if 1<f then d(e[l],e[t]);n=n+1;e=k[n];break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];until true;else d(e[l],e[t]);n=n+1;e=k[n];end end else if f<5 then if f>1 then for s=38,56 do if 3~=f then d[e[l]]=_[e[t]];n=n+1;e=k[n];break;end;r=e[l]d[r]=d[r](d[r+1])n=n+1;e=k[n];break;end;else d[e[l]]=_[e[t]];n=n+1;e=k[n];end else if f>4 then for _=41,59 do if f~=5 then d(e[l],e[t]);break;end;d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];break;end;else d(e[l],e[t]);end end end end end end end end else if f<=7 then if f>=4 then if 6>f then if f>=3 then for r=13,56 do if 4<f then local r,b,h,a,u,f,o;d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]]=c[e[t]];n=n+1;e=k[n];d[e[l]][e[t]]=e[s];n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];f=0;while f>-1 do if 3>f then if 0<f then if f>0 then for e=48,62 do if 1<f then h=t;break;end;b=l;break;end;else h=t;end else r=e;end else if f>=5 then if f~=5 then f=-2;else d(u,a);end else if f>=2 then repeat if 4~=f then a=r[h];break;end;u=r[b];until true;else a=r[h];end end end f=f+1 end n=n+1;e=k[n];o=e[l]d[o](d[o+1])n=n+1;e=k[n];d[e[l]]=c[e[t]];break;end;local k=e[l];local l={};for e=1,#a do local e=a[e];for n=0,#e do local n=e[n];local t=n[1];local e=n[2];if t==d and e>=k then l[e]=t[e];n[1]=l;end;end;end;break;end;else local k=e[l];local t={};for e=1,#a do local e=a[e];for n=0,#e do local e=e[n];local l=e[1];local n=e[2];if l==d and n>=k then t[n]=l[n];e[1]=t;end;end;end;end else if 3<f then for n=38,86 do if 6~=f then d[e[l]]=(e[t]~=0);break;end;local e=e[l]d[e]=d[e](d[e+1])break;end;else local e=e[l]d[e]=d[e](d[e+1])end end else if 2>f then if f>-1 then repeat if 1>f then if(d[e[l]]==e[s])then n=n+1;else n=e[t];end;break;end;d[e[l]][e[t]]=d[e[s]];until true;else d[e[l]][e[t]]=d[e[s]];end else if f~=1 then repeat if f~=2 then local l=e[l];local s=d[l+2];local k=d[l]+s;d[l]=k;if(s>0)then if(k<=d[l+1])then n=e[t];d[l+3]=k;end elseif(k>=d[l+1])then n=e[t];d[l+3]=k;end break;end;if(e[l]<d[e[s]])then n=n+1;else n=e[t];end;until true;else local l=e[l];local s=d[l+2];local k=d[l]+s;d[l]=k;if(s>0)then if(k<=d[l+1])then n=e[t];d[l+3]=k;end elseif(k>=d[l+1])then n=e[t];d[l+3]=k;end end end end else if 12>f then if 10<=f then if f>7 then repeat if f~=10 then d[e[l]]=d[e[t]][d[e[s]]];break;end;local _,f;for r=0,1 do if 0~=r then _=e[l];f=d[e[t]];d[_+1]=f;d[_]=f[e[s]];else d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];end end until true;else d[e[l]]=d[e[t]][d[e[s]]];end else if 5<f then repeat if 9~=f then local t,s,f;for _=0,1 do if 1==_ then t=e[l];f=d[t];for e=t+1,o do h.yZlMrJIR(f,d[e])end;else t=e[l];o=t+y-1;for e=t,o do s=b[e-t];d[e]=s;end;n=n+1;e=k[n];end end break;end;d[e[l]]=(e[t]~=0);n=n+1;until true;else local t,s,f;for _=0,1 do if 1==_ then t=e[l];f=d[t];for e=t+1,o do h.yZlMrJIR(f,d[e])end;else t=e[l];o=t+y-1;for e=t,o do s=b[e-t];d[e]=s;end;n=n+1;e=k[n];end end end end else if 14>f then if 9<=f then repeat if 13>f then d[e[l]]();break;end;local h,a,o,u,b,c,f;h=e[l]d[h]=d[h](d[h+1])n=n+1;e=k[n];d[e[l]]=_[e[t]];n=n+1;e=k[n];d[e[l]]=d[e[t]][e[s]];n=n+1;e=k[n];f=0;while f>-1 do if f<3 then if f>0 then if f>=-1 then for e=19,60 do if f~=2 then o=l;break;end;u=t;break;end;else o=l;end else a=e;end else if 4<f then if f~=6 then d(c,b);else f=-2;end else if f~=-1 then repeat if f~=4 then b=a[u];break;end;c=a[o];until true;else c=a[o];end end end f=f+1 end n=n+1;e=k[n];f=0;while f>-1 do if 2<f then if 5<=f then if 2~=f then for e=47,60 do if 5~=f then f=-2;break;end;d(c,b);break;end;else f=-2;end else if 4>f then b=a[u];else c=a[o];end end else if 0<f then if 0~=f then repeat if f<2 then o=l;break;end;u=t;until true;else o=l;end else a=e;end end f=f+1 end n=n+1;e=k[n];h=e[l]d[h]=d[h](r(d,h+1,e[t]))n=n+1;e=k[n];d[e[l]][e[t]]=d[e[s]];until true;else d[e[l]]();end else if f<15 then local r,_;for f=0,4 do if f<2 then if f==0 then d[e[l]]=c[e[t]];n=n+1;e=k[n];else d[e[l]]=d[e[t]]+d[e[s]];n=n+1;e=k[n];end else if 3<=f then if 1<=f then repeat if 3<f then r=e[t];_=d[r]for e=r+1,e[s]do _=_..d[e];end;d[e[l]]=_;break;end;d[e[l]]=d[e[t]][d[e[s]]];n=n+1;e=k[n];until true;else d[e[l]]=d[e[t]][d[e[s]]];n=n+1;e=k[n];end else d[e[l]]=d[e[t]]%e[s];n=n+1;e=k[n];end end end else if f>12 then for n=33,93 do if f>15 then d[e[l]]=d[e[t]]+d[e[s]];break;end;local l=e[l];local n=d[e[t]];d[l+1]=n;d[l]=n[e[s]];break;end;else local l=e[l];local n=d[e[t]];d[l+1]=n;d[l]=n[e[s]];end end end end end end end end n=1+n;end;end;return de end;local t=0xff;local s={};local k=(1);local l='';(function(n)local d=n local f=0x00 local e=0x00 d={(function(l)if f>0x21 then return l end f=f+1 e=(e+0x853-l)%0x23 return(e%0x03==0x0 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x7a);end return true end)'z_VFS'and d[0x3](0x150+l))or(e%0x03==0x1 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xd1);end return true end)'fFGCL'and d[0x1](l+0x99))or(e%0x03==0x2 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x11);end return true end)'_IMrp'and d[0x2](l+0xbd))or l end),(function(_)if f>0x1f then return _ end f=f+1 e=(e+0xa98-_)%0x41 return(e%0x03==0x1 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x13);l='\37';t={function()t()end};l=l..'\100\43';end return true end)'hsOlS'and d[0x3](0x1ae+_))or(e%0x03==0x0 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x8);s[k]=te();k=k+t;end return true end)'Wchv_'and d[0x1](_+0x2f0))or(e%0x03==0x2 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x83);t[2]=(t[2]*(ne(function()s()end,r(l))-ne(t[1],r(l))))+1;s[k]={};t=t[2];k=k+t;end return true end)'ebDLg'and d[0x2](_+0xc0))or _ end),(function(_)if f>0x1f then return _ end f=f+1 e=(e+0xc6e-_)%0xb return(e%0x03==0x0 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x2d);end return true end)'_HLPq'and d[0x1](0x1da+_))or(e%0x03==0x1 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xe8);l={l..'\58 a',l};s[k]=de();k=k+((not h.rZBI_xeS)and 1 or 0);l[1]='\58'..l[1];t[2]=0xff;end return true end)'VPPao'and d[0x2](_+0x1de))or(e%0x03==0x2 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xf6);end return true end)'SmHIM'and d[0x3](_+0x190))or _ end)}d[0x2](0x15b7)end){};local e=u(r(s));s[2]={};s[1]=e(s[1])YIIMJJULTcLEhCt=nil;e=u(r(s))return e(...);end return le((function()local n={}local e=0x01;local d;if h.rZBI_xeS then d=h.rZBI_xeS(le)else d=''end if h.CmAWdpbb(d,h.stlJhiFu)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(d,e,n,t,l,k)local k;if 3<d then if d>=6 then if 7<=d then if d>4 then repeat if d~=8 then do return setmetatable({},{['__\99\97\108\108']=function(e,l,d,t,n)if n then return e[n]elseif t then return e else e[l]=d end end})end break;end;do return n(d,nil,n);end until true;else do return setmetatable({},{['__\99\97\108\108']=function(e,d,l,t,n)if n then return e[n]elseif t then return e else e[d]=l end end})end end else do return l[n]end;end else if d==4 then local d=t;local s,f,t=l(2);do return function()local k,l,n,e=e(n,d(d,d),d(d,d)+3);d(4);return(e*s)+(n*f)+(l*t)+k;end;end;else local d=t;do return function()local e=e(n,d(d,d),d(d,d));d(1);return e;end;end;end end else if 2<=d then if d~=1 then repeat if 2<d then do return e(1),e(4,l,t,n,e),e(5,l,t,n)end;break;end;do return 16777216,65536,256 end;until true;else do return e(1),e(4,l,t,n,e),e(5,l,t,n)end;end else if d>-4 then for k=17,64 do if d>0 then do return function(n,e,d)if d then local e=(n/2^(e-1))%2^((d-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;break;end;do return e(1),e(4,l,t,n,e),e(5,l,t,n)end;break;end;else do return e(1),e(4,l,t,n,e),e(5,l,t,n)end;end end end end),...)
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/vilantvisuals/vilantui2/refs/heads/main/Sylith'))()
+local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/addons/SaveManager.lua'))()
+
+local Window = Library:CreateWindow({
+
+    Title = '   Sylith  |  .gg/sylith  |  sylith.vercel.app', -- grap3 was here
+    Center = true,
+    AutoShow = true,
+    TabPadding = 8,
+    MenuFadeTime = 0.7
+})
+
+local Tabs = {
+    Main = Window:AddTab('Main'),
+    Player = Window:AddTab('Player'),
+    Visuals = Window:AddTab('Visuals'),
+    ['Settings'] = Window:AddTab('Settings'),
+}
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local Camera = workspace.CurrentCamera
+local HttpService = game:GetService("HttpService")
+local MarketplaceService = game:GetService("MarketplaceService")
+local Mouse = LocalPlayer:GetMouse()
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+local MainEvent = ReplicatedStorage:WaitForChild("MainEvent")
+local debris = game:GetService("Debris")
+local CollectionService = game:GetService("CollectionService")
+local StarterGui = game:GetService("StarterGui")
+local TweenService = game:GetService("TweenService")
+
+CamlockTab = Tabs.Main:AddLeftGroupbox('Lock')
+
+local camLockEnabled = false
+local camLockTarget = nil
+local camLockUseSmoothness = true
+local camLockSmoothness = 1
+local camLockHitPart = "Head"
+
+local camLockUseOffset = false
+local camLockOffsetX = 0
+local camLockOffsetY = 0
+
+CamlockTab:AddToggle('CamLockToggle', {
+    Text = 'Camlock',
+    Default = false,
+    Callback = function(state)
+        camLockEnabled = state
+        if not state then
+            camLockTarget = nil
+        end
+    end,
+}):AddKeyPicker('CamLockKeybind', {
+    Default = '',
+    Text = 'CamLock',
+    Mode = 'Toggle',
+    Callback = function()
+        if UserInputService:GetFocusedTextBox() then return end
+        if not camLockEnabled then return end
+
+        if camLockTarget then
+            camLockTarget = nil
+        else
+            local closestPlayer = nil
+            local closestDistance = math.huge
+            local mousePos = UserInputService:GetMouseLocation()
+
+            for _, Player in pairs(Players:GetPlayers()) do
+                if Player == LocalPlayer then continue end
+                local character = Player.Character
+                if character then
+                    local part = character:FindFirstChild(camLockHitPart)
+                    if part then
+                        local screenPos, onScreen = Camera:WorldToViewportPoint(part.Position)
+                        if onScreen then
+                            local distance = (Vector2.new(mousePos.X, mousePos.Y) - Vector2.new(screenPos.X, screenPos.Y)).Magnitude
+                            if distance < closestDistance then
+                                closestDistance = distance
+                                closestPlayer = Player
+                            end
+                        end
+                    end
+                end
+            end
+
+            camLockTarget = closestPlayer
+        end
+    end,
+})
+
+CamlockTab:AddDropdown("CamLockHitPartDropdown", {
+    Values = { "Head", "UpperTorso", "LowerTorso", "HumanoidRootPart" },
+    Default = 1,
+    Multi = false,
+    Text = "Target HitPart",
+    Callback = function(value)
+        camLockHitPart = value
+    end
+})
+
+CamlockTab:AddToggle("CamLockSmoothToggle", {
+    Text = "Smoothness",
+    Default = false,
+    Callback = function(state)
+        camLockUseSmoothness = state
+    end
+})
+
+CamlockTab:AddSlider("CamLockSmoothnessSlider", {
+    Text = "Smooth",
+    Min = 0,
+    Max = 1,
+    Default = 1,
+    Rounding = 2,
+    Compact = false,
+    Callback = function(value)
+        camLockSmoothness = value
+    end
+})
+
+CamlockTab:AddToggle("CamLockOffsetToggle", {
+    Text = "Offset",
+    Default = false,
+    Callback = function(state)
+        camLockUseOffset = state
+    end
+})
+
+CamlockTab:AddSlider("CamLockOffsetX", {
+    Text = "Offset X",
+    Min = -10,
+    Max = 10,
+    Default = 0,
+    Rounding = 1,
+    Compact = false,
+    Callback = function(value)
+        camLockOffsetX = value
+    end
+})
+
+CamlockTab:AddSlider("CamLockOffsetY", {
+    Text = "Offset Y",
+    Min = -10,
+    Max = 10,
+    Default = 0,
+    Rounding = 1,
+    Compact = false,
+    Callback = function(value)
+        camLockOffsetY = value
+    end
+})
+
+RunService.RenderStepped:Connect(function()
+    if camLockEnabled and camLockTarget then
+        local character = camLockTarget.Character
+        if character then
+            local targetPart = character:FindFirstChild(camLockHitPart)
+            if targetPart then
+                local camera = workspace.CurrentCamera
+                local camPos = camera.CFrame.Position
+                local targetPos = targetPart.Position
+
+                if camLockUseOffset then
+                    local camRight = camera.CFrame.RightVector
+                    local camUp = camera.CFrame.UpVector
+                    targetPos = targetPos + (camRight * camLockOffsetX) + (camUp * camLockOffsetY)
+                end
+
+                local direction = (targetPos - camPos).Unit
+
+                if camLockUseSmoothness then
+                    local smoothedDirection = camera.CFrame.LookVector:Lerp(direction, camLockSmoothness)
+                    camera.CFrame = CFrame.new(camPos, camPos + smoothedDirection)
+                else
+                    camera.CFrame = CFrame.new(camPos, camPos + direction)
+                end
+            end
+        end
+    end
+end)
+
+local LeftGroupbox = Tabs.Main:AddLeftGroupbox('Triggerbot')
+
+local lp = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait() and Players.LocalPlayer
+local mouse = lp:GetMouse()
+
+local EnumKeyCode = Enum.KeyCode
+local EnumUserInputType = Enum.UserInputType
+
+local Script = {
+    Functions = {},
+    Table = {
+        Start = {
+            TriggerBot = {
+                Keybind = "",
+                Delay = 0.1,
+                Blacklisted = {}
+            }
+        }
+    },
+    Connections = {}
+}
+
+Script.Functions.isDead = function(player)
+    local character = player.Character
+    if not character then return false end
+
+    local bodyEffects = character:FindFirstChild("BodyEffects")
+    if not bodyEffects then return false end
+
+    local ko = bodyEffects:FindFirstChild("K.O") or bodyEffects:FindFirstChild("KO")
+    return ko and ko.Value or false
+end
+
+Script.Functions.getTarget = function(instance)
+    if not instance then return false end
+
+    for _, player in next, Players:GetPlayers() do
+        if player.Character and instance:IsDescendantOf(player.Character) then
+            if not Script.Functions.isDead(player) then
+                return player
+            end
+        end
+    end
+
+    return false
+end
+
+Script.Functions.isToolBlacklisted = function(tool)
+    for _, toolName in ipairs(Script.Table.Start.TriggerBot.Blacklisted) do
+        if tool.Name == toolName then
+            return true
+        end
+    end
+    return false
+end
+
+local JAIROUGH = false
+local hotkeyEnabled = false
+local highlightEnabled = false
+local lastHoveredPlayer = nil
+
+Script.Functions.updateDelay = function(Value)
+    Script.Table.Start.TriggerBot.Delay = Value
+end
+
+Script.Functions.onKeyPress = function(input, gameProcessed)
+    if gameProcessed then return end
+
+    if hotkeyEnabled and input.UserInputType == EnumUserInputType.Keyboard and input.KeyCode == Enum.KeyCode[Script.Table.Start.TriggerBot.Keybind] then
+        JAIROUGH = not JAIROUGH
+    end
+end
+
+Script.Functions.updateKeybind = function(NewKey)
+    Script.Table.Start.TriggerBot.Keybind = NewKey.Name
+end
+
+UserInputService.InputBegan:Connect(Script.Functions.onKeyPress)
+
+Script.Functions.highlightTarget = function(targetPlayer)
+    if highlightEnabled and JAIROUGH then
+        if lastHoveredPlayer and lastHoveredPlayer ~= targetPlayer then
+            local oldCharacter = lastHoveredPlayer.Character
+            if oldCharacter then
+                local highlight = oldCharacter:FindFirstChild("ChamHighlight")
+                if highlight then
+                    highlight:Destroy()
+                end
+            end
+        end
+
+        if targetPlayer and targetPlayer.Character then
+            local character = targetPlayer.Character
+            if not character:FindFirstChild("ChamHighlight") then
+                local highlight = Instance.new("Highlight")
+                highlight.Name = "ChamHighlight"
+                highlight.Parent = character
+                highlight.Adornee = character
+                highlight.FillColor = Color3.fromRGB(255, 0, 0)  
+                highlight.FillTransparency = 0.5
+                highlight.OutlineTransparency = 1
+            end
+            lastHoveredPlayer = targetPlayer  
+        end
+    else
+        if lastHoveredPlayer and lastHoveredPlayer.Character then
+            local highlight = lastHoveredPlayer.Character:FindFirstChild("ChamHighlight")
+            if highlight then
+                highlight:Destroy()
+            end
+        end
+    end
+end
+
+Script.Functions.triggerBot = function()
+    local con
+    con = RunService.Heartbeat:Connect(function()
+        if JAIROUGH then
+            local target = mouse.Target
+            local targetPlayer = Script.Functions.getTarget(target)
+            Script.Functions.highlightTarget(targetPlayer)
+
+            if targetPlayer and lp.Character then
+                local tool = lp.Character:FindFirstChildWhichIsA('Tool')
+                if tool and not Script.Functions.isToolBlacklisted(tool) then
+                    task.wait(Script.Table.Start.TriggerBot.Delay)
+                    tool:Activate()
+                end
+            end
+        end
+    end)
+
+    Script.Connections.triggerBot = con
+end
+
+Script.Functions.triggerBot()
+
+getgenv().disable = function()
+    getgenv().disable = nil
+    if Script.Connections.triggerBot then
+        Script.Connections.triggerBot:Disconnect()
+    end
+end
+
+LeftGroupbox:AddToggle('EnableTriggerBot', {
+    Text = 'Triggerbot',
+    Default = false,
+    Tooltip = 'Enable or Disable the hotkey for TriggerBot',
+    Callback = function(Value)
+        hotkeyEnabled = Value
+        
+        if not hotkeyEnabled then
+            JAIROUGH = false
+        end
+    end
+}):AddKeyPicker('KeyPicker', {
+    Default = Script.Table.Start.TriggerBot.Keybind,
+    SyncToggleState = false,
+    Mode = 'Toggle',
+    Text = '',
+    NoUI = false,
+    ChangedCallback = function(New)
+        Script.Functions.updateKeybind(New)
+    end
+})
+
+LeftGroupbox:AddToggle('HighlightToggle', {
+    Text = 'Highlight',
+    Default = false,
+    Tooltip = 'Player highlight when triggerbot is active',
+    Callback = function(Value)
+        highlightEnabled = Value
+    end
+})
+
+LeftGroupbox:AddSlider('DelaySlider', {
+    Text = 'Cooldown',
+    Default = Script.Table.Start.TriggerBot.Delay,
+    Min = 0,
+    Max = 1,
+    Rounding = 3,
+    Compact = false,
+    Callback = function(Value)
+        Script.Functions.updateDelay(Value)
+    end
+})
+
+RunService.Heartbeat:Connect(function()
+    if highlightEnabled and JAIROUGH then
+        local target = mouse.Target
+        local targetPlayer = Script.Functions.getTarget(target)
+
+        if targetPlayer then
+            Script.Functions.highlightTarget(targetPlayer)
+        elseif lastHoveredPlayer then
+            Script.Functions.highlightTarget(nil)
+        end
+    elseif lastHoveredPlayer then
+        Script.Functions.highlightTarget(nil)
+    end
+end)
+
+jugg = Tabs.Main:AddLeftGroupbox('Silent aim')
+
+local SilentAim = {
+    Enabled = false,
+    HitPart = "Head",
+    FOV = {
+        Visible = false,
+        Transparency = 1,
+        Thickness = 1,
+        Radius = 150,
+        Color = Color3.fromRGB(255, 0, 0),
+        Filled = false,
+        FillTransparency = 0.5
+    }
+}
+
+local FOVCircle = Drawing.new("Circle")
+FOVCircle.Color = SilentAim.FOV.Color
+FOVCircle.Thickness = SilentAim.FOV.Thickness
+FOVCircle.Filled = SilentAim.FOV.Filled
+FOVCircle.Transparency = SilentAim.FOV.Transparency
+FOVCircle.Radius = SilentAim.FOV.Radius
+
+jugg:AddToggle('Enable Silent Aim', {
+    Text = 'Silent Aim',
+    Default = SilentAim.Enabled,
+    Tooltip = 'Toggle Silent Aim on/off',
+    Callback = function(Value)
+        SilentAim.Enabled = Value
+    end
+})
+
+jugg:AddToggle('Enable FOV', {
+    Text = 'Show Fov',
+    Default = SilentAim.FOV.Visible,
+    Tooltip = 'Toggle the visibility of the FOV circle',
+    Callback = function(Value)
+        SilentAim.FOV.Visible = Value
+    end
+}):AddColorPicker('FOVColorPicker', {
+    Default = SilentAim.FOV.Color,
+    Title = 'FOV Color',
+    Tooltip = 'Pick the color for the FOV circle',
+    Callback = function(Value)
+        SilentAim.FOV.Color = Value
+        FOVCircle.Color = Value
+    end
+})
+
+jugg:AddSlider('FOV Size', {
+    Text = 'Size',
+    Default = SilentAim.FOV.Radius,
+    Min = 50,
+    Max = 500,
+    Rounding = 0,
+    Compact = false,
+    Callback = function(Value)
+        SilentAim.FOV.Radius = Value
+    end
+})
+
+jugg:AddToggle('FOV Filled', {
+    Text = 'Filled',
+    Default = SilentAim.FOV.Filled,
+    Tooltip = 'Fill the FOV circle',
+    Callback = function(Value)
+        SilentAim.FOV.Filled = Value
+        FOVCircle.Filled = Value
+    end
+})
+
+jugg:AddSlider('FOV Fill Transparency', {
+    Text = 'Transparency',
+    Default = SilentAim.FOV.FillTransparency,
+    Min = 0,
+    Max = 1,
+    Rounding = 2,
+    Compact = false,
+    Callback = function(Value)
+        SilentAim.FOV.FillTransparency = Value
+        if SilentAim.FOV.Filled then
+            FOVCircle.Transparency = Value
+        end
+    end
+})
+
+jugg:AddDropdown('HitPartDropdown', {
+    Values = {
+        'Head',
+        'HumanoidRootPart',
+        'UpperTorso',
+        'LowerTorso'
+    },
+    Default = 1,
+    Multi = false,
+    Text = 'Hit Part',
+    Tooltip = 'Select the part of the body',
+    Callback = function(Value)
+        SilentAim.HitPart = Value
+    end
+})
+
+local function GetClosestPlayer()
+    local ClosestDistance, ClosestPart = nil, nil
+    local MousePosition = UserInputService:GetMouseLocation()
+    for _, Player in next, Players:GetPlayers() do
+        if Player ~= LocalPlayer and Player.Character then
+            local Character = Player.Character
+            local HitPart = Character:FindFirstChild(SilentAim.HitPart)
+            local Humanoid = Character:FindFirstChild("Humanoid")
+            if HitPart and Humanoid and Humanoid.Health > 0 then
+                local ScreenPosition, Visible = Camera:WorldToScreenPoint(HitPart.Position)
+                if Visible then
+                    local Distance = (MousePosition - Vector2.new(ScreenPosition.X, ScreenPosition.Y)).Magnitude
+                    if Distance <= SilentAim.FOV.Radius and (not ClosestDistance or Distance < ClosestDistance) then
+                        ClosestDistance, ClosestPart = Distance, HitPart
+                    end
+                end
+            end
+        end
+    end
+    return ClosestPart
+end
+
+local success, grm = pcall(getrawmetatable, game)
+
+if success and grm and grm.__index and setreadonly then
+    local index = grm.__index
+    setreadonly(grm, false)
+
+    grm.__index = function(self, Index)
+        if not checkcaller() and self == Mouse and SilentAim.Enabled then
+            if Index == "Hit" or Index == "Target" then
+                local TargetPart = GetClosestPlayer()
+                if TargetPart then
+                    return CFrame.new(TargetPart.Position)
+                end
+            end
+        end
+        return index(self, Index)
+    end
+else
+    warn("[Silent Aim] Metatable hooking not supported on this executor. Silent Aim disabled.")
+end
+
+RunService.RenderStepped:Connect(function()
+    FOVCircle.Visible = SilentAim.FOV.Visible and SilentAim.Enabled
+    FOVCircle.Position = UserInputService:GetMouseLocation()
+    FOVCircle.Radius = SilentAim.FOV.Radius
+    FOVCircle.Filled = SilentAim.FOV.Filled
+    FOVCircle.Color = SilentAim.FOV.Color
+    FOVCircle.Transparency = SilentAim.FOV.Filled and SilentAim.FOV.FillTransparency or SilentAim.FOV.Transparency
+end)
+
+hbe = Tabs.Main:AddRightGroupbox('Hitbox Expander')
+
+getgenv().custom = {
+    hitbox_expander = {
+        Enabled = false,
+        ShowHitboxes = false,
+        XSize = 1,
+        YSize = 1,
+        ZSize = 1,
+        Color = Color3.fromRGB(5, 126, 255),
+        Transparency = 0.3,
+        Material = Enum.Material.ForceField,
+    }
+}
+
+local TrackedPlayers = {}
+
+local function UpdateHitbox(player, enable)
+    if player == LocalPlayer then return end
+    local character = player.Character
+    if character and character:FindFirstChild("HumanoidRootPart") then
+        local hrp = character.HumanoidRootPart
+        if enable then
+            hrp.Size = Vector3.new(custom.hitbox_expander.XSize, custom.hitbox_expander.YSize, custom.hitbox_expander.ZSize)
+            hrp.Transparency = custom.hitbox_expander.ShowHitboxes and custom.hitbox_expander.Transparency or 1
+            hrp.Material = custom.hitbox_expander.Material
+            hrp.CanCollide = false
+            hrp.Color = custom.hitbox_expander.Color
+        else
+            hrp.Size = Vector3.new(2, 2, 1)
+            hrp.Transparency = 1
+            hrp.Material = Enum.Material.SmoothPlastic
+            hrp.CanCollide = true
+        end
+    end
+end
+
+local function TrackPlayers()
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and not TrackedPlayers[player] then
+            TrackedPlayers[player] = player.CharacterAdded:Connect(function(character)
+                if custom.hitbox_expander.Enabled then
+                    UpdateHitbox(player, true)
+                end
+                player.CharacterRemoving:Connect(function()
+                    UpdateHitbox(player, false)
+                end)
+            end)
+        end
+    end
+end
+
+local function ApplyHitboxExpander()
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer then
+            UpdateHitbox(player, custom.hitbox_expander.Enabled)
+        end
+    end
+end
+
+Players.PlayerAdded:Connect(function(player)
+    if player ~= LocalPlayer then
+        TrackPlayers()
+    end
+end)
+
+TrackPlayers()
+
+hbe:AddToggle('ExpandHitboxToggle', {
+    Text = 'Expand',
+    Default = false,
+    Callback = function(Value)
+        custom.hitbox_expander.Enabled = Value
+        ApplyHitboxExpander()
+    end
+}):AddKeyPicker('HitboxKeybind', {
+    Default = '',
+    Mode = 'Toggle',
+    Text = '',
+    NoUI = false,
+    Callback = function(Value)
+        custom.hitbox_expander.Enabled = not custom.hitbox_expander.Enabled
+        ApplyHitboxExpander()
+    end
+})
+
+hbe:AddToggle('ShowHitboxToggle', {
+    Text = 'Show Hitboxes',
+    Default = false,
+    Callback = function(Value)
+        custom.hitbox_expander.ShowHitboxes = Value
+        ApplyHitboxExpander()
+    end
+}):AddKeyPicker('ShowHitboxKeybind', {
+    Default = '',
+    Mode = 'Toggle',
+    Text = '',
+    NoUI = false,
+    Callback = function(Value)
+        custom.hitbox_expander.ShowHitboxes = not custom.hitbox_expander.ShowHitboxes
+        ApplyHitboxExpander()
+    end
+})
+
+hbe:AddSlider('XSizeSlider', {
+    Text = 'size-X',
+    Default = 1,
+    Min = 1,
+    Max = 30,
+    Rounding = 1,
+    Callback = function(Value)
+        custom.hitbox_expander.XSize = Value
+        ApplyHitboxExpander()
+    end
+})
+
+hbe:AddSlider('YSizeSlider', {
+    Text = 'size-Y',
+    Default = 1,
+    Min = 1,
+    Max = 30,
+    Rounding = 1,
+    Callback = function(Value)
+        custom.hitbox_expander.YSize = Value
+        ApplyHitboxExpander()
+    end
+})
+
+hbe:AddSlider('ZSizeSlider', {
+    Text = 'size-Z',
+    Default = 1,
+    Min = 1,
+    Max = 30,
+    Rounding = 1,
+    Callback = function(Value)
+        custom.hitbox_expander.ZSize = Value
+        ApplyHitboxExpander()
+    end
+})
+
+hbe:AddSlider('TransparencySlider', {
+    Text = 'Transparency',
+    Default = 0.3,
+    Min = 0,
+    Max = 1,
+    Rounding = 2,
+    Callback = function(Value)
+        custom.hitbox_expander.Transparency = Value
+        ApplyHitboxExpander()
+    end
+})
+
+hbe:AddDropdown('MaterialDropdown', {
+    Text = 'Material',
+    Default = 'ForceField',
+    Values = {
+        'ForceField',
+        'SmoothPlastic',
+        'Glass',
+        'Brick',
+        'Wood',
+        'Plastic',
+        'Metal',
+        'Slate',
+        'DiamondPlate',
+        'Neon'
+    },
+    Callback = function(Value)
+        custom.hitbox_expander.Material = Enum.Material[Value]
+        ApplyHitboxExpander()
+    end
+})
+
+local KillAura = Tabs.Main:AddRightGroupbox('Kill Aura')
+
+KillAura:AddToggle('MyToggle', {
+    Text = 'Kill Aura',
+    Default = false,
+    Tooltip = 'Kills everyone in your way',
+    Callback = function(Value)
+        if Value then
+            player = game:GetService("Players").LocalPlayer
+            runService = game:GetService("RunService")
+            workspace = game:GetService("Workspace")
+            range = 200
+            killAuraEnabled = true
+            local lastTarget = nil
+
+            function isGunEquipped()
+                local character = player.Character
+                if character then
+                    local tool = character:FindFirstChildWhichIsA("Tool")
+                    return tool and tool:FindFirstChild("Handle") ~= nil
+                end
+                return false
+            end
+
+            function isTargetValid(targetCharacter)
+                if targetCharacter then
+                    local bodyEffects = targetCharacter:FindFirstChild("BodyEffects")
+                    local KOd = bodyEffects and bodyEffects:FindFirstChild("K.O") and bodyEffects["K.O"].Value
+                    local Grabbed = targetCharacter:FindFirstChild("GRABBING_CONSTRAINT") ~= nil
+                    return not KOd and not Grabbed
+                end
+                return false
+            end
+
+            function getNearestPlayer()
+                local character = player.Character
+                local rootPart = character and character:FindFirstChild("HumanoidRootPart")
+                local nearestPlayer = nil
+                local shortestDistance = range
+
+                if rootPart then
+                    for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+                        if plr ~= player and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") and isTargetValid(plr.Character) then
+                            local targetRootPart = plr.Character:FindFirstChild("HumanoidRootPart")
+                            local distance = (targetRootPart.Position - rootPart.Position).Magnitude
+
+                            if distance <= shortestDistance then
+                                nearestPlayer = plr
+                                shortestDistance = distance
+                            end
+                        end
+                    end
+                end
+                return nearestPlayer
+            end
+
+            function highlightTarget(targetPlayer)
+                if _G.highlightEnabled then  
+                    if lastTarget and lastTarget ~= targetPlayer then
+                        local oldCharacter = lastTarget.Character
+                        if oldCharacter then
+                            local highlight = oldCharacter:FindFirstChild("ChamHighlight")
+                            if highlight then
+                                highlight:Destroy()
+                            end
+                        end
+                    end
+
+                    if targetPlayer and targetPlayer.Character then
+                        local character = targetPlayer.Character
+                        if not character:FindFirstChild("ChamHighlight") then
+                            local highlight = Instance.new("Highlight")
+                            highlight.Name = "ChamHighlight"
+                            highlight.Parent = character
+                            highlight.Adornee = character
+                            highlight.FillColor = Color3.fromRGB(255, 0, 0) 
+                            highlight.FillTransparency = 0.5
+                            highlight.OutlineTransparency = 1
+                        end
+                        lastTarget = targetPlayer 
+                    end
+                else
+                    if lastTarget and lastTarget.Character then
+                        local highlight = lastTarget.Character:FindFirstChild("ChamHighlight")
+                        if highlight then
+                            highlight:Destroy()
+                        end
+                    end
+                end
+            end
+
+            function shootNearestPlayer()
+                if not killAuraEnabled or not isGunEquipped() then
+                    return
+                end
+
+                local character = player.Character
+                local rootPart = character and character:FindFirstChild("HumanoidRootPart")
+                local tool = character and character:FindFirstChildWhichIsA("Tool") or player.Backpack:FindFirstChildWhichIsA("Tool")
+                local targetPlayer = getNearestPlayer()
+
+                highlightTarget(targetPlayer) 
+
+                if tool and tool:FindFirstChild("Handle") and rootPart and targetPlayer and targetPlayer.Character then
+                    local targetHead = targetPlayer.Character:FindFirstChild("Head")
+                    if targetHead then
+                        local direction = (targetHead.Position - rootPart.Position).unit
+                        game:GetService("ReplicatedStorage"):WaitForChild("MainEvent"):FireServer("ShootGun", tool.Handle, rootPart.Position, targetHead.Position, targetHead, direction)
+                    end
+                end
+            end
+
+            runService.Heartbeat:Connect(function()
+                if killAuraEnabled then
+                    shootNearestPlayer()
+                end
+            end)  
+        else
+            killAuraEnabled = false
+            if lastTarget and lastTarget.Character then
+                local highlight = lastTarget.Character:FindFirstChild("ChamHighlight")
+                if highlight then
+                    highlight:Destroy()
+                end
+            end
+        end
+    end
+})
+
+KillAura:AddToggle('HighlightToggle', {
+    Text = 'Highlight',
+    Default = false,
+    Tooltip = 'Highlights the player about to be killed',
+    Callback = function(Value)
+        _G.highlightEnabled = Value
+        if not _G.highlightEnabled then
+            for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+                if plr.Character then
+                    local highlight = plr.Character:FindFirstChild("ChamHighlight")
+                    if highlight then
+                        highlight:Destroy()
+                    end
+                end
+            end
+        end
+    end
+})
+
+local MiscGroupBox = Tabs.Main:AddRightGroupbox('Utilities')
+
+local utility = {}
+getgenv().config = { enable = false, delay = 0.01 }
+getgenv().is_firing = false
+
+utility.get_gun = function()
+    for _, tool in next, game.Players.LocalPlayer.Character:GetChildren() do
+        if tool:IsA("Tool") and tool:FindFirstChild("Ammo") then return tool end
+    end
+end
+
+utility.rapid = function(tool)
+    tool:Activate()
+end
+
+game:GetService("UserInputService").InputBegan:Connect(function(i)
+    if i.UserInputType == Enum.UserInputType.MouseButton1 then
+        local gun = utility.get_gun()
+        if getgenv().config.enable and gun and not getgenv().is_firing then
+            getgenv().is_firing = true
+            while getgenv().is_firing and getgenv().config.enable do
+                utility.rapid(gun)
+                task.wait(getgenv().config.delay)
+            end
+        end
+    end
+end)
+
+game:GetService("UserInputService").InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        getgenv().is_firing = false
+    end
+end)
+
+MiscGroupBox:AddToggle('RapidFireToggle', {
+    Text = 'Rapid Fire',
+    Default = false,
+    Tooltip = 'Good executor only!',
+    Callback = function(Value)
+        getgenv().config.enable = Value
+        if not Value then
+            getgenv().is_firing = false
+        end
+    end
+})
+
+local function Recalculate(Character)
+    if not Character or not Character:FindFirstChild("HumanoidRootPart") then
+        return Vector3.zero
+    end
+
+    local RootPart = Character.HumanoidRootPart
+    local InitialPos = RootPart.Position
+    local InitialTick = tick()
+
+    task.wait(0.03)
+
+    if not Character or not Character:FindFirstChild("HumanoidRootPart") then
+        return Vector3.zero
+    end
+
+    local NewPos = RootPart.Position
+    local NewTick = tick()
+
+    local DeltaTime = NewTick - InitialTick
+    if DeltaTime <= 0 then return Vector3.zero end
+
+    local Velocity = (NewPos - InitialPos) / DeltaTime
+
+    return Velocity
+end
+
+MiscGroupBox:AddToggle('ResolverToggle', {
+    Text = 'Resolver',
+    Default = false,
+    Tooltip = 'Enable or disable the velocity resolver',
+    Callback = function(Value)
+        getgenv().config.enable = Value
+    end
+})
+
+game:GetService("RunService").Heartbeat:Connect(function()
+    if getgenv().config.enable then
+        for _, player in ipairs(game.Players:GetPlayers()) do
+            if player.Character then
+                local velocity = Recalculate(player.Character)
+            end
+        end
+    end
+end)
+
+local function handleAutoReload()
+    local tool = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool")
+    if tool and tool:FindFirstChild("Ammo") then
+        local ammoValue = tool.Ammo.Value
+        if ammoValue <= 0 then
+            MainEvent:FireServer("Reload", tool)
+        end
+    end
+end
+
+local function setupSilentReload(Value)
+    local character = game.Players.LocalPlayer.Character
+    if character then
+        local humanoid = character:FindFirstChild("Humanoid")
+        if humanoid then
+            if Value then
+                for _, animationTrack in pairs(humanoid:GetPlayingAnimationTracks()) do
+                    if animationTrack.Animation.AnimationId == "rbxassetid://2877910736" then
+                        animationTrack:Stop()
+                    end
+                end
+            end
+        end
+    end
+end
+
+MiscGroupBox:AddToggle('AutoReloadToggle', {
+    Text = 'Auto Reload',
+    Default = false,
+    Tooltip = 'Reloads Automatically when 0 ammo',
+    Callback = function(Value)
+        _G.AutoReload = Value
+    end
+})
+
+local SingleTargetGroup = Tabs.Main:AddRightGroupbox('Target Execution')
+
+getgenv().SelectedTarget = nil
+getgenv().ExecutionActive = false
+getgenv().ExecutionMethod = "Stomp"
+getgenv().SelectedGun = "[LMG]"
+
+local gunConfig = {
+    ["[LMG]"] = {
+        gunShopName = "[LMG] - $4098",
+        ammoName = "200 LMG Ammo - $328"
+    },
+    ["[Rifle]"] = {
+        gunShopName = "[Rifle] - $1694",
+        ammoName = "5 Rifle Ammo - $273"
+    },
+    ["[AUG]"] = {
+        gunShopName = "[AUG] - $2131",
+        ammoName = "90 [AUG Ammo] - $87"
+    }
+}
+
+local function getPlayerList()
+    local names = {}
+    for _, plr in ipairs(Players:GetPlayers()) do
+        if plr ~= LocalPlayer then
+            table.insert(names, plr.Name)
+        end
+    end
+    return names
+end
+
+local function refreshPlayerDropdown()
+    local list = getPlayerList()
+    Options.TargetPlayerDropdown:SetValues(list)
+    if #list > 0 and not table.find(list, Options.TargetPlayerDropdown.Value) then
+        Options.TargetPlayerDropdown:SetValue(list[1])
+    end
+end
+
+Players.PlayerAdded:Connect(refreshPlayerDropdown)
+Players.PlayerRemoving:Connect(refreshPlayerDropdown)
+task.spawn(function()
+    while true do
+        refreshPlayerDropdown()
+        task.wait(5)
+    end
+end)
+
+task.defer(function()
+    local function BuyItem(name)
+        for _, item in pairs(Workspace.Ignored.Shop:GetChildren()) do
+            if item.Name == name then
+                LocalPlayer.Character.HumanoidRootPart.CFrame = item.Head.CFrame + Vector3.new(0, 3.5, 0)
+                task.wait(0.2)
+                fireclickdetector(item:FindFirstChild("ClickDetector"))
+                break
+            end
+        end
+    end
+
+    local function getGun()
+        return LocalPlayer.Backpack:FindFirstChild(getgenv().SelectedGun) or LocalPlayer.Character:FindFirstChild(getgenv().SelectedGun)
+    end
+
+    local function hasAmmo(tool)
+        local ammo = tool:FindFirstChild("Ammo")
+        return ammo and ammo.Value > 0
+    end
+
+    local function reloadIfEmpty()
+        local tool = getGun()
+        if tool and not hasAmmo(tool) then
+            local conf = gunConfig[getgenv().SelectedGun]
+            if conf and conf.ammoName then
+                for _ = 1, 5 do
+                    BuyItem(conf.ammoName)
+                    task.wait(0.1)
+                end
+            end
+        end
+    end
+
+    local function equipGun()
+        local gun = getGun()
+        if not gun then
+            local conf = gunConfig[getgenv().SelectedGun]
+            if conf then
+                BuyItem(conf.gunShopName)
+                task.wait(0.5)
+                BuyItem(conf.ammoName)
+                gun = getGun()
+            end
+        end
+        if gun then
+            gun.Parent = LocalPlayer.Character
+            task.wait(0.1)
+        end
+        return gun
+    end
+
+    local function shoot(target, tool)
+        if not tool or not tool:FindFirstChild("Handle") then return end
+        local head = target.Character and target.Character:FindFirstChild("Head")
+        if not head then return end
+        ReplicatedStorage.MainEvent:FireServer("ShootGun", tool.Handle, tool.Handle.Position, head.Position, head, Vector3.new(0, 0, -1))
+    end
+
+    local function isKnocked(p)
+        local e = p.Character:FindFirstChild("BodyEffects")
+        return e and e:FindFirstChild("K.O") and e["K.O"].Value
+    end
+
+    local function isStomped(p)
+        local e = p.Character:FindFirstChild("BodyEffects")
+        return e and e:FindFirstChild("SDeath") and e["SDeath"].Value
+    end
+
+    local function isGrabbed(p)
+        return p.Character:FindFirstChild("GRABBING_CONSTRAINT") ~= nil
+    end
+
+    local function execute()
+        if not getgenv().SelectedTarget then return end
+        getgenv().ExecutionActive = true
+
+        local target = getgenv().SelectedTarget
+        if not target or not target.Character then return end
+
+        local originalPos = LocalPlayer.Character.HumanoidRootPart.CFrame
+        local tool = equipGun()
+        if not tool then return end
+
+        local strafeHeight = -175
+        local strafeRadius = 15
+
+        while not isKnocked(target) and getgenv().ExecutionActive do
+            if not hasAmmo(tool) then
+                reloadIfEmpty()
+                tool = equipGun()
+            end
+            local root = target.Character:FindFirstChild("HumanoidRootPart")
+            if root then
+                local offset = Vector3.new(math.cos(tick() * 25) * strafeRadius, strafeHeight, math.sin(tick() * 25) * strafeRadius)
+                LocalPlayer.Character:SetPrimaryPartCFrame(CFrame.new(root.Position + offset))
+                shoot(target, tool)
+            end
+            task.wait(0.05)
+        end
+
+        if getgenv().ExecutionMethod == "Stomp" then
+            while not isStomped(target) and getgenv().ExecutionActive do
+                if not isKnocked(target) or isGrabbed(target) then break end
+                local torso = target.Character:FindFirstChild("UpperTorso")
+                if torso then
+                    LocalPlayer.Character:SetPrimaryPartCFrame(CFrame.new(torso.Position + Vector3.new(0, 3, 0)))
+                end
+                ReplicatedStorage.MainEvent:FireServer("Stomp")
+                task.wait(0.1)
+            end
+        end
+
+        if getgenv().ExecutionActive then
+            task.wait(0.5)
+            LocalPlayer.Character.HumanoidRootPart.CFrame = originalPos
+            getgenv().ExecutionActive = false
+        end
+    end
+
+    SingleTargetGroup:AddDropdown("TargetPlayerDropdown", {
+        Text = "Player",
+        Tooltip = "Pick someone to destroy",
+        Values = getPlayerList(),
+        Default = 1,
+        Callback = function(val)
+            local found = Players:FindFirstChild(val)
+            if not found then
+                Library:Notify("Player has left the game.", 2)
+                return
+            end
+            getgenv().SelectedTarget = found
+            if isKnocked(found) then
+                Library:Notify(val .. " is knocked!", 3)
+            end
+        end
+    })
+
+    SingleTargetGroup:AddDropdown("MethodDropdown", {
+        Text = "Method",
+        Tooltip = "Choose execution type",
+        Values = {"Knock", "Stomp"},
+        Default = 2,
+        Callback = function(val)
+            getgenv().ExecutionMethod = val
+        end
+    })
+
+    SingleTargetGroup:AddDropdown("GunDropdown", {
+        Text = "Execution Gun",
+        Tooltip = "Select the gun to use",
+        Values = {"[LMG]", "[Rifle]", "[AUG]"},
+        Default = 1,
+        Callback = function(val)
+            getgenv().SelectedGun = val
+            Library:Notify("Gun selected: " .. val, 2)
+        end
+    })
+
+    SingleTargetGroup:AddButton({
+        Text = "Execute",
+        Func = function()
+            if not getgenv().SelectedTarget then
+                Library:Notify("Player may have left the game or :CURL:,ERROR", 2)
+                return
+            end
+            task.spawn(execute)
+        end
+    }):AddButton({
+        Text = "Cancel",
+        Func = function()
+            getgenv().ExecutionActive = false
+            Library:Notify("Execution cancelled", 2)
+        end
+    })
+end)
+
+local uhhh = Tabs.Player:AddLeftGroupbox('Movement')
+
+getgenv().walkSpeedEnabled = false
+getgenv().walkSpeedKeybindActive = false
+getgenv().walkSpeed = 16
+
+uhhh:AddToggle('WalkSpeedToggle', {
+    Text = 'Humanoid speed',
+    Default = false,
+    Callback = function(state)
+        getgenv().walkSpeedEnabled = state
+        if not state then getgenv().walkSpeedKeybindActive = false end
+    end,
+}):AddKeyPicker('WalkSpeedKeybind', {
+    Default = '',
+    Text = 'Speed Keybind',
+    Mode = 'Toggle',
+    Callback = function(state)
+        if game:GetService("UserInputService"):GetFocusedTextBox() then return end
+        if getgenv().walkSpeedEnabled then getgenv().walkSpeedKeybindActive = state end
+    end,
+})
+
+uhhh:AddSlider('WalkSpeedSlider', {
+    Text = 'Speed',
+    Default = 16,
+    Min = 16,
+    Max = 500,
+    Rounding = 0,
+    Callback = function(value)
+        getgenv().walkSpeed = value
+    end,
+})
+
+game:GetService('RunService').RenderStepped:Connect(function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character
+    local humanoid = character and character:FindFirstChild('Humanoid')
+    if not humanoid then return end
+
+    if getgenv().walkSpeedEnabled then
+        humanoid.WalkSpeed = getgenv().walkSpeedKeybindActive and getgenv().walkSpeed or 16
+    end
+end)
+
+getgenv().cframeSpeedEnabled = false
+getgenv().cframeSpeedKeybindActive = false
+getgenv().cframeSpeedAmount = 16
+getgenv().cframeSpeedKeybind = Enum.KeyCode.V
+
+uhhh:AddToggle('CFrameSpeedToggle', {
+    Text = 'CFrame Speed',
+    Default = false,
+    Tooltip = 'Toggles speed using CFrame',
+    Callback = function(state)
+        getgenv().cframeSpeedEnabled = state
+        if not state then
+            getgenv().cframeSpeedKeybindActive = false
+        end
+    end,
+}):AddKeyPicker('CFrameSpeedKeybind', {
+    Default = '',
+    Text = 'Keybind',
+    Mode = 'Toggle',
+    Callback = function(state)
+        if game:GetService("UserInputService"):GetFocusedTextBox() then return end
+        getgenv().cframeSpeedKeybindActive = state
+    end,
+})
+
+uhhh:AddSlider('CFrameSpeedSlider', {
+    Text = 'Speed',
+    Default = 16,
+    Min = 16,
+    Max = 1000,
+    Rounding = 0,
+    Callback = function(value)
+        getgenv().cframeSpeedAmount = value
+    end
+})
+
+local function hasCharacter(player)
+    local character = player and player.Character
+    return character and character:FindFirstChild("HumanoidRootPart", true) and character:FindFirstChild("Humanoid", true)
+end
+
+local function updateCframeSpeed(deltaTime)
+    if getgenv().cframeSpeedEnabled and getgenv().cframeSpeedKeybindActive and hasCharacter(game.Players.LocalPlayer) then
+        local character = game.Players.LocalPlayer.Character
+        local hrp = character:FindFirstChild("HumanoidRootPart", true)
+        local humanoid = character:FindFirstChild("Humanoid", true)
+        local moveDirection = humanoid and humanoid.MoveDirection
+
+        if hrp and moveDirection then
+            local movement = moveDirection.Unit * getgenv().cframeSpeedAmount * deltaTime
+            if movement.Magnitude > 0 then
+                hrp.CFrame = hrp.CFrame + movement
+            end
+        end
+    end
+end
+
+game:GetService("RunService").Heartbeat:Connect(updateCframeSpeed)
+
+game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+
+    if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == getgenv().cframeSpeedKeybind then
+        if getgenv().cframeSpeedToggleAllowed then
+            getgenv().cframeSpeedKeybindActive = not getgenv().cframeSpeedKeybindActive
+        end
+    end
+end)
+
+getgenv().rageCFrameFlyEnabled = false
+getgenv().rageCFrameFlyKeybindActive = false
+getgenv().rageCFrameFlyAmount = 16
+getgenv().rageCFrameFlyKeybind = Enum.KeyCode.B
+
+uhhh:AddToggle('CframeFlightToggle', {
+    Text = 'CFrame Flight',
+    Default = false,
+    Tooltip = 'Toggles flight using CFrame',
+    Callback = function(state)
+        getgenv().rageCFrameFlyEnabled = state
+        if not state then
+            getgenv().rageCFrameFlyKeybindActive = false
+        end
+    end
+}):AddKeyPicker('CframeFlyKeybind', {
+    Default = '',
+    Text = 'Keybind',
+    Mode = 'Toggle',
+    Callback = function(state)
+        if game:GetService("UserInputService"):GetFocusedTextBox() then return end
+        getgenv().rageCFrameFlyKeybindActive = state
+    end,
+})
+
+uhhh:AddSlider('CframeFlightSpeed', {
+    Text = 'Speed',
+    Default = 16,
+    Min = 16,
+    Max = 2000,
+    Rounding = 0,
+    Callback = function(value)
+        getgenv().rageCFrameFlyAmount = value
+    end
+})
+
+local function updateFly(deltaTime)
+    if getgenv().rageCFrameFlyEnabled and getgenv().rageCFrameFlyKeybindActive and hasCharacter(game.Players.LocalPlayer) then
+        local character = game.Players.LocalPlayer.Character
+        local hrp = character:FindFirstChild("HumanoidRootPart", true)
+        local moveDirection = character:FindFirstChild("Humanoid", true).MoveDirection
+
+        local verticalSpeed = (UserInputService:IsKeyDown(Enum.KeyCode.Space) and 1 or UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) and -1 or 0)
+        local verticalMovement = Vector3.new(0, verticalSpeed, 0)
+
+        local movement = (moveDirection + verticalMovement).Unit * getgenv().rageCFrameFlyAmount * deltaTime
+
+        if movement.Magnitude > 0 then
+            hrp.CFrame = hrp.CFrame + movement
+        end
+
+        hrp.Velocity = Vector3.zero
+    end
+end
+
+game:GetService("RunService").Heartbeat:Connect(updateFly)
+
+game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+
+    if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == getgenv().rageCFrameFlyKeybind then
+        if getgenv().rageCFrameFlyToggleAllowed then
+            getgenv().rageCFrameFlyKeybindActive = not getgenv().rageCFrameFlyKeybindActive
+        end
+    end
+end)
+
+local AnimationSpeed = 1
+
+local animation = Instance.new("Animation")
+animation.AnimationId = "rbxassetid://10714340543"
+
+local animationTrack
+local isPlaying = false
+local flossEnabled = false
+
+local function loadAnimationTrack(character)
+    local humanoid = character:WaitForChild("Humanoid")
+    animationTrack = humanoid:LoadAnimation(animation)
+    animationTrack.Looped = true
+    animationTrack.Priority = Enum.AnimationPriority.Action
+    
+    if flossEnabled then
+        task.wait(0.6)
+        animationTrack:Play()
+        animationTrack:AdjustSpeed(AnimationSpeed)
+        isPlaying = true
+    end
+end
+
+game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function(character)
+    loadAnimationTrack(character)
+end)
+
+if game:GetService("Players").LocalPlayer.Character then
+    loadAnimationTrack(game:GetService("Players").LocalPlayer.Character)
+end
+
+uhhh:AddToggle("FlossToggle", {
+    Text = "Floss",
+    Default = false,
+    Callback = function(state)
+        flossEnabled = state
+        if state and animationTrack then
+            animationTrack:Play()
+            animationTrack:AdjustSpeed(AnimationSpeed)
+            isPlaying = true
+        elseif not state and animationTrack then
+            animationTrack:Stop()
+            isPlaying = false
+        end
+    end
+})
+
+uhhh:AddToggle("NoClipToggle", {
+    Text = "No Clip",
+    Default = false,
+    Callback = function(state)
+        noClipEnabled = state
+    end
+}):AddKeyPicker("NoClipKeybindPicker", {
+    Default = "",
+    Text = "NoClip",
+    Mode = "Toggle",
+    Callback = function(state)
+        if noClipEnabled then
+            local character = game:GetService("Players").LocalPlayer.Character
+            if character then
+                for _, part in pairs(character:GetDescendants()) do
+                    if part:IsA("BasePart") and not part.Name:match("Arm") and not part.Name:match("Leg") then
+                        part.CanCollide = state
+                    end
+                end
+            end
+        end
+    end
+})
+
+local function toggleNoJumpCooldown(enabled)
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:WaitForChild("Humanoid")
+
+    local function updateJumpSettings(humanoid, state)
+        humanoid.UseJumpPower = not state
+    end
+
+    updateJumpSettings(humanoid, enabled)
+
+    player.CharacterAdded:Connect(function(newCharacter)
+        local newHumanoid = newCharacter:WaitForChild("Humanoid")
+        updateJumpSettings(newHumanoid, enabled)
+    end)
+end
+
+uhhh:AddToggle('NoJumpCooldownToggle', {
+    Text = 'Infinite Jump',
+    Default = false,
+    Callback = function(value)
+        _G.noJumpCooldownEnabled = value
+        toggleNoJumpCooldown(value)
+    end
+})
+
+local LeftGroupBox = Tabs.Player:AddLeftGroupbox('Desync')
+
+local Toggle = LeftGroupBox:AddToggle('AntiLock', {
+    Text = 'Enable',
+    Default = false,
+    Tooltip = 'Desyncs so it\'s harder for players to hit you!', 
+
+    Callback = function(Value)
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Desync",
+            Text = Value and "on" or "off",
+            Duration = 1,
+        })
+    end
+})
+
+LeftGroupBox:AddDropdown('MyDropdown', {
+    Values = { 'Buzz' },
+    Default = 1,
+    Multi = false, 
+    Text = 'Mode',
+    Tooltip = 'Teleports you in random positions every nano second',
+
+    Callback = function(Value)
+        print('[cb] Dropdown got changed. New value:', Value)
+    end
+})
+
+RunService.Heartbeat:Connect(function()
+    if Toggle.Value then
+        local Character = LocalPlayer.Character
+        if Character and Character:FindFirstChild("HumanoidRootPart") then
+            local RootPart = Character.HumanoidRootPart
+            local v = RootPart.Velocity
+            RootPart.CFrame = RootPart.CFrame * CFrame.Angles(0, math.rad(0.01), 0)
+
+            local randomVelocity = Vector3.new(
+                math.random(-3000, 3000),
+                math.random(-3000, 3000),
+                math.random(-3000, 3000)
+            )
+
+            RootPart.Velocity = randomVelocity
+            RunService.RenderStepped:Wait()
+            RootPart.Velocity = v
+        end
+    end
+end)
+
+local LeftGroupBox = Tabs.Player:AddLeftGroupbox('Teleports')
+
+local teleportLocations = {
+    ["Bank"] = CFrame.new(-442, 39, -284),
+    ["Inside Bank"] = CFrame.new(-443, 23, -284),
+    ["Vault"] = CFrame.new(-658, -30, -285),
+    ["Revolver"] = CFrame.new(-634, 21, -132),
+    ["LMG"] = CFrame.new(-626, 23, -295),
+    ["DownHill"] = CFrame.new(-559, 8, -735),
+    ["Military Base"] = CFrame.new(-40, 65, -926),
+    ["Uphill"] = CFrame.new(481, 48, -602),
+    ["Police Station"] = CFrame.new(-264, 21, -93),
+    ["School"] = CFrame.new(-594, 21, 173)
+}
+
+local locationKeys = {}
+for name, _ in pairs(teleportLocations) do
+    table.insert(locationKeys, name)
+end
+
+local selectedLocation = locationKeys[1]
+
+LeftGroupBox:AddDropdown('TeleportDropdown', {
+    Values = locationKeys,
+    Default = 1,
+    Multi = false,
+    Text = 'Location',
+    Tooltip = 'Choose a location to teleport to',
+    Callback = function(Value)
+        selectedLocation = Value
+        print('Selected teleport location:', Value)
+    end
+})
+
+LeftGroupBox:AddButton({
+    Text = 'Teleport',
+    Func = function()
+        if game.Players.LocalPlayer.Character and teleportLocations[selectedLocation] then
+            game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(teleportLocations[selectedLocation])
+            print('Teleported to:', selectedLocation)
+        end
+    end,
+    DoubleClick = false,
+    Tooltip = 'Teleports you to the selected location'
+})
+
+local animationBaseUrl = "http://www.roblox.com/asset/?id="
+
+local animations = {
+    R15 = {
+        idle = animationBaseUrl .. "2510196951",
+        walk = animationBaseUrl .. "2510202577",
+        run = animationBaseUrl .. "2510198475",
+        jump = animationBaseUrl .. "2510197830",
+        climb = animationBaseUrl .. "2510192778",
+        fall = animationBaseUrl .. "2510195892",
+    },
+    Custom = {
+        idle = animationBaseUrl .. "782841498",
+        walk = animationBaseUrl .. "616168032",
+        run = animationBaseUrl .. "616163682",
+        jump = animationBaseUrl .. "1083218792",
+        climb = animationBaseUrl .. "1083439238",
+        fall = animationBaseUrl .. "707829716",
+    },
+     Levitation = {
+        idle = animationBaseUrl .. "616006778",
+        jump = animationBaseUrl .. "616008936",
+        fall = animationBaseUrl .. "616005863",
+        walk = animationBaseUrl .. "616013216",
+        run = animationBaseUrl .. "616010382",
+        climb = animationBaseUrl .. "616003713",
+    },
+    Mage = {
+        idle = animationBaseUrl .. "707742142",
+        jump = animationBaseUrl .. "707853694",
+        fall = animationBaseUrl .. "707829716",
+        walk = animationBaseUrl .. "707897309",
+        run = animationBaseUrl .. "707861613",
+        climb = animationBaseUrl .. "707826056",
+    },
+    Ninja = {
+        idle = animationBaseUrl .. "656117400",
+        jump = animationBaseUrl .. "656117878",
+        fall = animationBaseUrl .. "656115606",
+        walk = animationBaseUrl .. "656121766",
+        run = animationBaseUrl .. "656118852",
+        climb = animationBaseUrl .. "656114359",
+    },
+    Stylish = {
+        idle = animationBaseUrl .. "616136790",
+        jump = animationBaseUrl .. "616139451",
+        fall = animationBaseUrl .. "616134815",
+        walk = animationBaseUrl .. "616146177",
+        run = animationBaseUrl .. "616140816",
+        climb = animationBaseUrl .. "616133594",
+    },
+    Superhero = {
+        idle = animationBaseUrl .. "616111295",
+        jump = animationBaseUrl .. "616115533",
+        fall = animationBaseUrl .. "616108001",
+        walk = animationBaseUrl .. "616122287",
+        run = animationBaseUrl .. "616117076",
+        climb = animationBaseUrl .. "616104706",
+    },
+    Toy = {
+        idle = animationBaseUrl .. "782841498",
+        jump = animationBaseUrl .. "782847020",
+        fall = animationBaseUrl .. "782846423",
+        walk = animationBaseUrl .. "782843345",
+        run = animationBaseUrl .. "782842708",
+        climb = animationBaseUrl .. "782843869",
+    },
+    Vampire = {
+        idle = animationBaseUrl .. "1083445855",
+        jump = animationBaseUrl .. "1083455352",
+        fall = animationBaseUrl .. "1083443587",
+        walk = animationBaseUrl .. "1083473930",
+        run = animationBaseUrl .. "1083462077",
+        climb = animationBaseUrl .. "1083439238",
+    },
+    Werewolf = {
+        idle = animationBaseUrl .. "1083195517",
+        jump = animationBaseUrl .. "1083218792",
+        fall = animationBaseUrl .. "1083189019",
+        walk = animationBaseUrl .. "1083178339",
+        run = animationBaseUrl .. "1083216690",
+        climb = animationBaseUrl .. "1083182000",
+    },
+    Zombie = {
+        idle = animationBaseUrl .. "616158929",
+        jump = animationBaseUrl .. "616161997",
+        fall = animationBaseUrl .. "616157476",
+        walk = animationBaseUrl .. "616168032",
+        run = animationBaseUrl .. "616163682",
+        climb = animationBaseUrl .. "616156119",
+    },
+}
+
+local function applyAnimations(animate, preset)
+    if animate and preset then
+        if animate.idle and animate.idle:FindFirstChild("Animation1") then
+            animate.idle.Animation1.AnimationId = preset.idle
+        else
+            warn("Idle animation or Animation1 not found")
+        end
+        
+        if animate.walk and animate.walk:FindFirstChild("WalkAnim") then
+            animate.walk.WalkAnim.AnimationId = preset.walk
+        else
+            warn("Walk animation or WalkAnim not found")
+        end
+
+        if animate.run and animate.run:FindFirstChild("RunAnim") then
+            animate.run.RunAnim.AnimationId = preset.run
+        else
+            warn("Run animation or RunAnim not found")
+        end
+
+        if animate.jump and animate.jump:FindFirstChild("JumpAnim") then
+            animate.jump.JumpAnim.AnimationId = preset.jump
+        else
+            warn("Jump animation or JumpAnim not found")
+        end
+
+        if animate.climb and animate.climb:FindFirstChild("ClimbAnim") then
+            animate.climb.ClimbAnim.AnimationId = preset.climb
+        else
+            warn("Climb animation or ClimbAnim not found")
+        end
+
+        if animate.fall and animate.fall:FindFirstChild("FallAnim") then
+            animate.fall.FallAnim.AnimationId = preset.fall
+        else
+            warn("Fall animation or FallAnim not found")
+        end
+    end
+end
+
+local function applySelectedAnimations(character)
+    local animate = character:FindFirstChild("Animate")
+    if animate then
+        local selectedPreset = animations[currentAnimationPreset]
+        applyAnimations(animate, selectedPreset)
+    end
+end
+
+local LeftGroupBox = Tabs.Player:AddLeftGroupbox('Player Animations')
+
+LeftGroupBox:AddDropdown('AnimationSelector', {
+    Values = {'R15', 'Custom', 'Levitation', 'Mage', 'Ninja', 'Stylish', 'Superhero', 'Toy', 'Vampire', 'Werewolf', 'Zombie',},
+    Default = 1,
+    Multi = false,
+
+    Text = 'Animation',
+    Tooltip = 'MUST RESET!!!',
+
+    Callback = function(Value)
+        currentAnimationPreset = Value
+    end
+})
+
+local animationLoaded = false
+local player = Players.LocalPlayer
+
+if not player then
+    warn("[Animation Error]: LocalPlayer not found!")
+    return
+end
+
+local function applyAnimations()
+    local character = player.Character
+    if not character or not character.Parent then return end
+    if animationLoaded then return end
+
+    local animate = character:FindFirstChild("Animate")
+    if not animate then 
+        warn("[Animation Error]: Animate script missing!")
+        return 
+    end
+
+    local success, err = pcall(function()
+        applySelectedAnimations(character)
+    end)
+
+    if success then
+        animationLoaded = true
+    elseif not _G.AnimationErrorLogged then
+        warn("[Animation Error]: " .. err)
+        _G.AnimationErrorLogged = true
+    end
+end
+
+local function onCharacterAdded(character)
+    animationLoaded = false
+    repeat task.wait() until character:FindFirstChild("HumanoidRootPart")
+    applyAnimations()
+end
+
+player.CharacterAdded:Connect(onCharacterAdded)
+
+if player.Character then
+    task.spawn(function()
+        onCharacterAdded(player.Character)
+    end)
+end
+
+local function onCharacterAdded(character)
+    animationLoaded = false
+    repeat task.wait() until character:FindFirstChild("Humanoid") and character:FindFirstChild("HumanoidRootPart")
+    applyAnimations()
+end
+
+player.CharacterAdded:Connect(onCharacterAdded)
+
+if player.Character and player.Character:FindFirstChild("Humanoid") and player.Character:FindFirstChild("HumanoidRootPart") then
+    applyAnimations()
+else
+    task.spawn(function()
+        repeat task.wait() until player.Character and player.Character:FindFirstChild("Humanoid") and player.Character:FindFirstChild("HumanoidRootPart")
+        applyAnimations()
+    end)
+end
+
+local function onCharacterAdded(character)
+    animationLoaded = false
+    repeat task.wait() until character:FindFirstChild("HumanoidRootPart")
+    applyAnimations()
+end
+
+player.CharacterAdded:Connect(onCharacterAdded)
+
+if player.Character then
+    task.spawn(function()
+        onCharacterAdded(player.Character)
+    end)
+end
+
+if player.CharacterAdded then
+    player.CharacterAdded:Connect(function()
+        animationLoaded = false
+        task.wait(0.5)
+        applyAnimations()
+    end)
+else
+    warn("[Animation Error]: CharacterAdded event not found!")
+end
+
+task.spawn(function()
+    task.wait(1)
+    applyAnimations()
+end)
+
+local jugg = Tabs.Player:AddLeftGroupbox('Detections')
+
+jugg:AddToggle("AntiModToggle", {
+    Text = "Anti Mod",
+    Default = false,
+    Callback = function(Value)
+        antiModEnabled = Value
+        Library:Notify(antiModEnabled and "Anti Mod Enabled" or "Anti Mod Disabled", 2)
+        if antiModEnabled then task.spawn(detectModerators) end
+    end
+})
+
+jugg:AddToggle("CheckModFriends", {
+    Text = "Friend Check",
+    Tooltip = "Detects if any player is friends with a Moderator",
+    Default = false,
+    Callback = function(Value)
+        checkModFriendsEnabled = Value
+        Library:Notify(checkModFriendsEnabled and "Check Mod Friends Enabled" or "Check Mod Friends Disabled", 2)
+        if checkModFriendsEnabled then task.spawn(checkFriendsWithMods) end
+    end
+})
+
+jugg:AddToggle("GroupCheck", {
+    Text = "Group Check",
+    Tooltip = "Detects if any player is in the restricted groups",
+    Default = false,
+    Callback = function(Value)
+        groupCheckEnabled = Value
+        Library:Notify(groupCheckEnabled and "Group Check Enabled" or "Group Check Disabled", 2)
+        if groupCheckEnabled then task.spawn(detectModerators) end
+    end
+})
+
+jugg:AddDropdown("AntiModMethod", {
+    Values = {"Notify", "Kick"},
+    Default = "Notify",
+    Multi = false,
+    Text = "Method",
+    Callback = function(Value)
+        antiModMethod = Value
+        Library:Notify("Anti-Mod Method set to: " .. antiModMethod, 3)
+    end
+})
+
+local stutz = Tabs.Player:AddRightGroupbox('Character')
+
+local antifling = nil
+local lastChecked = 0
+local checkInterval = 1
+
+stutz:AddToggle("AntiflingToggle", {
+    Text = "Anti Fling",
+    Default = false,
+    Callback = function(state)
+        if state then
+            antifling = game:GetService("RunService").Stepped:Connect(function(_, time)
+                if time - lastChecked >= checkInterval then
+                    lastChecked = time
+                    for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+                        if player ~= game.Players.LocalPlayer and player.Character then
+                            for _, v in pairs(player.Character:GetDescendants()) do
+                                if v:IsA("BasePart") then
+                                    v.CanCollide = false
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        else
+            if antifling then
+                antifling:Disconnect()
+                antifling = nil
+            end
+        end
+    end
+})
+
+local CollectionService = game:GetService("CollectionService")
+local cachedSeats = {}
+
+local function processSeat(seat, state)
+    if seat:IsA("Seat") and not cachedSeats[seat] then
+        cachedSeats[seat] = seat
+    end
+    if cachedSeats[seat] then
+        seat.CanTouch = not state
+        if state then
+            CollectionService:AddTag(seat, "NoSeat")
+        else
+            CollectionService:RemoveTag(seat, "NoSeat")
+        end
+    end
+end
+
+local function initializeSeats()
+    for _, object in ipairs(workspace:GetDescendants()) do
+        if object:IsA("Seat") then
+            cachedSeats[object] = object
+        end
+    end
+end
+
+local function monitorNewSeats()
+    workspace.DescendantAdded:Connect(function(descendant)
+        if descendant:IsA("Seat") then
+            processSeat(descendant, CollectionService:HasTag(descendant, "NoSeat"))
+        end
+    end)
+end
+
+initializeSeats()
+monitorNewSeats()
+
+stutz:AddToggle('NoSeatsToggle', {
+    Text = 'No Seats',
+    Default = false,
+    Tooltip = 'Makes it so you cant sit down on anything',
+    Callback = function(value)
+        print('[cb] No-Seats Toggle changed to:', value)
+        for seat, _ in pairs(cachedSeats) do
+            if seat and seat:IsA("Seat") then
+                seat.CanTouch = not value
+                if value then
+                    CollectionService:AddTag(seat, "NoSeat")
+                else
+                    CollectionService:RemoveTag(seat, "NoSeat")
+                end
+            end
+        end
+    end
+})
+
+stutz:AddToggle('AutoDropCashToggle', {
+    Text = 'Drop Cash',
+    Default = false,
+    Tooltip = 'Automatically drops cash',
+    Callback = function(Value)
+        local Player = game:GetService("Players").LocalPlayer
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local RunService = game:GetService("RunService")
+        local MainScreenGui = Player.PlayerGui.MainScreenGui
+        local MoneyText = MainScreenGui.MoneyText
+
+        getgenv().moneyDropEnabled = getgenv().moneyDropEnabled or false 
+
+        local function getMoneyAmount()
+            local moneyText = MoneyText.Text:match("%$(%d[%,%d]*)") 
+            if moneyText then
+                local cleanedMoneyString = moneyText:gsub(",", "") 
+                local amount = tonumber(cleanedMoneyString)
+                return amount or 0
+            else
+                return 0
+            end
+        end
+
+        local function dropMoney(amountToDrop)
+            if amountToDrop > 0 then
+                ReplicatedStorage.MainEvent:FireServer("DropMoney", tostring(amountToDrop))
+            end
+        end
+
+        local function toggleMoneyDrop()
+            getgenv().moneyDropEnabled = not getgenv().moneyDropEnabled
+        end
+
+        RunService.Heartbeat:Connect(function()
+            if getgenv().moneyDropEnabled then
+                local money = getMoneyAmount() 
+                dropMoney(money < 15000 and money or 15000)
+            end
+        end)
+
+        toggleMoneyDrop()
+    end
+})
+
+local antiVoidEnabled = false
+stutz:AddToggle('AntiVoidToggle', {
+    Text = 'Anti Void',
+    Default = false,
+    Tooltip = 'Prevents falling into the void by teleporting up',
+    Callback = function(Value)
+        antiVoidEnabled = Value
+        print('[cb] AntiVoidToggle changed to:', Value)
+    end
+})
+
+local function antiVoidCheck()
+    local player = game:GetService("Players").LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local rootPart = character:WaitForChild("HumanoidRootPart")
+    
+    if antiVoidEnabled and rootPart and rootPart.Position.Y <= -150 then
+        rootPart.CFrame = rootPart.CFrame + Vector3.new(0, 500, 0)
+    end
+end
+
+RunService.Heartbeat:Connect(antiVoidCheck)
+
+local antiStompEnabled = false
+
+local HumanoidStateType = Enum.HumanoidStateType
+local KOD = "K.O"
+local GRABBING_CONSTRAINT = "GRABBING_CONSTRAINT"
+
+stutz:AddToggle('MyToggle', {
+    Text = 'Anti Stomp',
+    Default = false,
+    Tooltip = '',
+    
+    Callback = function(Value)
+        antiStompEnabled = Value 
+    end
+})
+
+RunService.Heartbeat:Connect(function()
+    local character = player.Character
+    if not character or not character.Parent then return end
+
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if not humanoid then return end
+
+    local bodyEffects = character:FindFirstChild("BodyEffects")
+    local KOd = bodyEffects and bodyEffects:FindFirstChild(KOD) and bodyEffects[KOD].Value
+    local Grabbed = character:FindFirstChild(GRABBING_CONSTRAINT) ~= nil
+
+    if antiStompEnabled and (KOd or Grabbed) then
+        task.spawn(function()
+            humanoid.PlatformStand = true
+            humanoid.WalkSpeed = 0
+            humanoid.JumpHeight = 0
+            humanoid.Health = 0 
+
+            for _, part in pairs(character:GetChildren()) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = false
+                end
+            end
+
+            humanoid:SetStateEnabled(HumanoidStateType.Physics, false)
+            humanoid:SetStateEnabled(HumanoidStateType.Seated, false)
+            humanoid:SetStateEnabled(HumanoidStateType.Climbing, false)
+            humanoid:SetStateEnabled(HumanoidStateType.Freefall, false)
+            humanoid:SetStateEnabled(HumanoidStateType.Ragdoll, false)
+
+            humanoid.MaxHealth = humanoid.Health
+
+            if bodyEffects then
+                bodyEffects:ClearAllChildren()
+            end
+
+            for _, part in pairs(character:GetChildren()) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = false
+                end
+            end
+
+            player:LoadCharacter()
+        end)
+    end
+end)
+
+stutz:AddToggle('MyToggle', {
+    Text = 'Inf Zoom',
+    Default = false,
+    Tooltip = 'Lets you zoom out infinitely',
+
+    Callback = function(Value)
+
+        if _G.zoomInitialized == nil then
+            _G.zoomInitialized = false
+        end
+
+        if Value and not _G.zoomInitialized then
+            player.CameraMaxZoomDistance = math.huge
+
+            _G.zoomInitialized = true
+        elseif not Value and _G.zoomInitialized then
+            player.CameraMaxZoomDistance = 30
+
+            _G.zoomInitialized = false
+        end
+    end
+})
+
+getgenv().AntiRPGDesyncEnabled, getgenv().GrenadeDetectionEnabled, getgenv().AntiRPGDesyncLoop = false, false, nil
+
+stutz:AddToggle('RPGDetection', {
+    Text = 'RPG Detect',
+    Default = false,
+    Callback = function(state)
+        getgenv().AntiRPGDesyncEnabled = state
+        if state or getgenv().GrenadeDetectionEnabled then StartThreatDetection() else StopThreatDetection() end
+    end,
+})
+
+stutz:AddToggle('GrenadeDetection', {
+    Text = 'Grenade Detect',
+    Default = false,
+    Callback = function(state)
+        getgenv().GrenadeDetectionEnabled = state
+        if state or getgenv().AntiRPGDesyncEnabled then StartThreatDetection() else StopThreatDetection() end
+    end,
+})
+
+local RunService, Workspace, LocalPlayer = game:GetService("RunService"), game.Workspace, game.Players.LocalPlayer
+
+local function IsThreatNear(threatName)
+    local Threat = Workspace:FindFirstChild("Ignored") and Workspace.Ignored:FindFirstChild(threatName)
+    local HRP = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    return Threat and HRP and (Threat.Position - HRP.Position).Magnitude < 16
+end
+
+local function StartThreatDetection()
+    if getgenv().AntiRPGDesyncLoop then return end
+
+    getgenv().AntiRPGDesyncLoop = RunService.PostSimulation:Connect(function()
+        local HRP, Humanoid = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart"), LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+        if not HRP or not Humanoid then return end
+
+        local RPGThreat = Workspace.Ignored:FindFirstChild("Model") and Workspace.Ignored.Model:FindFirstChild("Launcher")
+        local GrenadeThreat = IsThreatNear("Handle")
+
+        if (getgenv().AntiRPGDesyncEnabled and RPGThreat or getgenv().GrenadeDetectionEnabled and GrenadeThreat) then
+            local Offset = Vector3.new(math.random(-100, 100), math.random(50, 150), math.random(-100, 100))
+            Humanoid.CameraOffset = -Offset
+            local OldCFrame = HRP.CFrame
+            HRP.CFrame = CFrame.new(HRP.CFrame.Position + Offset)
+            RunService.RenderStepped:Wait()
+            HRP.CFrame = OldCFrame
+        end
+    end)
+
+    LocalPlayer.CharacterAdded:Connect(function()
+        task.wait(1)
+        if getgenv().AntiRPGDesyncEnabled or getgenv().GrenadeDetectionEnabled then StartThreatDetection() end
+    end)
+end
+
+local function StopThreatDetection()
+    if getgenv().AntiRPGDesyncLoop then
+        getgenv().AntiRPGDesyncLoop:Disconnect()
+        getgenv().AntiRPGDesyncLoop = nil
+    end
+end
+
+MyButton = stutz:AddButton({
+    Text = 'Redeem Codes',
+    Func = function()
+        local codes = {
+            "SHRIMP",
+            "VIP",
+            "2025",
+            "DACARNIVAL",
+            "RUBY",
+            "THANKSGIVING24",
+            "HALLOWEEN2024",
+            "pumpkins2023",
+            "TRADEME!",
+            "Beary",
+            "ShortCake",
+            "DAUP"
+        }
+        
+        local successfulCodes = {}
+        
+        local function redeemCode(code)
+            local args = {
+                [1] = "EnterPromoCode",
+                [2] = code
+            }
+        
+            game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+        
+            local successIndicator = false
+            game:GetService("ReplicatedStorage").MainEvent.OnClientEvent:Connect(function(response)
+                if response == "CodeRedeemed" then  -- Adjust response check as per actual server logic
+                    successIndicator = true
+                end
+            end)
+        
+            wait(4)
+        
+            if successIndicator then
+                table.insert(successfulCodes, code)
+            end
+        
+            print("Attempted to redeem code: " .. code)
+        end
+        
+        for _, code in ipairs(codes) do
+            redeemCode(code)
+        end        
+    end,
+    DoubleClick = false,
+    Tooltip = 'Redeems Active codes in the game'
+})
+
+local Misc = Tabs.Player:AddRightGroupbox("Purchase")
+
+local ShopFolder = Workspace:WaitForChild("Ignored"):WaitForChild("Shop")
+
+local SelectedItem, Debounce = nil, false
+local AutoBuyOnRespawn = false
+local AmmoBuyCount = 0
+
+local ShopItems = {
+    "[Taco] - $2",
+    "[Hamburger] - $5",
+    "[Revolver] - $1421",
+    "12 [Revolver Ammo] - $55",
+    "90 [AUG Ammo] - $87",
+    "[AUG] - $2131",
+    "[Rifle] - $1694",
+    "[LMG] - $4098",
+    "200 [LMG Ammo] - $328",
+}
+
+Misc:AddDropdown('Shop_Dropdown', {
+    Values = ShopItems,
+    Default = 1,
+    Multi = false,
+    Text = 'Select',
+    Callback = function(Value)
+        SelectedItem = Value
+    end
+})
+
+local function GetCharacterRoot()
+    local Character = LocalPlayer.Character
+    return Character and Character:FindFirstChild("HumanoidRootPart")
+end
+
+local function BuyItem(ItemName)
+    if not ItemName or Debounce then return end
+    Debounce = true
+
+    local RootPart = GetCharacterRoot()
+    if not RootPart then 
+        Library:Notify("[ERROR] No HumanoidRootPart found!", 3)
+        Debounce = false
+        return
+    end
+
+    local ItemModel = ShopFolder:FindFirstChild(ItemName)
+    if ItemModel then
+        local ClickDetector = ItemModel:FindFirstChildOfClass("ClickDetector")
+        if ClickDetector then
+            local OriginalPosition = RootPart.CFrame
+
+            RootPart.CFrame = CFrame.new(ItemModel.Head.Position + Vector3.new(0, 3, 0))
+            task.wait(0.2)
+
+            fireclickdetector(ClickDetector)
+
+            Library:Notify("Bought: " .. ItemName, 3)
+
+            RootPart.CFrame = OriginalPosition
+        else
+            Library:Notify("[ERROR] ClickDetector not found in " .. ItemName, 3)
+        end
+    else
+        Library:Notify("[ERROR] Item not found: " .. ItemName, 3)
+    end
+
+    Debounce = false
+end
+
+local function BuyAmmo()
+    if not SelectedItem or Debounce then return end
+
+    local AmmoMap = {
+        ["[Revolver] - $1421"] = "12 [Revolver Ammo] - $55",
+        ["[AUG] - $2131"] = "90 [AUG Ammo] - $87",
+        ["[LMG] - $4098"] = "200 [LMG Ammo] - $328",
+        ["[Rifle] - $1694"] = "5 [Rifle Ammo] - $273",
+    }
+
+    local AmmoItem = AmmoMap[SelectedItem]
+    if AmmoItem then
+        BuyItem(AmmoItem)
+    else
+        Library:Notify("[ERROR] No ammo available.", 3)
+    end
+end
+
+local function AutoBuyOnRespawnHandler()
+    if not AutoBuyOnRespawn or not SelectedItem then return end
+
+    BuyItem(SelectedItem)
+
+    if AmmoBuyCount < 3 then
+        for i = 1, 3 do
+            BuyAmmo()
+            task.wait(0.5)
+        end
+        AmmoBuyCount = 3
+    end
+end
+
+Misc:AddButton({
+    Text = 'Buy Item',
+    Func = function()
+        BuyItem(SelectedItem)
+    end,
+    DoubleClick = false,
+    Tooltip = 'Buys the selected item'
+})
+
+Misc:AddButton({
+    Text = 'Buy Ammo',
+    Func = function()
+        BuyAmmo()
+    end,
+    DoubleClick = false,
+    Tooltip = 'Buys ammo for the selected weapon'
+})
+
+Misc:AddToggle('AutoBuyOnRespawn', {
+    Text = 'Buy on Respawn',
+    Default = false,
+    Callback = function(state)
+        AutoBuyOnRespawn = state
+        AmmoBuyCount = 0
+    end
+})
+
+LocalPlayer.CharacterAdded:Connect(function()
+    task.wait(1)
+    ShopFolder = Workspace:WaitForChild("Ignored"):WaitForChild("Shop")
+    AutoBuyOnRespawnHandler()
+end)
+
+getgenv().PlayerInfo = Tabs.Player:AddRightGroupbox('Player Misc')
+
+PlayerInfo:AddToggle('view', {
+    Text = 'Spectate',
+    Default = false,
+    Callback = function(state)
+        if state and getgenv().SelectedTarget then
+            local targetPlayer = Players:FindFirstChild(getgenv().SelectedTarget)
+            if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("Humanoid") then
+                Camera.CameraSubject = targetPlayer.Character:FindFirstChild("Humanoid")
+            end
+        else
+            if LocalPlayer and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid") then
+                Camera.CameraSubject = LocalPlayer.Character:FindFirstChild("Humanoid")
+            end
+        end
+    end,
+})
+
+local function safeTeleport(targetPlayer)
+    if LocalPlayer and LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") and
+       targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+       
+        LocalPlayer.Character.HumanoidRootPart.CFrame = targetPlayer.Character.HumanoidRootPart.CFrame
+    end
+end
+
+PlayerInfo:AddButton('Teleport', function()
+    local targetPlayer = Players:FindFirstChild(getgenv().SelectedTarget)
+    if targetPlayer then
+        safeTeleport(targetPlayer)
+    end
+end)
+
+getgenv().TargetDropdown = PlayerInfo:AddDropdown('yepyep', {
+    SpecialType = 'Player',
+    Text = 'Select a Player',
+    Tooltip = 'Select a player to perform actions on.',
+    Callback = function(value)
+        getgenv().SelectedTarget = value
+    end,
+    Options = function()
+        local playerNames = {}
+        for _, player in ipairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer then
+                table.insert(playerNames, player.Name)
+            end
+        end
+        return playerNames
+    end
+})
+
+local RightGroupBox = Tabs.Player:AddRightGroupbox('Audio Player')  
+
+local soundEnabled = false 
+local soundVolume = 1
+local soundList = {     
+    ["No disrespect"] = 90317758270266,     
+    ["The city of Memphis"] = 106172723805803,     
+    ["Los Gangster  [inst]"] = 107558212312864,
+    ["with my chest"] = 85096138905039,
+    ["lucid dreams"] = 1837103530,
+    ["jc wrld"] = 5410084938,
+    ["2023 ah phonk"] = 15689451063,
+    ["die with a smile"] = 80511230354401,
+    ["sigma boy funk"] = 87459334689630,
+    ["Tung Tung funk"] = 132406629909648,
+    ["Minecraft Chicken"] = 94446515790251,
+    ["Bombardiro Crocodilo Funk"] = 121840099323656
+}
+
+local selectedSound = soundList["Minecraft Chicken"]
+
+local currentSound = nil
+
+local function getSoundKeys()
+    local keys = {}
+    for key, _ in pairs(soundList) do
+        table.insert(keys, key)
+    end
+    return keys
+end
+
+RightGroupBox:AddToggle('EnableMusic', {     
+    Text = 'Enable Music',     
+    Default = false,     
+    Tooltip = 'Turn the music system on/off',         
+    Callback = function(Value)         
+        soundEnabled = Value     
+        if not soundEnabled and currentSound then
+            currentSound:Stop()
+            currentSound:Destroy()
+            currentSound = nil
+            print("Sound stopped as the toggle is off.")
+        end
+    end 
+})  
+
+RightGroupBox:AddDropdown('SoundDropdown', {     
+    Values = getSoundKeys(),     
+    Default = 1,     
+    Multi = false,     
+    Text = 'Select Sound',         
+    Callback = function(Value)         
+        selectedSound = soundList[Value]     
+    end 
+})  
+
+RightGroupBox:AddSlider('VolumeSlider', {     
+    Text = 'Sound Volume',     
+    Default = soundVolume,     
+    Min = 0,     
+    Max = 5,     
+    Rounding = 1,     
+    Compact = false,     
+    Callback = function(Value)         
+        soundVolume = Value 
+        print('[cb] Volume set to:', Value)
+        if currentSound then
+            currentSound.Volume = soundVolume
+        end
+    end 
+})
+
+RightGroupBox:AddButton({     
+    Text = 'Play Music',     
+    Func = function()         
+        if soundEnabled then
+            print("Sound Enabled: Attempting to play sound")
+
+            if currentSound then
+                currentSound:Stop()
+                currentSound:Destroy()
+            end
+
+            currentSound = Instance.new("Sound")
+            currentSound.SoundId = "rbxassetid://" .. selectedSound
+            currentSound.Volume = soundVolume
+            currentSound.Parent = game:GetService("SoundService") 
+
+            currentSound:Play()
+
+            currentSound.Ended:Connect(function()
+                currentSound:Destroy()
+                currentSound = nil
+            end)
+        else
+            print("Sound is Disabled")
+        end
+    end,     
+    Tooltip = 'Plays the selected sound' 
+})
+
+local LeftGroupBox = Tabs.Visuals:AddLeftGroupbox('Sensory Perception')
+
+getgenv().espEnabled = false
+getgenv().espColor = Color3.new(0, 0, 0)
+getgenv().healthBarEnabled = false
+getgenv().cornerESPEnabled = false
+getgenv().cornerESPColor = Color3.new(0, 0, 0)
+getgenv().skeletonESPEnabled = false
+getgenv().skeletonESPColor = Color3.new(1, 1, 1)
+
+local ESPObjects = {}
+local Camera = workspace.CurrentCamera
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local function CreateSkeleton()
+    local skeleton = {}
+    for _ = 1, 6 do
+        local line = Drawing.new("Line")
+        line.Thickness = 1.5
+        line.Color = Color3.fromRGB(255, 255, 255)
+        line.Transparency = 1
+        line.Visible = false
+        table.insert(skeleton, line)
+    end
+    return skeleton
+end
+
+local function UpdateSkeleton(skeleton, character)
+    local function WTVP(part)
+        if not part then return nil end
+        local pos, onScreen = workspace.CurrentCamera:WorldToViewportPoint(part.Position)
+        return onScreen and Vector2.new(pos.X, pos.Y) or nil
+    end
+
+    local parts = {
+        Head = character:FindFirstChild("Head"),
+        UpperTorso = character:FindFirstChild("UpperTorso") or character:FindFirstChild("Torso"),
+        LeftUpperArm = character:FindFirstChild("LeftUpperArm") or character:FindFirstChild("Left Arm"),
+        RightUpperArm = character:FindFirstChild("RightUpperArm") or character:FindFirstChild("Right Arm"),
+        LeftUpperLeg = character:FindFirstChild("LeftUpperLeg") or character:FindFirstChild("Left Leg"),
+        RightUpperLeg = character:FindFirstChild("RightUpperLeg") or character:FindFirstChild("Right Leg")
+    }
+
+    skeleton[1].From = WTVP(parts.Head)
+    skeleton[1].To = WTVP(parts.UpperTorso)
+
+    skeleton[2].From = WTVP(parts.UpperTorso)
+    skeleton[2].To = WTVP(parts.LeftUpperArm)
+
+    skeleton[3].From = WTVP(parts.UpperTorso)
+    skeleton[3].To = WTVP(parts.RightUpperArm)
+
+    skeleton[4].From = WTVP(parts.UpperTorso)
+    skeleton[4].To = WTVP(parts.LeftUpperLeg)
+
+    skeleton[5].From = WTVP(parts.UpperTorso)
+    skeleton[5].To = WTVP(parts.RightUpperLeg)
+
+    skeleton[6].From = WTVP(parts.LeftUpperLeg)
+    skeleton[6].To = WTVP(parts.RightUpperLeg)
+
+    for _, line in ipairs(skeleton) do
+        line.Visible = (line.From and line.To) and true or false
+        line.Color = getgenv().skeletonESPColor
+    end
+end
+
+local function CreateESP(player)
+    if ESPObjects[player] then return end
+
+    local box = Drawing.new("Square")
+    box.Thickness = 1
+    box.Filled = false
+    box.Color = getgenv().espColor
+    box.Visible = false
+
+    local healthBar = Drawing.new("Line")
+    healthBar.Thickness = 2
+    healthBar.Color = Color3.new(0, 1, 0)
+    healthBar.Visible = false
+
+    local corners = {}
+    for i = 1, 8 do
+        local line = Drawing.new("Line")
+        line.Thickness = 1
+        line.Color = getgenv().cornerESPColor
+        line.Visible = false
+        table.insert(corners, line)
+    end
+
+    local skeleton = CreateSkeleton()
+
+    ESPObjects[player] = {
+        Box = box,
+        HealthBar = healthBar,
+        Corners = corners,
+        Skeleton = skeleton
+    }
+end
+
+local function UpdateESP()
+    local cameraCF = Camera.CFrame
+    local cameraPos = cameraCF.Position
+
+    for player, objects in pairs(ESPObjects) do
+        local character = player.Character
+        if character and character:FindFirstChild("HumanoidRootPart") and player ~= LocalPlayer then
+            local rootPart = character.HumanoidRootPart
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+            if humanoid and humanoid.Health > 0 then
+                local rootPosition, onScreen = Camera:WorldToViewportPoint(rootPart.Position)
+                local distance = (cameraPos - rootPart.Position).Magnitude
+
+                if onScreen and distance < 500 then
+                    local headPosition = Camera:WorldToViewportPoint(rootPart.Position + Vector3.new(0, 3, 0))
+                    local footPosition = Camera:WorldToViewportPoint(rootPart.Position - Vector3.new(0, 3, 0))
+
+                    local boxHeight = math.abs(headPosition.Y - footPosition.Y)
+                    local boxWidth = boxHeight / 1.3
+
+                    if getgenv().espEnabled then
+                        objects.Box.Position = Vector2.new(rootPosition.X - boxWidth / 2.2, headPosition.Y)
+                        objects.Box.Size = Vector2.new(boxWidth, boxHeight)
+                        objects.Box.Color = getgenv().espColor
+                        objects.Box.Visible = true
+                    else
+                        objects.Box.Visible = false
+                    end
+
+                    if getgenv().healthBarEnabled then
+                        local healthRatio = humanoid.Health / humanoid.MaxHealth
+                        local healthBarX = rootPosition.X - (boxWidth / 2) - 2.3
+                        local healthBarYOffset = getgenv().cornerESPEnabled and 5 or 0
+                        local healthBarYStart = headPosition.Y + (boxHeight * (1 - healthRatio)) + healthBarYOffset
+                        local healthBarYEnd = footPosition.Y
+
+                        objects.HealthBar.From = Vector2.new(healthBarX, math.clamp(healthBarYStart, headPosition.Y, footPosition.Y))
+                        objects.HealthBar.To = Vector2.new(healthBarX, healthBarYEnd)
+                        objects.HealthBar.Color = Color3.new(1 - healthRatio, healthRatio, 0)
+                        objects.HealthBar.Visible = true
+                    else
+                        objects.HealthBar.Visible = false
+                    end
+
+                    if getgenv().cornerESPEnabled then
+                        local corners = objects.Corners
+                        local color = getgenv().cornerESPColor
+
+                        local x = rootPosition.X - boxWidth / 2
+                        local y = headPosition.Y
+                        local size = Vector2.new(boxWidth, boxHeight)
+                        local offset = size.X * 0.25
+
+                        corners[1].From = Vector2.new(x, y)
+                        corners[1].To = Vector2.new(x + offset, y)
+                        corners[2].From = Vector2.new(x, y)
+                        corners[2].To = Vector2.new(x, y + offset)
+
+                        corners[3].From = Vector2.new(x + size.X, y)
+                        corners[3].To = Vector2.new(x + size.X - offset, y)
+                        corners[4].From = Vector2.new(x + size.X, y)
+                        corners[4].To = Vector2.new(x + size.X, y + offset)
+
+                        corners[5].From = Vector2.new(x, y + size.Y)
+                        corners[5].To = Vector2.new(x + offset, y + size.Y)
+                        corners[6].From = Vector2.new(x, y + size.Y)
+                        corners[6].To = Vector2.new(x, y + size.Y - offset)
+
+                        corners[7].From = Vector2.new(x + size.X, y + size.Y)
+                        corners[7].To = Vector2.new(x + size.X - offset, y + size.Y)
+                        corners[8].From = Vector2.new(x + size.X, y + size.Y)
+                        corners[8].To = Vector2.new(x + size.X, y + size.Y - offset)
+
+                        for _, line in ipairs(corners) do
+                            line.Color = color
+                            line.Visible = true
+                        end
+                    else
+                        for _, line in ipairs(objects.Corners) do line.Visible = false end
+                    end
+
+                    if getgenv().skeletonESPEnabled then
+                        UpdateSkeleton(objects.Skeleton, character)
+                    else
+                        for _, line in ipairs(objects.Skeleton) do line.Visible = false end
+                    end
+
+                else
+                    objects.Box.Visible = false
+                    objects.HealthBar.Visible = false
+                    for _, line in ipairs(objects.Corners) do line.Visible = false end
+                    for _, line in ipairs(objects.Skeleton) do line.Visible = false end
+                end
+            end
+        end
+    end
+end
+
+local function DestroyESP(player)
+    if ESPObjects[player] then
+        ESPObjects[player].Box:Remove()
+        ESPObjects[player].HealthBar:Remove()
+        for _, line in ipairs(ESPObjects[player].Corners) do line:Remove() end
+        for _, line in ipairs(ESPObjects[player].Skeleton or {}) do line:Remove() end
+        ESPObjects[player] = nil
+    end
+end
+
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function()
+        task.wait(0.5)
+        CreateESP(player)
+    end)
+end)
+
+Players.PlayerRemoving:Connect(DestroyESP)
+
+for _, player in pairs(Players:GetPlayers()) do
+    if player ~= LocalPlayer then
+        CreateESP(player)
+    end
+end
+
+RunService.RenderStepped:Connect(UpdateESP)
+
+LeftGroupBox:AddToggle('ESP Toggle', {
+    Text = 'Enable Boxes',
+    Default = false,
+    Callback = function(Value)
+        getgenv().espEnabled = Value
+        if not Value then
+            for _, objects in pairs(ESPObjects) do
+                objects.Box.Visible = false
+            end
+        end
+    end
+}):AddColorPicker('ESP Color', {
+    Text = 'ESP Box Color',
+    Default = Color3.fromRGB(0, 0, 0),
+    Callback = function(Value)
+        getgenv().espColor = Value
+    end
+})
+
+LeftGroupBox:AddToggle('Corner ESP Toggle', {
+    Text = 'Enable Corner Boxes',
+    Default = false,
+    Callback = function(Value)
+        getgenv().cornerESPEnabled = Value
+        if not Value then
+            for _, objects in pairs(ESPObjects) do
+                for _, line in ipairs(objects.Corners) do
+                    line.Visible = false
+                end
+            end
+        end
+    end
+}):AddColorPicker('Corner ESP Color', {
+    Text = 'Corner Box Color',
+    Default = Color3.fromRGB(0, 0, 0),
+    Callback = function(Value)
+        getgenv().cornerESPColor = Value
+    end
+})
+
+LeftGroupBox:AddToggle('Health Bar Toggle', {
+    Text = 'Enable Health Bar',
+    Default = false,
+    Callback = function(Value)
+        getgenv().healthBarEnabled = Value
+        if not Value then
+            for _, objects in pairs(ESPObjects) do
+                objects.HealthBar.Visible = false
+            end
+        end
+    end
+})
+
+LeftGroupBox:AddToggle('Skeleton ESP Toggle', {
+    Text = 'Enable Skeleton',
+    Default = false,
+    Callback = function(Value)
+        getgenv().skeletonESPEnabled = Value
+        if not Value then
+            for _, objects in pairs(ESPObjects) do
+                for _, line in ipairs(objects.Skeleton) do
+                    line.Visible = false
+                end
+            end
+        end
+    end
+}):AddColorPicker('Skeleton ESP Color', {
+    Text = 'Skeleton Color',
+    Default = Color3.fromRGB(255, 255, 255),
+    Callback = function(Value)
+        getgenv().skeletonESPColor = Value
+    end
+})
+
+highlightColor = Color3.fromRGB(255, 255, 255)
+
+function CreateCham(player)
+    local character = player.Character or player.CharacterAdded:Wait()
+    if not character:FindFirstChild("HumanoidRootPart") then return end
+
+    local highlight = Instance.new("Highlight")
+    highlight.Name = "ChamHighlight"
+    highlight.Parent = character
+    highlight.Adornee = character
+    highlight.FillColor = highlightColor
+    highlight.FillTransparency = 0.5
+    highlight.OutlineTransparency = 1
+
+    character:WaitForChild("HumanoidRootPart").AncestryChanged:Connect(function()
+        highlight:Destroy()
+    end)
+end
+
+LeftGroupBox:AddToggle('ChamsToggle', {
+    Text = 'Enable Chams',
+    Default = false,
+    Tooltip = 'Toggles cham effect for players',
+    Callback = function(Value)
+        _G.chams = Value
+        if _G.chams then
+            for _, player in pairs(Players:GetPlayers()) do
+                if player ~= LocalPlayer and player.Character then
+                    CreateCham(player)
+                end
+            end
+        else
+            for _, player in pairs(Players:GetPlayers()) do
+                local character = player.Character
+                if character then
+                    local highlight = character:FindFirstChild("ChamHighlight")
+                    if highlight then
+                        highlight:Destroy()
+                    end
+                end
+            end
+        end
+    end
+}):AddColorPicker('ColorPicker', {
+    Default = Color3.fromRGB(255, 255, 255),
+    Title = 'Cham Color',
+    Transparency = 0,
+    Callback = function(Value)
+        highlightColor = Value
+        for _, player in pairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer and player.Character then
+                local highlight = player.Character:FindFirstChild("ChamHighlight")
+                if highlight then
+                    highlight.FillColor = highlightColor
+                end
+            end
+        end
+    end
+})
+
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
+        local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+        if _G.chams and player ~= LocalPlayer then
+            CreateCham(player)
+        end
+    end)
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+    if player.Character then
+        local highlight = player.Character:FindFirstChild("ChamHighlight")
+        if highlight then
+            highlight:Destroy()
+        end
+    end
+end)
+
+RunService.Heartbeat:Connect(function()
+    if _G.chams then
+        for _, player in pairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer and player.Character then
+                local character = player.Character
+                if not character:FindFirstChild("ChamHighlight") then
+                    CreateCham(player)
+                end
+            end
+        end
+    else
+        for _, player in pairs(Players:GetPlayers()) do
+            local character = player.Character
+            if character then
+                local highlight = character:FindFirstChild("ChamHighlight")
+                if highlight then
+                    highlight:Destroy()
+                end
+            end
+        end
+    end
+end)
+
+displayOption = 'Username'
+nameTagESPEnabled = false
+
+nameTags = {}
+
+function GetNameTag(player)
+    if nameTags[player] then return nameTags[player] end
+
+    local billboardGui = Instance.new("BillboardGui")
+    billboardGui.Size = UDim2.new(0, 75, 0, 20)
+    billboardGui.AlwaysOnTop = true
+    billboardGui.StudsOffset = Vector3.new(0, 3, 0)
+
+    local nameTag = Instance.new("TextLabel")
+    nameTag.Parent = billboardGui
+    nameTag.Size = UDim2.new(1, 0, 1, 0)
+    nameTag.BackgroundTransparency = 1
+    nameTag.TextColor3 = Color3.new(1, 1, 1)
+    nameTag.TextStrokeTransparency = 0.5
+    nameTag.TextStrokeColor3 = Color3.new(0, 0, 0)
+    nameTag.TextSize = 10
+    nameTag.Font = Enum.Font.GothamBold
+    nameTag.TextYAlignment = Enum.TextYAlignment.Center
+
+    nameTags[player] = {
+        Gui = billboardGui,
+        Label = nameTag
+    }
+
+    return nameTags[player]
+end
+
+function RemoveNameTags()
+    for _, player in pairs(Players:GetPlayers()) do
+        if player.Character then
+            local character = player.Character
+            local billboardGui = character:FindFirstChildOfClass("BillboardGui")
+            if billboardGui then
+                billboardGui:Destroy()
+            end
+        end
+    end
+end
+
+local FORCEFIELD_MATERIAL = Enum.Material.ForceField
+local DEFAULT_MATERIAL = Enum.Material.Plastic
+local DEFAULT_COLOR = Color3.fromRGB(255, 255, 255)
+local currentColor = Color3.fromRGB(0, 255, 0)
+local forcefieldEnabled = false
+
+local lastUpdateTime = 0
+local updateInterval = 0.1
+
+local function customizeCharacter(character, newColor)
+    for _, part in ipairs(character:GetDescendants()) do
+        if part:IsA("BasePart") then
+            if forcefieldEnabled then
+                part.Color = newColor
+                part.Material = FORCEFIELD_MATERIAL
+            else
+                part.Material = DEFAULT_MATERIAL
+                part.Color = DEFAULT_COLOR
+            end
+        end
+    end
+end
+
+local function onCharacterAdded(character)
+    if forcefieldEnabled then
+        customizeCharacter(character, currentColor)
+    end
+end
+
+player.CharacterAdded:Connect(onCharacterAdded)
+
+LeftGroupBox:AddToggle('ForcefieldToggle', {
+    Text = 'Self Cham',
+    Default = false,
+    Tooltip = 'Toggle the forcefield effect on your character.',
+    Callback = function(Value)
+        forcefieldEnabled = Value
+        local character = player.Character
+        if character then
+            customizeCharacter(character, currentColor)
+        end
+    end
+}):AddColorPicker('ForcefieldColorPicker', {
+    Default = currentColor,
+    Title = 'Select Forcefield Color',
+    Transparency = 0,
+    Callback = function(Value)
+        currentColor = Value
+        local character = player.Character
+        if forcefieldEnabled and character then
+            customizeCharacter(character, currentColor)
+        end
+    end
+})
+
+RunService.RenderStepped:Connect(function(deltaTime)
+    lastUpdateTime = lastUpdateTime + deltaTime
+    if lastUpdateTime >= updateInterval then
+        lastUpdateTime = 0
+        if forcefieldEnabled then
+            local character = player.Character
+            if character then
+                customizeCharacter(character, currentColor)
+            end
+        end
+    end
+end)
+
+LeftGroupBox:AddToggle('MyToggle', {
+    Text = 'Enable Names',
+    Default = false,
+    Tooltip = 'Toggles the name tag ESP visibility.',
+    Callback = function(Value)
+        nameTagESPEnabled = Value
+        if nameTagESPEnabled then
+            for _, player in pairs(Players:GetPlayers()) do
+                GetNameTag(player)
+            end
+        else
+            RemoveNameTags()
+        end
+    end
+})
+
+LeftGroupBox:AddDropdown('NameDisplayOption', {
+    Values = { 'DisplayName', 'Username' },
+    Default = 1,
+    Multi = false,
+    Text = 'Display Option',
+    Tooltip = 'Choose whether to display the player\'s Username or DisplayName',
+    Callback = function(Value)
+        displayOption = Value
+        if nameTagESPEnabled then
+            RemoveNameTags()
+            for _, player in pairs(Players:GetPlayers()) do
+                GetNameTag(player)
+            end
+        end
+    end
+})
+
+RunService.RenderStepped:Connect(function()
+    if not nameTagESPEnabled then
+        for _, obj in pairs(nameTags) do
+            if obj.Gui then
+                obj.Gui.Parent = nil
+            end
+        end
+        return
+    end
+
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("Head") then
+            local tagData = GetNameTag(player)
+            local head = player.Character.Head
+
+            tagData.Gui.Parent = head
+            tagData.Gui.Adornee = head
+            tagData.Label.Text = displayOption == "Username" and player.Name or player.DisplayName
+        end
+    end
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+    if nameTags[player] then
+        if nameTags[player].Gui then
+            nameTags[player].Gui:Destroy()
+        end
+        nameTags[player] = nil
+    end
+end)
+
+gamevis = Tabs.Visuals:AddLeftGroupbox("Game Settings")
+
+gamevis:AddToggle('DayToggle', {
+    Text = 'Daytime',
+    Default = false,
+    Tooltip = 'Always be day',
+    Callback = function(state)
+        if state then
+            connection = RunService.Heartbeat:Connect(function()
+                Lighting.TimeOfDay = "14:00:00"
+            end)
+        else
+            if connection then
+                connection:Disconnect()
+                connection = nil
+            end
+            Lighting.TimeOfDay = tostring(math.floor((tick() % 86400) / 3600)) .. ":00:00"
+        end
+    end
+})
+
+gamevis:AddToggle('NoFogToggle', {
+    Text = 'No Fog',
+    Default = false,
+    Tooltip = 'This removes any kind of Fog from the game',
+    Callback = function(Value)
+        local lighting = game:GetService("Lighting")
+
+        if Value then
+            if not _G.FogRemovalExecuted then
+                _G.OriginalFogSettings = {
+                    FogEnd = lighting.FogEnd,
+                    FogStart = lighting.FogStart
+                }
+
+                lighting.FogEnd = 100000
+                lighting.FogStart = 0
+
+                local atmosphere = lighting:FindFirstChildOfClass("Atmosphere")
+                if atmosphere then
+                    atmosphere:Destroy()
+                end
+
+                _G.FogRemovalExecuted = true
+            end
+        else
+            if _G.FogRemovalExecuted then
+                lighting.FogEnd = _G.OriginalFogSettings.FogEnd
+                lighting.FogStart = _G.OriginalFogSettings.FogStart
+                _G.FogRemovalExecuted = false
+            end
+        end
+        print('[cb] NoFogToggle changed to:', Value)
+    end
+})
+
+local BrightnessValue = 5
+
+gamevis:AddToggle('BrightToggle', {
+    Text = 'Full Bright',
+    Default = false,
+    Tooltip = 'Increases brightness',
+    Callback = function(Value)
+        if not _G.FullBrightExecuted then
+            _G.NormalLightingSettings = {
+                Brightness = Lighting.Brightness,
+                ClockTime = Lighting.ClockTime
+            }
+
+            local function setLightingProperties()
+                Lighting.Brightness = BrightnessValue
+                Lighting.ClockTime = 12
+            end
+
+            setLightingProperties()
+
+            Lighting:GetPropertyChangedSignal("Brightness"):Connect(function()
+                if _G.FullBrightEnabled and Lighting.Brightness ~= BrightnessValue then
+                    Lighting.Brightness = BrightnessValue
+                end
+            end)
+
+            Lighting:GetPropertyChangedSignal("ClockTime"):Connect(function()
+                if _G.FullBrightEnabled and Lighting.ClockTime ~= 12 then
+                    Lighting.ClockTime = 12
+                end
+            end)
+
+            task.spawn(function()
+                local LastValue = Value
+                while task.wait() do
+                    if _G.FullBrightEnabled ~= LastValue then
+                        if not _G.FullBrightEnabled then
+                            Lighting.Brightness = _G.NormalLightingSettings.Brightness
+                            Lighting.ClockTime = _G.NormalLightingSettings.ClockTime
+                        else
+                            setLightingProperties()
+                        end
+                        LastValue = _G.FullBrightEnabled
+                    end
+                end
+            end)
+
+            _G.FullBrightExecuted = true
+        end
+
+        _G.FullBrightEnabled = Value
+        if Value then
+            Lighting.Brightness = BrightnessValue
+        else
+            Lighting.Brightness = _G.NormalLightingSettings.Brightness
+        end
+    end
+})
+
+local MenuGroup = Tabs['Settings']:AddLeftGroupbox('Menu')
+
+MenuGroup:AddButton('Unload', function() Library:Unload() end)
+MenuGroup:AddLabel('Menu bind'):AddKeyPicker('MenuKeybind', { Default = 'Insert', NoUI = true, Text = 'Menu keybind' })
+Library.ToggleKeybind = Options.MenuKeybind
+
+MenuGroup:AddButton('Rejoin Server', function()
+    game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
+end)
+
+MenuGroup:AddButton('Copy JS Join Script', function()
+    local jsScript = 'Roblox.GameLauncher.joinGameInstance(' .. game.PlaceId .. ', "' .. game.JobId .. '")'
+    setclipboard(jsScript)
+end)
+
+SaveManager:SetLibrary(Library)
+
+SaveManager:IgnoreThemeSettings()
+SaveManager:SetIgnoreIndexes({ 'MenuKeybind' })
+
+SaveManager:BuildConfigSection(Tabs['Settings'])
+
+SaveManager:LoadAutoloadConfig()
+
+Library:SetWatermarkVisibility(true)
+
+-- Sylith tag etc
+local FrameTimer = tick()
+local FrameCounter = 0;
+local FPS = 60;
+
+local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(function()
+    FrameCounter += 1;
+
+    if (tick() - FrameTimer) >= 1 then
+        FPS = FrameCounter;
+        FrameTimer = tick();
+        FrameCounter = 0;
+    end;
+
+    Library:SetWatermark(('Sylith | %s fps | %s ms'):format(
+        math.floor(FPS),
+        math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
+    ));
+end);
